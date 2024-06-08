@@ -1,0 +1,79 @@
+== 2024-06-05
+
+:toc:
+:hardbreaks-option:
+
+=== CFR2
+
+==== Relembrando conceitos de cardinalidade
+
+A =c B ⇐≝⇒ (∃f: A → B) [f bij]  
+
+A ≤c B ⇐≝⇒ (∃B' ⊆ B) [B' =c A]  (Θ. ⇔ (∃f: A → B) [f inj]) (demontrado em sala, o conjunto de testemunha eh a imagem da f e a funcao e definida em termos da f no codominio restrito da imagem da f) (volta - pede a testemunha do fato de terem cardinalidade igual e expande o dominio)
+
+A \<c B ⇐≝⇒ (∃B' ⊊ B) [B' =c A] <- defnicao incorreta
+
+==== {=c como relacao de equivalencia e ≤c como ordem}
+
+(=c) Rel Eq\\
+refl {ida, (∘), ⁻¹} <- esbocos de demonstracao
+
+(≤c) Ordem\\
+- refl {ida, (∘), ⁻¹}
+- antissimetria ⇐≝⇒ A ≤c B & B ≤c A ⇒ A = B
+> minha ideia:
+> Seja A' ⊆ A t.q. A =c B
+> Logo, seja f: A → B t.q. f bij
+
+Nao e valido!! tome como contra exemplo os {1} e o {2}, os dois tem mesma cardinalidade mas nao sao iguais
+
+- sera que da pra demonstrar o segundo melhor? A ≤c B & B ≤c A ⇒ A =c B
+> minha tentativa:
+> Suponha A ≤c B & B ≤c A
+> Seja f: A → B t.q. f inj
+> Seja g: B → a t.q. g inj
+> basta demonstrar que a f serve
+
+- Θhw. gastar um tempo procurando isso
+
+> dicas:
+> separar em casos f sobre e f não sobre
+> pluplupplup
+> pega o f A
+> pega o g f A
+> pega o f g f A
+> procura o limite desse negocio
+> tem foto disso <- tem não. esqueci de tirar. sorry
+
+==== {Smullyen e o planeta do héteros}
+
+- Smullyen <-- ele recomendou ler as coisas desse cara <- especificamente o "To mock a mockingbird"
+
+> suponha um planeta com uma infinidade de habitantes
+> dois gêneros
+> todos querem casar em duplas heterossexuais
+> cada H ama exatamente uma M
+> Cada M ama exatamente uma H
+> nenhum H e amado por dois M
+> nenhum M e amado por dois H
+> encontrar uma forma de montar casamentos com amor de pelo menos um dos lados
+
+==== {contáveis e enumerações}
+
+> A contável (ou denumeravel) ⇐≝⇒ poderíamos escrever A =c nat ou A ≤c nat
+> π Enumeração do A ⇐≝⇒ π: nat → A t.q. π sobrejetiva
+
+==== {Divagações sobre Stratums e jogos imortais}
+
+> minha ideia para os racionais:
+> no 1 dia pega 0
+> no 2 dia pega o 1
+> no 3 dia pega o -1
+> pega 1/1 e -1/1 e 1/-1
+> pega o 2
+> pega o 1/2 e o -1/2
+> pega o 3
+> pega o 1/3 o -1/3 o 2/3 e o -2/3
+> e pipipi e popopo
+> meu stratum: Sn+1 = {n+1} ∪ {(i, n+1) | i ∈ Sn}
+

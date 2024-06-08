@@ -1,0 +1,3 @@
+include::fmc2/2024-06-05.adoc[]
+
+include::fmc2/2024-06-07.adoc[]
