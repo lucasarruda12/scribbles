@@ -1,0 +1,98 @@
+== 2024-06-10
+
+:hardbreaks-option:
+
+=== CFR2
+
+==== recapitulando cardinalidades
+
+A =c B ⇐≝⇒ (∃f:A → B)[f bij]
+A ≤c B ⇐≝⇒ (∃C ⊆ B)(A =c C)
+A <c B ⇐≝⇒ A ≤c B & A ≠c B
+
+Demonstramos:
+
+(≤c) e refl. trans. (não e) antissimétrica
+(=c) e RelEq.
+
+==== Sobre o jogo do planeta dos heteros
+
+Pergunte para cada pessoa nesse mundo: "quem te ama?"
+Vai para esse cara que ama e pergunta a ele
+Monta uma sequencia
+
+Se termina em um homem -> da pra casar todo mundo aqui entre si
+
+Se termina em uma mulher -> da pra casar todo mundo aqui entre si
+
+Se nunca termina -> da pra casar todo mundo aqui entre si
+
+Terminar de demonstrar isso e relacionar o mundo dos heteros com o das funcoes
+
+==== A ≤c e total? 
+
+(∀A, B)[A ≤c B ou B ≤c A]
+
+===== Cardinalidades de conjuntos de reais
+
+(0, 1] =c (0, +inf) e também (-inf, +inf)
+
+- strech de tamanho π e shift de tamanho -π/2
+- pega a função tangente pra ir de (-π/2, π/2) para (-inf, +inf)
+
+[0, 1) =c (0, 1)
+
+==== Codificações
+
+===== codificando os racionais positivos com naturais
+
+2/3 |→ 10010001
+1   |→ 10101
+4/3 |→ 1000010001
+
+x/y |→ 1(x zeros)1(y zeros)1
+
+===== codificando parzinhos de naturais com os naturais
+
+(n, m) |→ 2\^n 3\^m
+
+==== Θ (cantor) A <c ℘A
+
+Números cardinais -> usamos para contar infinitos
+ℵ₀ (aleph) representa a cardinalidade dos Nat
+ℵ₁ e a próxima cardinalidade
+
+ℶ₀ (beth)
+ℶ₁ e a cardinalidade de 2 elevado a do anterior
+
+os ℵ e ℶ concordam?
+
+
+===== Θ. (HW)
+R =c ℘N
+
+A =c A' & B =c B' 
+⇒ ℘A =c ℘A'
+⇒ A×B =c A'×B'
+⇒ (A → B) =c (A' → B')
+
+A ≤c A'
+⇒ ℘A ≤c ℘A'
+⇒ (os mesmos dos de cima)
+
+===== Uniaozona de powerset de naturais
+
+G = ⋃ ℘ⁱN
+(∀n : Nat)[℘ⁿN <c G]
+
+E pegando a Uniaozona dos powersets desse G?
+
+==== Limitações de linguagem
+
+Assumindo que demonstramos os homeworks, temos que o conjunto de funções de Nat pra Nat (N → N) e incontável
+
+O conjunto de Programas de Nat → Nat que podemos definir em qualquer linguagem de programação e contavel. Eh uma sequencia de caracteres (ascii, unicode, etc).
+
+Da pra concluir que existem, então, funções de Nat → Nat aqui que não estão no conjunto dos programas.
+
+E isso se estende pra qualquer linguagem, a forma que temos de definir funções, com lambda, também eh uma sequencia de símbolos e caracteres

@@ -435,22 +435,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article">
 <div id="header">
-<div id="toc" class="toc">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_2024_06_05">2024-06-05</a>
-<ul class="sectlevel2">
-<li><a href="#_cfr2">CFR2</a></li>
-</ul>
-</li>
-<li><a href="#_2024_06_07">2024-06-07</a>
-<ul class="sectlevel2">
-<li><a href="#_iea">IEA</a></li>
-<li><a href="#_cfr2_2">CFR2</a></li>
-</ul>
-</li>
-</ul>
-</div>
 </div>
 <div id="content">
 <div class="sect1">
@@ -655,13 +639,220 @@ C ∩ D contavel<br>
 C + D contavel</p>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_a_diagonal_de_cantor_e_os_jogos_injogaveis">A diagonal de Cantor e os jogos injogaveis</h4>
+<div class="sect4">
+<h5 id="_como_demonstrar_que_um_jogo_e_inganhavel">como demonstrar que um jogo e inganhavel:</h5>
+<div class="paragraph">
+<p>a unica forma e mostrar que para qualquer estrategia que o cara tiver, existe algum cara que ele nao vai contar</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_a_estrategia_de_cantor_para_encontrar_esse_cara">a estrategia de Cantor para encontrar esse cara</h5>
+<div class="paragraph">
+<p>Pense numa estrategia para ganhar um jogo no conjunto 2 → Nat<br>
+Ou seja, seu inimigo deu uma sequencia de sequencias de 0, 1</p>
+</div>
+<div class="paragraph">
+<p>π0 | 0 0 0 0 1 0 &#8230;&#8203;<br>
+π1 | 0 1 0 0 1 0 &#8230;&#8203;<br>
+π2 | 1 0 1 0 1 1 &#8230;&#8203;<br>
+.<br>
+.<br>
+.</p>
+</div>
+<div class="paragraph">
+<p>e disse que ai estao todas as sequencias de 0, 1</p>
+</div>
+<div class="paragraph">
+<p>Eu consigo montar uma sequencia t (onde cada membro i de t e o flipamento do membro i da sequencia i) e ter certeza de que t e diferente de todo π</p>
+</div>
+<div class="paragraph">
+<p>Nesse exemplo, t seria 1 0 0 &#8230;&#8203;</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_a_demonstracao_disso">A demonstracao disso</h5>
+<div class="paragraph">
+<p>(FAZER)</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_as_consequencias_dessa_demonstracao_de_cantor">As consequencias dessa demonstracao de Cantor</h4>
+<div class="sect4">
+<h5 id="_para_os_reais">Para os reais</h5>
+<div class="paragraph">
+<p>Eu sei que o 2 → Nat sao incontaveis<br>
+Eu sei que os reais sao incontaveis</p>
+</div>
+<div class="paragraph">
+<p>E, sabendo que os reais sao incontaveis, eu consigo afirmar que os irracionais tambem devem ser.<br>
+Sabendo que os racionais sao e os reais nao, os irracionais obrigatoriamente tem que ser incontaveis, pq os reais sao uniao dos racioinais e irracionais</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_cantor_e_os_trancedentais">Cantor e os trancedentais</h4>
+
+</div>
+<div class="sect3">
+<h4 id="_θ_cantor_a_set_a_c_a">Θ.(cantor) A set ⊢ A &lt;c ℘A</h4>
+<div class="paragraph">
+<p>duas coisas para demonstrar A &lt;c ℘A &amp; A ≠c ℘A</p>
+</div>
+<div class="paragraph">
+<p>A primeira parte e tranquila<br>
+Eu sei que A =c A ⊆ ℘A</p>
+</div>
+<div class="paragraph">
+<p>A segunda nem tanto (A ≠c ℘A)</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Seja π: A → ℘A bij</p>
+</div>
+</blockquote>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2024_06_10">2024-06-10</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_cfr2_3">CFR2</h3>
+<div class="sect3">
+<h4 id="_recapitulando_cardinalidades">recapitulando cardinalidades</h4>
+<div class="paragraph">
+<p>A =c B ⇐≝⇒ (∃f:A → B)[f bij]<br>
+A ≤c B ⇐≝⇒ (∃C ⊆ B)(A =c C)<br>
+A &lt;c B ⇐≝⇒ A ≤c B &amp; A ≠c B</p>
+</div>
+<div class="paragraph">
+<p>Demonstramos:</p>
+</div>
+<div class="paragraph">
+<p>(≤c) e refl. trans. (não e) antissimétrica<br>
+(=c) e RelEq.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_sobre_o_jogo_do_planeta_dos_heteros">Sobre o jogo do planeta dos heteros</h4>
+<div class="paragraph">
+<p>Pergunte para cada pessoa nesse mundo: "quem te ama?"<br>
+Vai para esse cara que ama e pergunta a ele<br>
+Monta uma sequencia</p>
+</div>
+<div class="paragraph">
+<p>Se termina em um homem &#8594; da pra casar todo mundo aqui entre si</p>
+</div>
+<div class="paragraph">
+<p>Se termina em uma mulher &#8594; da pra casar todo mundo aqui entre si</p>
+</div>
+<div class="paragraph">
+<p>Se nunca termina &#8594; da pra casar todo mundo aqui entre si</p>
+</div>
+<div class="paragraph">
+<p>Terminar de demonstrar isso e relacionar o mundo dos heteros com o das funcoes</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_a_preordem_c_e_total">A (pre)ordem ≤c e total?</h4>
+<div class="paragraph">
+<p>Ordem total: (∀A, B conjuntos)[A ≤c B ou B ≤c A]</p>
+</div>
+<div class="sect4">
+<h5 id="_cardinalidades_de_conjuntos_de_reais">Cardinalidades de conjuntos de reais</h5>
+<div class="paragraph">
+<p>(0, 1] =c (0, +inf) e também (-inf, +inf)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>strech de tamanho π e shift de tamanho -π/2</p>
+</li>
+<li>
+<p>pega a funcao tangente pra ir de (-π/2, π/2) para (-inf, +inf)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>[0, 1) =c (0, 1)</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_codificacoes">Codificacoes</h4>
+<div class="sect4">
+<h5 id="_codificando_os_racionais_positivos_com_naturais">codificando os racionais positivos com naturais</h5>
+<div class="paragraph">
+<p>2/3 &gt;→ 10010001<br>
+1   &gt;→ 10101<br>
+4/3 &gt;→ 1000010001</p>
+</div>
+<div class="paragraph">
+<p>x/y &gt;→ 1(x zeros)1(y zeros)1</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_codificando_parzinhos_de_naturais_com_os_naturais">codificando parzinhos de naturais com os naturais</h5>
+<div class="paragraph">
+<p>(n, m) &gt;→ 2\^n 3\^m</p>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_θ_cantor_a_c_a">Θ (cantor) A &lt;c ℘A</h4>
+<div class="paragraph">
+<p>numeros cardinais &#8594; usamos para contar infinitos<br>
+ℵ₀ = |Nat|<br>
+ℵ₁ e a proxima cardinalidade</p>
+</div>
+<div class="paragraph">
+<p>ℶ₀<br>
+ℶ₁ e a cardinalidade de 2 elevado a do anterior</p>
+</div>
+<div class="paragraph">
+<p>os ℵ e ℶ concordam?</p>
+</div>
+<div class="sect4">
+<h5 id="_θ_hw">Θ. (HW)</h5>
+<div class="paragraph">
+<p>R =c ℘N</p>
+</div>
+<div class="paragraph">
+<p>A =c A' &amp; B =c B'<br>
+⇒ ℘A =c ℘B<br>
+⇒ A×B =c A'×B'<br>
+⇒ (A → B) = (A' → B')</p>
+</div>
+<div class="paragraph">
+<p>A ≤c A'<br>
+⇒ ℘A ≤c ℘A'<br>
+⇒ (os mesmos do de cima)</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_uniaozona_de_powerset_de_naturais">Uniaozona de powerset de naturais</h5>
+<div class="paragraph">
+<p>G = ⋃ ℘ⁱN<br>
+(∀n : Nat)[℘ⁿN &lt;c G]</p>
+</div>
+<div class="paragraph">
+<p>E pegando a Uniaozona dos powersets desse G?</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-06-07 14:24:57 -0300
+Last updated 2024-06-10 13:06:59 -0300
 </div>
 </div>
 </body>
