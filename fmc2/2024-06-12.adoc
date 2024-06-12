@@ -1,0 +1,75 @@
+== 2024-06-12
+
+:hardbreaks-option:
+
+=== CFR
+
+==== ℝ =c ℝ²
+
+===== Demontracao de Cantor
+
+Busco uma bijecao de [0,1]² → [0,1]
+Primeira ideia:
+
+a =: 0,a₀a₁a₃...
+b =: 0,b₀b₁b₂...
+
+f (a, b) = 0,a₀b₀a₁b₁a₂b₂...
+
+===== um problema
+
+Certos numeros tem duas expansoes reais diferentes
+Tome como exemplo o (0, 1/2)
+
+0   =: 0,000000...
+1/2 =: 0,500000...
+1/2 =: 0,499999...
+
+entao, f (0,1/2) = 0,050000... ou 0,0409090...?
+
+Caso a ou b tem duas expansoes, escole essa que nao termna em 0's
+
+Resolvido o problema do 1/2:
+
+1/2 =: 0,4999999...
+
+===== Um outro problema
+
+Essa funcao de cantor tem algum errinho besta
+
+HW. Procurar, achar e corrigir esse errinho (provavelmente relacionado com inj e sobre)
+
+==== Russel e problemas do set builder
+
+R = {X | X ∉ X}
+
+R ∈ R ⇔ R ∉ R
+
+⇒:
+R ∈ R
+logo R ∉ R
+logo 💥
+
+⇐:
+R ∉ R
+Logo R ∈ R
+logo 💥
+
+===== O problema
+
+eu posso demonstrar qualquer coisa se eu tenho o set builder, pq essa demonstracao nao depende de dado nenhum.
+
+===== A solucao
+
+Teoria dos tipos!!
+
+Tem type error no R = {X | X ∉ X}
+X ∉ X <- aqui!
+
+Qual o tipo do x? [α]
+Qual o tipo do _∉_? [α × set α → prop]
+Type error!
+
+==== Hypergame e o teorema de cantor
+
+(FAZER!!!)
