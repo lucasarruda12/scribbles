@@ -1,0 +1,113 @@
+== 2024-06-21
+
+:hardbreaks-option:
+
+=== CFR2
+
+==== Finalmente resolvendo os casamentos
+
+Ga = Pega uma pessoa p e vai botando numa sequencia (p, quem ama p, quem ama quem ama p...) Se essa sequencia terminar em um a, p ∈ Ga
+
+Gb = Se termina em b, p ∈ Gb
+
+G∞ = Se não termina, p ∈ G∞
+
+A ideia é casar todo mundo dentro desses Ga, Gb, G∞ entre si. 
+
+Nos Ga favorece o a
+Nos Gb favorece o b
+Nos G∞ tanto faz
+
+=== IEA
+
+==== Nossa sequencia de estruturas algébricas
+
+Magma
+↓
+Semigrupo 
+↓
+Monoid → Monoid comutativo 
+↓ -------- ↓
+Grupo 
+↓
+Abel
+
+==== Criterion de Homomorfismos de monoides
+
+N, M monoides ⊢ f: |N| → |M| sobre & f respeita op ⇒ f homo
+
+(∀n, m ∈ N)[f(1n) = 1m]
+Seja x t.q. f(x) = 1m
+Logo fx f(1n) = 1m f(1n) [f(1n) dos dois lados]
+Logo f(x 1n) = 1m f(1n)  [f respeita a op]
+Logo f(x) = f(1n) [idn & idm]
+
+==== Dominio de integridade
+
+Chamamos um anel de dominio de inegridade sse a seguinte propriedade é válida: ab = 0 ⇒ a = 0 ou b = 0
+
+===== Dominio de cancelamento
+
+Chamamos ... sse ... (c ≠ 0) ⇒ (ac = bc ⇒ a = b) & (ca = cb ⇒ a = b)
+
+===== Homework
+
+Demonstrar que são equivalentes os dominios de cancelamento e de integridade
+
+==== Corpos
+
+São anéis comutativos onde 0 ≠ 1 e (∀w ≠ 0)(∃w')[w'.w = 1 = w.w']
+
+===== Existem corpos finitos?
+
+Hw.
+
+===== Discussão sobre homomorfismos de corpos
+
+A estrutura de corpos é a mesma dos anéis. Então, um homomorfismo de corpos deve respeitar apenas as (+, 0, -, 1, .). E a /? ela não tem obrigação de respeitar?
+
+Pela nossa definicação de homomorfismo, não. Mas acaba que dá no mesmo.
+
+Demonstração: -- f homo ⊢ (∀w≠0)[fw⁻¹ = (fw)⁻¹]
+
+Basta demonstrar f(w⁻¹) . fw = 1
+Calc: f(w⁻¹) . fw
+\= f(w⁻¹ w) [f respeita a op]
+\= f(1) [inv]
+\= 1 [f respeita a 1]
+
+==== D dominio de integridade e 0 ≠ 1 implica D corpo
+
+Seja D anel
+Suponha ab = 0 ⇒ a = 0 ou b = 0
+Suponha 1 ≠ 0
+Sejam n ∈ ℕ & D := {d1, d2, ..., dn}
+
+Seja w ≠ 0
+Seja m ∈ {1, ..., n} t.q. dm = w 
+
+-- Organizar essa viagem:
+
+temos pelo [LEMMA1 (hw)]: (w.) é injetiva.
+Logo, como D é finito, (w.) é sobrejetiva
+Logo {wd1, wd2, wd3, ... wdn} = {d, d1, d2, d3, ..., dn} = D
+Logo 1 ∈ {wd1, wd2, wd3, ..., wdn}
+Solicito m t.q. wdm = 1, pela (w.) Sobre
+
+==== Corpos ordenados
+
+Adicionamos uma ordem aos corpos
+
+E perdemos os complexos (onde não podemos definir ordem)
+E perdemos os ℤ/pℤ
+
+==== Corpos ordenados completos
+
+Θ. Unicidade dos corpos ordenados completos
+
+Completos: Não existem buracos: Toda sequencia autoconvergente converge em um l: IDMb
+
+==== Finalmente: Construindo os reais
+
+ℝ ≝ {(aₙ)ₙ ∈ seq ℚ | (aₙ)ₙ é autoconvergente}/~ 
+onde aᵢ ~ bᵢ ⇐≝⇒ (aᵢ - bᵢ) tende a 0
