@@ -1,0 +1,33 @@
+== 2024-06-17
+
+:hardbreaks-option:
+
+=== CFR2
+
+==== Voltando a Russel
+
+Hw. ⊢ (P ⇔ (P ⇒ ⊥)) ⇒ ⊥
+
+r(A) ≝ {x ∈ A | x ∉ X}
+
+(∀A)[r(A) ∉ A] -- demonstrado em sala
+
+Para o conjuntista, A ∪ r(A) é uma forma de adicionar um cara de fora para qualquer conjunto. A gente (o tipista) usaria A + 1.
+
+==== Zermelo
+
+ℕ ≝ ⋂(N ∈ ℘I | N legal) -- legal: axioma da infinidade de Zermelo
+↓
+ℤ ≝ ℕ×ℕ/~, onde (n, m)~(n', m') ⇐≝⇒ n + m' = n' + m. Aqui é bom se ligar que eu preciso que (0, 2) = (2, 4), pq eles representam o mesmo inteiro. Se eu pegasse a igualdade que eu já tenho no ℕ×ℕ, isso não seria válido.
+↓
+ℚ ≝ ℤ×ℤ≠0/~, onde (x, y)~(x', y') ⇐≝⇒ xy' = x'y
+↓
+ℝ ≝ ficou faltando :/
+↓
+ℂ ≝ ℝ×ℝ e não tenho minhocas! cada parzinho de reais determina um número complexo mesmo
+
+==== Um pouco (muito) sobre números complexos
+
+Ficou complexo e eu não sei se vamos usar de novo. Optei por não anotar. Qualquer coisa joga no Google, ele falou sobre representações de números complexos.
+
+(i) Conj. de complexos é um homomorfismo em ℂ

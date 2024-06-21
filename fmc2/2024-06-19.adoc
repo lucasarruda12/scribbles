@@ -1,0 +1,75 @@
+== 2024-06-19
+
+:hardbreaks-option:
+
+=== IEA
+
+==== A cara das álgebras
+
+(S; estrutura)
+--
+(operações algébricas)
+--
+(leis - equações)
+
+Já vimos essa forma nos grupos, nos monoides, nos semigrupos, nos magmas e etc
+
+==== end(𝓐) é um grupo com a point-wise + 
+
+𝓐 grupo abeliano ⊢ (end(𝓐); +, -, 0) [endomorfismos]
+
+(φ + ψ) a = φa + ψa
+e = λs.0
+(-φ) s = -(φs)
+
+falta uma coisa! Mostrar que todas essas operações retornam homomorfismos mesmo, se não eu tenho type error.
+
+Demonstramos isso em sala e chegamos à conclusão de que esse é um grupo e é abeliano
+
+E usando a ∘?
+
+==== Rings (Anéis)
+
+R = (R; +, 0, -, ., 1)
+[+, 0, -] -> parte aditiva
+[., 1] -> parte multiplicativa
+
+A ideia de anel no coração:
+A parte aditiva é um grupo abeliano e a parte multiplicativa é um monoide
+
+-> Vindo de grupos:
+(x + y) + z = x + (y + z) 
+0 + x = x = x + 0
+-x + x = 0 = x + -x
+x + y = y + x
+
+-> vindo de monoides:
+(xy)z = x(yz)
+1x = x = x1
+
+-> E leis que relacionam os dois mundos:
+d(x + y) = dx + dy
+(x + y)d = xd + yd
+
+Demonstramos em sala: (End(𝓐); +, λx.0, -, ∘, id𝓐) é um anel!
+
+==== Homomorfismo em anéis
+
+def. (homo)
+
+Sejam R, S anéis
+seja φ: |R| → |S|
+
+φ homo 
+⇐≝⇒ φ respeita a estrutura de anéis 
+⇐≝⇒ {
+1. φ(r + r') = φ(r) + φ(r') &
+2. φ(0) = 0 &
+3. φ(-r) = -φ(r) &
+4. φ(rr') = φ(r)φ(r') &
+5. φ(1) = 1
+}
+
+==== Subanéis
+
+A ideia é a mesma
