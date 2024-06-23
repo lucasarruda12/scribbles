@@ -1,3 +1,7 @@
+= Fundamentos Matemáticos da computação 2
+:toc:
+:toclevels: 4
+
 include::fmc2/2024-06-05.adoc[]
 
 include::fmc2/2024-06-07.adoc[]
