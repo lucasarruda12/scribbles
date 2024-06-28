@@ -18,3 +18,6 @@ include::fmc2/2024-06-19.adoc[]
 
 include::fmc2/2024-06-21.adoc[]
 
+include::fmc2/2024-06-24.adoc[]
+
+include::fmc2/2024-06-28.adoc[]

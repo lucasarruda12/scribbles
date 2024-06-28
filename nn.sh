@@ -24,3 +24,6 @@ $INCLUDE_TEXT" >> ./fmc2.adoc
 
 # Confirm completion
 echo "File ${FILENAME} created and included in ./fmc.adoc"
+
+# Open file in editor
+nvim $FILENAME 
