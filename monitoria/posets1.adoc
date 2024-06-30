@@ -1,0 +1,89 @@
+= Posets 1
+
+== Objetivos
+
+- Complementar as aulas de posets
+- Relembrar parte do conteúdo de CFR2
+- 
+
+== Antes de começar
+
+== Demonstrações
+
+=== Seja P poset e x,y ∈ P. Demonstre que são equivalentes:
+
+- (I)   x ≤ y
+- (II)  ↓x ⊆ ↓y
+- (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q]
+
+==== (I) x ≤ y ⇒ (II) ↓x ⊆ ↓y
+
+----
+Suponha x ≤ y         | alvo: {p ∈ P | p ≤ x} ⊆ {p ∈ P | p ≤ y}
+Seja p ∈ ↓x           | p ∈ {p ∈ P | p ≤ y}
+Logo p ≤ x
+Logo p ≤ y, pela [≤.tr]
+Logo p ∈ ↓y
+----
+
+==== (II) ↓x ⊆ ↓y ⇒ (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q]
+
+----
+Suponha ↓x ⊆ ↓y 
+Tenho x ≤ x, pela [≤.refl]
+Logo x ∈ ↓x
+Logo x ∈ ↓y
+Logo x ≤ y
+Seja Q ∈ O(P) -- (∀q ∈ Q)(∀x ≤ q)[x ∈ Q]
+Suponha y ∈ Q -- alvo: x ∈ Q
+Pela [(Q ∈ O(P)) y ∈ Q, x ≤ y], tenho x ∈ Q
+----
+
+==== (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q] ⇒ (I) x ≤ y
+
+----
+Suponha (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q] (1)
+Pela [≤.refl], tenho y ≤ y
+Logo y ∈ ↓y
+Vou demonstrar ↓y ∈ O(P)
+  Seja a ∈ ↓y
+  Seja p ∈ P
+  Suponha p ≤ a
+  logo p ≤ y, pela [≤.trans]
+  logo p ∈ ↓y
+
+Como ↓y ∈ O(P) & y ∈ ↓y, logo x ∈ ↓y, pela (1)
+Logo x ≤ y
+----
+
+=== P antichain ⊢ O(P) = ℘(P)
+
+----
+-- Parte O(P) ⊆ ℘(P)
+imediato
+
+-- Parte ℘(P) ⊆ O(P)
+Seja A ∈ ℘(P) -- A ⊆ P
+-- preciso: A ∈ O(P), ou seja, (∀a ∈ A)(∀x ≤ a)[x ∈ A]
+Sejam a ∈ A, x ∈ P t.q. x ≤ a
+Como A ⊆ P, a ∈ P
+Como [(P antichain) a ∈ P, x ∈ P], a = x
+Logo x ∈ A
+
+----
+
+=== P poset, Q ∈ O(P), m = max Q ⊢ Q = ↓m
+
+----
+
+-- parte Q ⊆ ↓m
+Seja q ∈ Q
+Logo q ≤ m, pelo m maxQ
+Logo q ∈ ↓m
+
+-- parte ↓m ⊆ Q
+Seja x ∈ ↓m
+Logo x ≤ m
+Como m ∈ Q, logo x ∈ Q. Pelo (I ⇒ III)
+----
+
