@@ -87,3 +87,46 @@ Logo x ≤ m
 Como m ∈ Q, logo x ∈ Q. Pelo (I ⇒ III)
 ----
 
+=== P, Q, R posets ⇒ P×Q → R ≅ P → (Q → R)
+
+A décima quinta vez que vemos currificação de uma forma diferente
+Já tem no zulip as duas funções que garantem isomorfismo dos conjuntos P×Q → R para P → (Q → R), basta agora demonstrar que elas são testemunhas aqui nos posets também
+
+----
+
+φ: (P → (Q → R)) → (P×Q → R)
+φ f = λ(p,q).(f p) q
+
+ψ: (P×Q → R) → (P → (Q → R))
+ψ f = λp.(λq. f(p,q))
+
+-- Parte φ homo -- (∀f,g ∈ (P→Q→R))[f ≤ g ⇒ φf ≤ φg]
+Sejam f, g ∈ P→Q→R
+Suponha f ≤ g -- (∀p ∈ P)[fp ≤ gp]
+Sejam p ∈ P, q ∈ Q -- arbitrário (p, q) ∈ PxQ
+Logo fp ≤ gp -- (∀q ∈ Q)[(fp) q ≤ (gp) q]
+Logo (fp) q ≤ (gp) q
+
+Calc: φf (p,q) = (λ(a,b).(f a) b) (p,q)
+               = (f p) q
+
+Calc: φg (p,q) = (λ(a,b).(g a) b) (p,q)
+               = (g p) q
+
+
+-- Parte ψ homo -- (∀f,g ∈ P×Q → R)[f ≤ g ⇒ ψf ≤ ψg]
+Sejam f, g ∈ P × Q → R
+Suponha f ≤ g -- (∀w ∈ P×Q)[fw ≤ gw]
+Seja p ∈ P -- alvo (ψf) p ≤ (ψg) p
+Seja q ∈ Q -- alvo ((ψf) p) q ≤ ((ψg) p) q
+Como f ≤ g, f(p,q) ≤ g(p,q)
+
+Calc: (ψf) p) q = (λa.(λb. f(a,b)) p) q
+                = (λb.f(p,b)) q
+                = f(p,q)
+
+Calc: (ψg) p) q = (λa.(λb. g(a,b)) p) q
+                = (λb.g(p,b)) q
+                = g(p,q)
+
+----
