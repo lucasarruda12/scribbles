@@ -4,11 +4,8 @@
 
 === IEA
 
-==== 
+==== downsets e upsets
 
-Supremo
-Ínfimo
-----
 A downset ⇐≝⇒ fechado para baixo  ⇐≝⇒ (∀a ∈ A)(∀x ≤ a)[x ∈ A]
 A upset   ⇐≝⇒ fechado para cima   ⇐≝⇒ (∀a ∈ A)(∀x ≥ a)[x ∈ A]
 O(P)      ⇐≝⇒ {D ⊆ P| D downset}
@@ -17,8 +14,7 @@ A downset é principal ⇐≝⇒ (∃a ∈ A)[A = ↓a]
     upset                              ↑a
 
 ↓a = (≤a) = {x ∈ P | x ≤ a}
-↑     ≥
-----
+↑     ≥                ≥
 
 O (O(P); ⊆) é um poset
 
@@ -27,7 +23,7 @@ P (+) Q   : Coloca todo mundo de P embaixo de todo mundo de Q
 
 ==== Homework
 
-um dos dois merecem o nome de coproduto
+um dos dois merece o nome de coproduto. Qual?
 
 ==== Poset de naturais
 
@@ -35,22 +31,15 @@ Uma forma (n caligráfico): n carinhas, um em cima do outro.
 
 Uma outra forma (n barrado): n carinhas, um do lado do outro.
 
-====
+==== P x Q
 
 P x Q : 
-- (p,q) ≤ (p', q') ⇐≝⇒ p ≤ p' & q ≤ q <- usamos essa
-- (p,q) ≤ (p', q') ⇐≝⇒ p < p' ou p = p' & q ≤ q'
-- (p,q) ≤ (p', q') ⇐≝⇒ q < q' ou q = q' & p ≤ q'
+componentwise - (p,q) ≤ (p', q') ⇐≝⇒ p ≤ p' & q ≤ q
+lexicográfica - (p,q) ≤ (p', q') ⇐≝⇒ p < p' ou p = p' & q ≤ q'
+antilexicográfica - (p,q) ≤ (p', q') ⇐≝⇒ q < q' ou q = q' & p ≤ q'
 
-P (x) Q   : 
+==== S → P
 
-====
+(S → P; ≤)
+f ≤ g ⇐≝⇒ (∀s∈S)[fs ≤ gs]
 
-O(P (+) 1) = O(P) (+) 1
-
-(S → P); ≤,
-onde f ≤ g ⇐≝⇒ (∀s∈S)[fs ≤ gs]
-
-==== Homewok
-
-Θ. φ iso ⇔  φ bij &

@@ -1,0 +1,150 @@
+{
+  "main": {
+    "id": "5566528771b00265",
+    "type": "split",
+    "children": [
+      {
+        "id": "56b5667ee2f42959",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42c27a96504bf915",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "edb1/Estrutura de dados.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46ab5069884ae327",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0be8133221d8aa1e",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "822cee4fa3c074b4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "87c01bfe9eb45ba3",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "ad833550dc595169",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "6d67277618c2e0e2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "87055129974ed8d4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "edb1/Estrutura de dados.md",
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b2661b609562850c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "edb1/Estrutura de dados.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4309b9c02680b65e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "edb1/Estrutura de dados.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0be8133221d8aa1e",
+  "lastOpenFiles": [
+    "Untitled 2.md",
+    "edb1/Estrutura de dados.md",
+    "edb1/Tipos Abstratos de dados.md",
+    "fmc2/2024-07-05.md",
+    "fmc2/2024-06-05.md",
+    "fmc2/07-08-1.md",
+    "2024-07-04.md",
+    "Untitled 1.md",
+    "Untitled",
+    "fmc2/teste.md",
+    "teste.md",
+    "Untitled.canvas",
+    "Untitled.md"
+  ]
+}
