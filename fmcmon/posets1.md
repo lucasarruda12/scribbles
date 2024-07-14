@@ -1,34 +1,33 @@
-= Posets 1
+# Posets 1
 
-== Objetivos
+## Objetivos
 
 - Complementar as aulas de posets
-- Relembrar parte do conteúdo de CFR2
-- 
+- Relembrar parte do conteúdo de CFR2 
 
-== Antes de começar
+## Antes de começar
 
-== Demonstrações
+## Demonstrações
 
-=== Seja P poset e x,y ∈ P. Demonstre que são equivalentes:
+### Seja P poset e x,y ∈ P. Demonstre que são equivalentes:
 
 - (I)   x ≤ y
 - (II)  ↓x ⊆ ↓y
 - (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q]
 
-==== (I) x ≤ y ⇒ (II) ↓x ⊆ ↓y
+### (I) x ≤ y ⇒ (II) ↓x ⊆ ↓y
 
-----
+````
 Suponha x ≤ y         | alvo: {p ∈ P | p ≤ x} ⊆ {p ∈ P | p ≤ y}
 Seja p ∈ ↓x           | p ∈ {p ∈ P | p ≤ y}
 Logo p ≤ x
 Logo p ≤ y, pela [≤.tr]
 Logo p ∈ ↓y
-----
+````
 
-==== (II) ↓x ⊆ ↓y ⇒ (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q]
+### (II) ↓x ⊆ ↓y ⇒ (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q]
 
-----
+````
 Suponha ↓x ⊆ ↓y 
 Tenho x ≤ x, pela [≤.refl]
 Logo x ∈ ↓x
@@ -37,11 +36,11 @@ Logo x ≤ y
 Seja Q ∈ O(P) -- (∀q ∈ Q)(∀x ≤ q)[x ∈ Q]
 Suponha y ∈ Q -- alvo: x ∈ Q
 Pela [(Q ∈ O(P)) y ∈ Q, x ≤ y], tenho x ∈ Q
-----
+````
 
-==== (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q] ⇒ (I) x ≤ y
+### (III) (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q] ⇒ (I) x ≤ y
 
-----
+````
 Suponha (∀Q ∈ O(P))[y ∈ Q ⇒ x ∈ Q] (1)
 Pela [≤.refl], tenho y ≤ y
 Logo y ∈ ↓y
@@ -54,11 +53,11 @@ Vou demonstrar ↓y ∈ O(P)
 
 Como ↓y ∈ O(P) & y ∈ ↓y, logo x ∈ ↓y, pela (1)
 Logo x ≤ y
-----
+````
 
-=== P antichain ⊢ O(P) = ℘(P)
+## P antichain ⊢ O(P) = ℘(P)
 
-----
+````
 -- Parte O(P) ⊆ ℘(P)
 imediato
 
@@ -69,13 +68,11 @@ Sejam a ∈ A, x ∈ P t.q. x ≤ a
 Como A ⊆ P, a ∈ P
 Como [(P antichain) a ∈ P, x ∈ P], a = x
 Logo x ∈ A
+````
 
-----
+## P poset, Q ∈ O(P), m = max Q ⊢ Q = ↓m
 
-=== P poset, Q ∈ O(P), m = max Q ⊢ Q = ↓m
-
-----
-
+````
 -- parte Q ⊆ ↓m
 Seja q ∈ Q
 Logo q ≤ m, pelo m maxQ
@@ -85,15 +82,14 @@ Logo q ∈ ↓m
 Seja x ∈ ↓m
 Logo x ≤ m
 Como m ∈ Q, logo x ∈ Q. Pelo (I ⇒ III)
-----
+````
 
-=== P, Q, R posets ⇒ P×Q → R ≅ P → (Q → R)
+## P, Q, R posets ⇒ P×Q → R ≅ P → (Q → R)
 
 A décima quinta vez que vemos currificação de uma forma diferente
 Já tem no zulip as duas funções que garantem isomorfismo dos conjuntos P×Q → R para P → (Q → R), basta agora demonstrar que elas são testemunhas aqui nos posets também
 
-----
-
+````
 φ: (P → (Q → R)) → (P×Q → R)
 φ f = λ(p,q).(f p) q
 
@@ -129,4 +125,4 @@ Calc: (ψg) p) q = (λa.(λb. g(a,b)) p) q
                 = (λb.g(p,b)) q
                 = g(p,q)
 
-----
+````
