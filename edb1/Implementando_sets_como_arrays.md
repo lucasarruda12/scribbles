@@ -44,4 +44,3 @@ set::criar(capacidade){
 - O pior caso do remover ainda é linear, pelo custo de mover todos os elementos uma casa pra trás.
 - A mesma coisa pro inserir, porque agora eu preciso manter o array ordenado, e isso significa mover todos os elementos maiores que o que eu quero inserir uma casa pra frente.
 
-
