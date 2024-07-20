@@ -13,15 +13,15 @@
 
 ## Um monte de igualdade
 
-If a+b=a+c, then b=c
-If a+b=0, then b=−a
-−(−a)=a
-−(a+b)=(−a)+(−b)
-a0=0 and 0a=0
-a(−b)=(−a)b=−(ab)
-(−a)(−b)=ab
-a(b−c)=ab−ac
-(b−c)a=ba−ca
+- If a+b=a+c, then b=c
+- If a+b=0, then b=−a
+- −(−a)=a
+- −(a+b)=(−a)+(−b)
+- a0=0 and 0a=0
+- a(−b)=(−a)b=−(ab)
+- (−a)(−b)=ab
+- a(b−c)=ab−ac
+- (b−c)a=ba−ca
 
 - pros:
     - tranquilo
