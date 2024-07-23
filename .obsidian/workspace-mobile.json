@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "edb1/lista_encadeada.md",
+                "file": "pi/Estimação_pontual_e_intervalar.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "edb1/lista_encadeada.md",
+            "file": "pi/Estimação_pontual_e_intervalar.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "edb1/lista_encadeada.md",
+            "file": "pi/Estimação_pontual_e_intervalar.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "edb1/lista_encadeada.md"
+            "file": "pi/Estimação_pontual_e_intervalar.md"
           }
         }
       }
@@ -133,6 +133,10 @@
   },
   "active": "b97fd5893953a371",
   "lastOpenFiles": [
+    "arq/Hierarquia_de_memoria.md",
+    "livros/practical_vim/navigate_inside_files_with_motions.md",
+    "livros/practical_vim/open_files_and_save_them_to_disk.md",
+    "edb1/lista_encadeada.md",
     "livros/practical_vim/manage_multiple_files.md",
     "edb1/correcao_prova_u1.md",
     "livros/practical_vim/command_line_Mode.md",
@@ -158,12 +162,8 @@
     "teste.md",
     "31.16 Tipos Abstratos de dados.md",
     "31.16 Estrutura de dados.md",
-    "fmc2/2024-06-07.md",
-    "3/3.md",
-    "3/31/31.md",
     "3/31/31.16",
     "3/31",
-    "3/31/31.16/31.16 Tipos Abstratos de dados.md",
     "3/31/31.16",
     "3/31",
     "teste.py",
