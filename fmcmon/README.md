@@ -10,11 +10,11 @@ Isso tudo foi organizado usando [Johnny.Decimal](johnnydecimal.com). Os arquivos
 
 ## Natureza do Arquivo:
 
-- [1] Plano de Aula (Incluem n>0 demonstrações e um objetivo)
+- [1] Plano de Aula (Incluem um objetivo gerel, n>0 demonstrações + seu porquê)
 - [2] Demonstração (Só o texto de uma demonstração mesmo)
 
 ## Disciplina
-- [1] Intro-lang-proof
+- [x] Intro-lang-proof
 - [2] Introdução a Recurção e Indução (IRI)
 - [3] Introdução a demonstrações Matemáticas A (IDMa)
 - [4] Intrudução a Demonstrações Matemáticas B (IDMb)
