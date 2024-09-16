@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fmcmon/11.01 Básico do Básico.md",
+                "file": "web1/aula1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "fmcmon/11.01 Básico do Básico.md",
+            "file": "web1/aula1.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "fmcmon/11.01 Básico do Básico.md",
+            "file": "web1/aula1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "fmcmon/11.01 Básico do Básico.md"
+            "file": "web1/aula1.md"
           }
         }
       }
@@ -133,9 +133,9 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
+    "fmcmon/11.01 Básico do Básico.md",
     "fmcmon/1 Planos de aula",
     "fmcmon/21.01 currificação.md",
-    "fmcmon/11.01 Básico do Básico.md",
     "fmcmon/11.01Básico_do_Básico.md",
     "fmcmon/21.01.md",
     "21.01/ currificação 2.md",
@@ -168,7 +168,6 @@
     "3/31/31.16",
     "3/31",
     "teste.py",
-    "nn.sh",
-    "fmc2.adoc"
+    "nn.sh"
   ]
 }
