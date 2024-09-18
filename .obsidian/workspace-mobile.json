@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "so/aula1.md",
+                "file": "laes/aula2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "so/aula1.md",
+            "file": "laes/aula2.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "so/aula1.md",
+            "file": "laes/aula2.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "so/aula1.md"
+            "file": "laes/aula2.md"
           }
         }
       }
@@ -133,6 +133,7 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
+    "so/aula1.md",
     "fmcmon/11.01 Básico do Básico.md",
     "fmcmon/1 Planos de aula",
     "fmcmon/21.01 currificação.md",
