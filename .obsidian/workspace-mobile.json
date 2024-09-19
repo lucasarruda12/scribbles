@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "laes/aula2.md",
+                "file": "lp2/aula2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "laes/aula2.md",
+            "file": "lp2/aula2.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "laes/aula2.md",
+            "file": "lp2/aula2.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "laes/aula2.md"
+            "file": "lp2/aula2.md"
           }
         }
       }
@@ -133,6 +133,8 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
+    "laes/aula2.md",
+    "lp2/aula2.md",
     "so/aula1.md",
     "fmcmon/11.01 Básico do Básico.md",
     "fmcmon/1 Planos de aula",
@@ -160,8 +162,6 @@
     "Arquitetura de Computadores.md",
     "Probabilidade e Inferência.md",
     "31.17.md",
-    "31.16.md",
-    "30.11.md",
     "31.16",
     "3",
     "3/31/31.16",
