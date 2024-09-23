@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lp2/aula2.md",
-                "mode": "source",
+                "file": "bpp/aula2.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lp2/aula2.md",
+            "file": "bpp/aula2.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lp2/aula2.md",
+            "file": "bpp/aula2.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lp2/aula2.md"
+            "file": "bpp/aula2.md"
           }
         }
       }
@@ -133,10 +133,12 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
-    "laes/aula2.md",
-    "lp2/aula2.md",
-    "so/aula1.md",
     "fmcmon/11.01 Básico do Básico.md",
+    "bpp/aula2.md",
+    "bpp",
+    "lp2/aula2.md",
+    "laes/aula2.md",
+    "so/aula1.md",
     "fmcmon/1 Planos de aula",
     "fmcmon/21.01 currificação.md",
     "fmcmon/11.01Básico_do_Básico.md",
@@ -161,14 +163,12 @@
     "Estruturas de Dados Básica 1.md",
     "Arquitetura de Computadores.md",
     "Probabilidade e Inferência.md",
-    "31.17.md",
     "31.16",
     "3",
     "3/31/31.16",
     "3/31",
     "3/31/31.16",
     "3/31",
-    "teste.py",
-    "nn.sh"
+    "teste.py"
   ]
 }
