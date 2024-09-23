@@ -1,6 +1,6 @@
 # College classes notes
 
-Everything* is written in portuguese
+Notes are written in portuguese
 
 # Navigate by semester
 
