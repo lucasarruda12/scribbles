@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bpp/aula2.md",
+                "file": "laes/aula3.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "bpp/aula2.md",
+            "file": "laes/aula3.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "bpp/aula2.md",
+            "file": "laes/aula3.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "bpp/aula2.md"
+            "file": "laes/aula3.md"
           }
         }
       }
@@ -133,8 +133,9 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
-    "fmcmon/11.01 Básico do Básico.md",
     "bpp/aula2.md",
+    "laes/aula3.md",
+    "fmcmon/11.01 Básico do Básico.md",
     "bpp",
     "lp2/aula2.md",
     "laes/aula2.md",
@@ -162,7 +163,6 @@
     "pi/inferencia_estatistica_e_amostragem.md",
     "Estruturas de Dados Básica 1.md",
     "Arquitetura de Computadores.md",
-    "Probabilidade e Inferência.md",
     "31.16",
     "3",
     "3/31/31.16",
