@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lp2/aula3.md",
+                "file": "fun/aula2.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lp2/aula3.md",
+            "file": "fun/aula2.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lp2/aula3.md",
+            "file": "fun/aula2.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lp2/aula3.md"
+            "file": "fun/aula2.md"
           }
         }
       }
@@ -133,6 +133,7 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
+    "lp2/aula3.md",
     "laes/aula3.md",
     "bpp/aula2.md",
     "fmcmon/11.01 Básico do Básico.md",
@@ -162,7 +163,6 @@
     "edb1/Implementando_sets_com_listas_encadeadas.md",
     "pi/inferencia_estatistica_e_amostragem.md",
     "Estruturas de Dados Básica 1.md",
-    "Arquitetura de Computadores.md",
     "31.16",
     "3",
     "3/31/31.16",
