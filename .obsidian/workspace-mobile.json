@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "laes/aula5.md",
-                "mode": "preview",
+                "file": "30-39 2024.2/30 Boas Práticas de Programação/aula2.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "laes/aula5.md",
+            "file": "30-39 2024.2/30 Boas Práticas de Programação/aula2.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "laes/aula5.md",
+            "file": "30-39 2024.2/30 Boas Práticas de Programação/aula2.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "laes/aula5.md"
+            "file": "30-39 2024.2/30 Boas Práticas de Programação/aula2.md"
           }
         }
       }
@@ -133,6 +133,9 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
+    "30-39 2024.2/30 Boas Práticas de Programação/30.03.md",
+    "10-19 fmcmon/11 IDMa/11.01 Divisibilidade.md",
+    "README.md",
     "fun/aula2.md",
     "lp2/aula3.md",
     "laes/aula5.md",
@@ -159,10 +162,7 @@
     "livros/practical_vim/open_files_and_save_them_to_disk.md",
     "edb1/lista_encadeada.md",
     "livros/practical_vim/manage_multiple_files.md",
-    "edb1/correcao_prova_u1.md",
-    "livros/practical_vim/command_line_Mode.md",
     "Untitled.canvas",
-    "edb1/Implementando_sets_com_listas_encadeadas.md",
     "31.16",
     "3",
     "3/31/31.16",
