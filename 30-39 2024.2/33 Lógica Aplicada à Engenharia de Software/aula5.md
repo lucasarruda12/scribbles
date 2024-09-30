@@ -51,10 +51,46 @@ Sentenças logicamente equialentes são sentenças que são consequências lógi
 
 IDEM sobre tautológica implica lógica, mas não o contrário
 
-# Considerações finais
+## Princípio de substituição dos equivalentes lógicos
+
+Sentenças logicamente equivalentes podem ser substituídas entre si
+
+## Formas normais
+
+### Forma normal Negativa (NNF)
+
+Usando as duas leis de DeMorgan e dupla negação podemos transformar sentenças com ¬, ∧, ∨ em sentenças onde ¬ se aplica apenas a sentenças atômicas
+
+- Mova a negação para dentro usando DeMorgan e remova dupla negações
+
+```
+¬((A∨B) ∧ ¬C) ⇔ ¬(A∨B) ∨ ¬¬C
+              ⇔ ¬(A∨B) ∨ c
+              ⇔ (¬A∧¬B) ∨ C
+```
+
+### Forma Normal Disjuntiva
+
+Usando leis de distributividade podemos transformar qulquer sentença em forma negativa em uma sentença que é uma disjunção de conjunções literais
+
+```
+(A ∧ B) ∨ C
+```
+
+### Forma Normal Conjuntiva
+
+De forma similar, usando as leis de distributividade, podemos transformar qualquesentençaem form normal negativa em uma sentença que é uma conjunção de disjunções literais.
+
+```
+(A ∨ B) ∧ C
+```
+
+## Considerações finais
 
 Dá pra pensar em toda essa aula como implicações e bi-implicações. As consequências lógicas são implicações e as equivalências lógicas são bi-implicações.
 
 - Tautologia é puramente relacionado a tabelas verdade. Se eu consigo demonstrar uma coisa por tabela verdade então ela é uma {consequência, equivalência} tautológica.
 
 - {consequência, equivalência} tautológica implica {consequência, equivalência} lógica.
+
+
