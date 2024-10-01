@@ -37,3 +37,13 @@ O ato de esconder detalhes do usuário final.
 ## Modularização
 
 Dividir o sistema em partes bem definidas.
+
+## Sobrecarga de métodos
+
+Dá pra fazer. 
+
+## Getters e Setters
+
+Os métodos getter e setter são comumente usados para acessar e modificar os valores dos atributos de uma classe, respectivamente. Esses métodos são uma parte fundamental do encapsulamento, um conceito-chave na programação orientada a objetos que visa proteger os detalhes internos de uma classe e fornecer um controle mais preciso sobre como os atributos são acessados e modificados.
+
+
