@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.06.md",
+                "file": "30-39 2024.2/30 Boas Práticas de Programação/30.03.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.06.md",
+            "file": "30-39 2024.2/30 Boas Práticas de Programação/30.03.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.06.md",
+            "file": "30-39 2024.2/30 Boas Práticas de Programação/30.03.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.06.md"
+            "file": "30-39 2024.2/30 Boas Práticas de Programação/30.03.md"
           }
         }
       }
@@ -133,8 +133,10 @@
   },
   "active": "08173d691df1f69d",
   "lastOpenFiles": [
-    "30-39 2024.2/30 Boas Práticas de Programação/30.03.md",
     "30-39 2024.2/30 Boas Práticas de Programação/aula2.md",
+    "30-39 2024.2/34 Linguagem de Programação II/34.04.md",
+    "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.06.md",
+    "30-39 2024.2/30 Boas Práticas de Programação/30.03.md",
     "10-19 fmcmon/11 IDMa/11.01 Divisibilidade.md",
     "README.md",
     "fun/aula2.md",
@@ -160,8 +162,6 @@
     "pi/Estimação_pontual_e_intervalar.md",
     "arq/Hierarquia_de_memoria.md",
     "livros/practical_vim/navigate_inside_files_with_motions.md",
-    "livros/practical_vim/open_files_and_save_them_to_disk.md",
-    "edb1/lista_encadeada.md",
     "Untitled.canvas",
     "31.16",
     "3",
