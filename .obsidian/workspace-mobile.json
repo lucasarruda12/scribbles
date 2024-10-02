@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b6afc7242d07e92b",
+        "id": "948a438f02e618dd",
         "type": "tabs",
         "children": [
           {
-            "id": "08173d691df1f69d",
+            "id": "829adcc147668dc8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-39 2024.2/32 Programação funcional/aula3.md",
-                "mode": "source",
+                "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.07.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "30-39 2024.2/32 Programação funcional/aula3.md",
+            "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.07.md",
             "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "30-39 2024.2/32 Programação funcional/aula3.md",
+            "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.07.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "30-39 2024.2/32 Programação funcional/aula3.md"
+            "file": "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.07.md"
           }
         }
       }
@@ -131,14 +131,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08173d691df1f69d",
+  "active": "829adcc147668dc8",
   "lastOpenFiles": [
-    "30-39 2024.2/32 Programação funcional/aula3.md~",
+    "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.06.md",
+    "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.07.md",
+    "10-19 fmcmon/10 intro/21.01 currificação.md",
+    "30-39 2024.2/30 Boas Práticas de Programação/aula2.md",
     "30-39 2024.2/30 Boas Práticas de Programação/30.03.md",
     "30-39 2024.2/32 Programação funcional/aula3.md",
-    "30-39 2024.2/30 Boas Práticas de Programação/aula2.md",
     "30-39 2024.2/34 Linguagem de Programação II/34.04.md",
-    "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/30.06.md",
+    "30-39 2024.2/33 Lógica Aplicada à Engenharia de Software/aula1.md",
+    "30-39 2024.2/32 Programação funcional/aula3.md~",
     "10-19 fmcmon/11 IDMa/11.01 Divisibilidade.md",
     "README.md",
     "fun/aula2.md",
@@ -160,15 +163,12 @@
     "21.01/ Currificação.md",
     "21.01",
     "fmcmon/README.md",
-    "fmcmon/21.03interdefinibilidade_do_^.md",
-    "pi/Estimação_pontual_e_intervalar.md",
     "Untitled.canvas",
     "31.16",
     "3",
     "3/31/31.16",
     "3/31",
     "3/31/31.16",
-    "3/31",
-    "teste.py"
+    "3/31"
   ]
 }
