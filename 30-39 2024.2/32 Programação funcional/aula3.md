@@ -1,0 +1,26 @@
+# 2024 out 2
+
+## Subexpressões
+
+Subexpressões são subárvores da árvore de inferência que representa a expressão inicial
+
+````
+--- int --- int
+ 3       4
+ --------- (.)
+     3.4
+````
+
+Nessa expressão, 3, 4 e 3.4 são subexpressões
+
+## Buracos x Lambda
+
+Vá ver as anotações de IRI
+
+## Curry e Uncurry
+
+Vá ver as anotações de IRI
+
+## Os Nats
+
+Vá ver o tópico acima
