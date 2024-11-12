@@ -10,4 +10,6 @@ TODO
 
 - Naming conventions changed a lot between the first and current versions of my class notes. I do not plan on going back and fixing them.
 
-- The idea i have at the moment is trying to do aula#.md and relying on the created-at date (or maybe the commit date?) for knowing when that class was held.
+- ~The idea i have at the moment is trying to do aula#.md and relying on the created-at date (or maybe the commit date?) for knowing when that class was held.~
+
+- It changed again! I'm now trying to follow [Johnny.Decimal](https://johnnydecimal.com/)
