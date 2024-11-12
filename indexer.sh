@@ -10,7 +10,7 @@ index_dir(){
 
     for file in "$dir"/*; do
         if [ -f "$file" ]; then
-            echo "'# [$file]($file)'" >> "$dir.md"  
+            echo "# [$file]($file)" >> "$dir.md"  
         fi
 
         if [ -d "$file" ]; then

@@ -1,13 +1,13 @@
 
-'# [30-39 2024.2//34 Linguagem de Programação II/34.01 Apresentação da Disciplina.md](30-39 2024.2//34 Linguagem de Programação II/34.01 Apresentação da Disciplina.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.02 Primeiro programa Java.md](30-39 2024.2//34 Linguagem de Programação II/34.02 Primeiro programa Java.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.03 Arrays e Matrizes.md](30-39 2024.2//34 Linguagem de Programação II/34.03 Arrays e Matrizes.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.04 Princípios de POO II.md](30-39 2024.2//34 Linguagem de Programação II/34.04 Princípios de POO II.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.05 Herança.md](30-39 2024.2//34 Linguagem de Programação II/34.05 Herança.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.06 Abstração.md](30-39 2024.2//34 Linguagem de Programação II/34.06 Abstração.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.07 Arquivos e serialização.md](30-39 2024.2//34 Linguagem de Programação II/34.07 Arquivos e serialização.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.08 Tratamento de erros.md](30-39 2024.2//34 Linguagem de Programação II/34.08 Tratamento de erros.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.09 Datas em JAVA.md](30-39 2024.2//34 Linguagem de Programação II/34.09 Datas em JAVA.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.10 Arquivos e serialização.md](30-39 2024.2//34 Linguagem de Programação II/34.10 Arquivos e serialização.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.11 Arquivos e Serialização II.md](30-39 2024.2//34 Linguagem de Programação II/34.11 Arquivos e Serialização II.md)'
-'# [30-39 2024.2//34 Linguagem de Programação II/34.12 Enums, e tals.md](30-39 2024.2//34 Linguagem de Programação II/34.12 Enums, e tals.md)'
+# [30-39 2024.2/34 Linguagem de Programação II/34.01 Apresentação da Disciplina.md](30-39 2024.2/34 Linguagem de Programação II/34.01 Apresentação da Disciplina.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.02 Primeiro programa Java.md](30-39 2024.2/34 Linguagem de Programação II/34.02 Primeiro programa Java.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.03 Arrays e Matrizes.md](30-39 2024.2/34 Linguagem de Programação II/34.03 Arrays e Matrizes.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.04 Princípios de POO II.md](30-39 2024.2/34 Linguagem de Programação II/34.04 Princípios de POO II.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.05 Herança.md](30-39 2024.2/34 Linguagem de Programação II/34.05 Herança.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.06 Abstração.md](30-39 2024.2/34 Linguagem de Programação II/34.06 Abstração.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.07 Arquivos e serialização.md](30-39 2024.2/34 Linguagem de Programação II/34.07 Arquivos e serialização.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.08 Tratamento de erros.md](30-39 2024.2/34 Linguagem de Programação II/34.08 Tratamento de erros.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.09 Datas em JAVA.md](30-39 2024.2/34 Linguagem de Programação II/34.09 Datas em JAVA.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.10 Arquivos e serialização.md](30-39 2024.2/34 Linguagem de Programação II/34.10 Arquivos e serialização.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.11 Arquivos e Serialização II.md](30-39 2024.2/34 Linguagem de Programação II/34.11 Arquivos e Serialização II.md)
+# [30-39 2024.2/34 Linguagem de Programação II/34.12 Enums, e tals.md](30-39 2024.2/34 Linguagem de Programação II/34.12 Enums, e tals.md)

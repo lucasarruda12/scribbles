@@ -1,10 +1,10 @@
 
-'# [30-39 2024.2//35 Sistemas Operacionais/35.01 Por que estudar sistemas operacionais.md](30-39 2024.2//35 Sistemas Operacionais/35.01 Por que estudar sistemas operacionais.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.02 Processo.md](30-39 2024.2//35 Sistemas Operacionais/35.02 Processo.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.03 Implementação de processos em UNIX.md](30-39 2024.2//35 Sistemas Operacionais/35.03 Implementação de processos em UNIX.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.04 Comunicação entre processos.md](30-39 2024.2//35 Sistemas Operacionais/35.04 Comunicação entre processos.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.05 Threads.md](30-39 2024.2//35 Sistemas Operacionais/35.05 Threads.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.06 Threads - implementação.md](30-39 2024.2//35 Sistemas Operacionais/35.06 Threads - implementação.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.07 Escalonamento I.md](30-39 2024.2//35 Sistemas Operacionais/35.07 Escalonamento I.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.10 Programação concorrente.md](30-39 2024.2//35 Sistemas Operacionais/35.10 Programação concorrente.md)'
-'# [30-39 2024.2//35 Sistemas Operacionais/35.11 Soluções para exclusão mútua.md](30-39 2024.2//35 Sistemas Operacionais/35.11 Soluções para exclusão mútua.md)'
+# [30-39 2024.2/35 Sistemas Operacionais/35.01 Por que estudar sistemas operacionais.md](30-39 2024.2/35 Sistemas Operacionais/35.01 Por que estudar sistemas operacionais.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.02 Processo.md](30-39 2024.2/35 Sistemas Operacionais/35.02 Processo.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.03 Implementação de processos em UNIX.md](30-39 2024.2/35 Sistemas Operacionais/35.03 Implementação de processos em UNIX.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.04 Comunicação entre processos.md](30-39 2024.2/35 Sistemas Operacionais/35.04 Comunicação entre processos.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.05 Threads.md](30-39 2024.2/35 Sistemas Operacionais/35.05 Threads.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.06 Threads - implementação.md](30-39 2024.2/35 Sistemas Operacionais/35.06 Threads - implementação.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.07 Escalonamento I.md](30-39 2024.2/35 Sistemas Operacionais/35.07 Escalonamento I.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.10 Programação concorrente.md](30-39 2024.2/35 Sistemas Operacionais/35.10 Programação concorrente.md)
+# [30-39 2024.2/35 Sistemas Operacionais/35.11 Soluções para exclusão mútua.md](30-39 2024.2/35 Sistemas Operacionais/35.11 Soluções para exclusão mútua.md)
