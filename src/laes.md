@@ -830,5 +830,3 @@ Qundo escrevemos especificacoes para a superclasse, definimos seu comportamento.
 - Essa propriedade é chamada de subtipo comportamental.
 
 - JML impõe subtipo comportamental, garantindo que as subclasses herdem as especificações das superclasses.
-
-
