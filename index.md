@@ -1,3 +1,5 @@
+# Notes 
+
 - [bpp](bpp.md)
 - [edb2](edb2.md)
 - [fun](fun.md)
@@ -6,3 +8,7 @@
 - [so](so.md)
 
 - [Semestres Anteriores](prev-sem/index.md)
+
+# ABOUT
+
+Boring notes boringly written in pt-br
