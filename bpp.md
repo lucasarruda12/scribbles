@@ -1,17 +1,18 @@
-# ./30.02 Princípios do Clean Code.md
-# O que é código limpo
+# Princípios do Clean Code
+
+## O que é código limpo
 
 - Fácil de entender e fácil de alterar
 
-# Débito técnico
+## Débito técnico
 
 - O conceito usado para representar o custo implícito de uma implementação solução pensada somente no agora.
 
-# Sobre Continue, Break, GOTO
+## Sobre Continue, Break, GOTO
 
 - Em geral essas práticas quebram o fluxo de execução do código e, por isso, não são considerados boas práticas.
 
-# Nomes significativos
+## Nomes significativos
 
 - Nomes que revelem propósito. No lugar de `int d`, usar `int durationInMinutes`.
 - Evitar nomes enganosos. No lugar de `vector accountList`, usar `vector accounts`.
@@ -24,7 +25,7 @@ e getAccountInfo
 - Utilizar nomes pronunciáveis e buscáveis.
 - Não usar prefixos ou caracteres especiais.
 
-# Classes
+## Classes
 
 Classes devem ter nomes que reflitam seu papel e responsabilidades.
 
@@ -36,7 +37,7 @@ class Item {} // Representa um livro nosistema de Bibilioteca
 class Livro {}
 ````
 
-# Métodos / Funções
+## Métodos / Funções
 
 Devem ter nomes verbais que indiquem sua ação.
 
@@ -48,7 +49,7 @@ def calcular_total()
 def calcular_total_do_carrinho()
 ````
 
-# Funções
+## Funções
 
 - Funções devem ser curtas e focadas em uma única tarefa.
 - O número de argumentos de uma função deve ser minimizado.
@@ -65,8 +66,10 @@ class produto:
 def adicionarProdutos(produto, quantidade)
 ````
 - Funções devem evitar efeitos colaterais.
-# ./30.03 Princípios de Clean Code II.md
-# Comentários
+
+# Princípios de Clean Code II
+
+## Comentários
 
 Enfatizar que ao invés de confiar em comentários para explicar o código, o ideal é ciar um código que seja tão claro e autoexplicaativo quanto possível.
 
@@ -80,7 +83,7 @@ Necessidade de comentários muitas vezes indica que o código não está claro o
 
 - Limitações: Se o código tem alguma limitação, e.g., uma solução temporária, use comentários para alertar outros.
 
-# Formatação
+## Formatação
 
 Aborda formatação do código, incluindo espaçamento, identação e estrutura, destacando como um código bem formatado é mais legível.Manter a constância.
 
@@ -120,7 +123,7 @@ int f(int a, int b, int c){
 - Identação: A lógica de programação é hierárquica, ao invés de llinear.
     - Cada nível da hierarquia possui seu próprio escopo.
 
-# Objetos e Estrutura de Dados
+## Objetos e Estrutura de Dados
 
 Explora a diferença entre objetos e estruturas de dados, e como manter a abstração correta
 
@@ -143,7 +146,7 @@ Explora a diferença entre objetos e estruturas de dados, e como manter a abstra
 - Dado: Difícil para adicionar novas entidades, fácil para adicionar novos comportamentos.
 - Objeto: Fácil para adicionar novas entidades, difícil para adicionar novos métodos.
 
-# Lei de Demeter
+## Lei de Demeter
 
 É um projeto de design de software que promove a redução do acoplamento, código mais modular e menos propenso a erros.
 
@@ -159,12 +162,14 @@ Um método de m de uma classe c só pode invocar os métodos de:
 - Objetos criados dentro de m
 - Dos atributos de C
 - Variáveis estáticas (globais)
-# ./30.04 Princípios de SOLID I.md
+
+# Princípios de SOLID I
+
 Princípios voltados para arquitetura orientada a objetos.
 
 - SOLID é um acrônimo para cnco princípios da programção orientada a objetos sugeridos por Robert C. Martin.
 
-# Acoplamento
+## Acoplamento
 
 Dependência entre classes.
 
@@ -174,11 +179,11 @@ Dependência entre classes.
 - Acoplamento eferente: O número de classes das quais aquela depende
 - Acoplamento aferente: O número de classes que dependem daquela
 
-# Coesão
+## Coesão
 
 Quanto os elementos de uma classe estão relacionados e trabalham juntos para realizar uma única responsabilidade. Indica o grau de foco e propósito de uma classe.
 
-# Single Responsability Principle
+## Single Responsability Principle
 
 a class should have one, and only one, reason to change.
 
@@ -186,39 +191,45 @@ a class should have one, and only one, reason to change.
 
 - Todos os seus serviços devem estar estreitamente alinhados com essa responsabilidade.
 
-# Open-Closed principle
+## Open-Closed principle
 
 Software entities should be open for extension but closed for modification.
 
 - No lugar de uma classe `Payment` cujos métodos recebem `PaymentMethod` como argumento e tratam cada método de pagamento como um (if, else), faz mais sentido ter `CashPayment`, `CardPayment` como classes que herdam de `Payment`.
 
-# Liskov Substitution Principle
+## Liskov Substitution Principle
 
 
 Subtypes must be substitutable for their base types.
 
 - Se existe um comportamento na classe A, ao herdar dela, muito cuidado com os `@override`.
-# ./30.05 Princípios de SOLID II.md
-# Interface Segregation Principle
+
+# Princípios de SOLID II
+
+## Interface Segregation Principle
 
 Clients should not be forced to depend on interfaces they do not use.
 
 - Manter as interfaces curtas e coesas. Classes ou objetos não devem ser obrigados a implementar métodos que eles não precisam.
 
-# Dependency Inversion Principle
+## Dependency Inversion Principle
 
 High-level modules shouldnot depende on low-level modules. Both should depend on the abstractions.
-# ./30.06 Programação defensiva.md
+
+# Programação defensiva
+
 É como se proteger do inesperado (quase uma paranóia)
 
-# Técnicas de PD
+## Técnicas de PD
 
 - Se proteja contra entradas invlálidas: Verifique os valores de todos os dados vindos de fones externas.
 - Programas problemáticos não mentem: Se em algum momento o programa apresentou um comportamento inesperado, há um erro muito grande no código.
 - Faça Design-by-contract: Técnica que foca na documentação e verificaçào dos direitos e deveres de cada "módulo" de software.
 - Use assertivas: Uma assertiva é um código usado durante o desenvolvmento para confirmar o estado do código.~
     - "Se algo não pode acontecer, use assertivas para garantir que não vão"
-# ./30.07 Princípios gerais de desenvolvimento de software.md
+
+# Princípios gerais de desenvolvimento de software
+
 - Keep It Simple, Stupid (KISS): Uma filosofia que preconiza a simplicidade na resolução de problemas e na criação de resoluções.
 
 - Do not Repeat Yourself (DRY): Evitar reescrever (copiar e colar) linhas de código, a fim de facilitar modificações futuras.
@@ -230,12 +241,14 @@ High-level modules shouldnot depende on low-level modules. Both should depend on
 
 - Do not Live With Broken Windows: é uma metáfora que diz que janelas quebradas em um prédio abandonado levam a mais vandalismo e descuido.
     - Sugere que pequenos problemas não resolvidos no código podem gerar mais problemas.
-# ./30.08 Técnicas de depuração.md
+
+# Técnicas de depuração
+
 Depuração é o processo de identificar a causa raíz de um erro e corrigi-la.
 
 - Depuração x testes: depurar é encontrar a causa raíz dos erros apontados nos testes.
 
-# Metodologia de depuração
+## Metodologia de depuração
 
 - Estabilize o erro (saiba como reproduzir)
 - Localize a fonte do erro (a causa)
@@ -247,8 +260,9 @@ Depuração é o processo de identificar a causa raíz de um erro e corrigi-la.
     - Implemente a correção
     - Teste a correção
     - Procure por erros similares
-# ./30.09 #.md
-# ./30.10 Métricas de código.md
+
+# Métricas de código
+
 Os sistemas de software têm ficado cada vez mais complexos. Logo, é difícil garantir a qualidade do produto.
 
 - Técnicas como revisão de código são custosas ou baseadas em amostragem.
@@ -257,7 +271,7 @@ Os sistemas de software têm ficado cada vez mais complexos. Logo, é difícil g
 
 - Para mitigar esses problemas, usamos coleta e interpretação de métricas de código.
 
-# Métricas de complexidade
+## Métricas de complexidade
 
 Complexidade é o grau de dificuldade de entendimento do código. QUanto maior a complexidade de um software, maior a dificuldade de utilizar, compreender e dar manutenção.
 
@@ -273,7 +287,7 @@ Complexidade é o grau de dificuldade de entendimento do código. QUanto maior a
 
 - Maintanability Index: O MI é calculado a partir da correlação entre: SLOC, Métrica de Halstead e Complexidade ciclomática.
 
-# Métricas de Orientação a Objetos
+## Métricas de Orientação a Objetos
 
 ### Métricas de dependência
 
@@ -298,7 +312,9 @@ Em um gráfico onde o eixo x = nível de estabilidade e o eixo y é o nível de 
 O seu calculo e baseado na não similaridade dos métodos com base na utilizacao dos atribuitos da classe.
 
 - Valores baixos indicam boa subdivisão da classe analisada e implica em simplicidade do código.
-# ./30.11 Análise estática de código.md
+
+# Análise estática de código
+
 É a arte de analisar o texto do código em tempo de escrita, sem necessidade de executar o programa. Tem como objetivo:
 
 - Compreender melhor o código.
@@ -306,13 +322,13 @@ O seu calculo e baseado na não similaridade dos métodos com base na utilizacao
 - Acompanhar a qualidade do código produzido.
 - Verificar o cumprimento de regras preestabelecidas.
 
-# Tipos de AEC
+## Tipos de AEC
 
 - Verificação por estilo
 - Verificação de boas práticas
 - Verificação por bugs
 
-# Ferramentas indicadas
+## Ferramentas indicadas
 
 - Checkstyle: Verifica o código Java é compatível com regras de codificação especificadas. Algumas dessas são: Comentários Javadoc para as classes, Convenções de nomenclaturas, práticas de construção de classes e mais!
 

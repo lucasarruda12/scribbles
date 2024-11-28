@@ -1,24 +1,25 @@
-# ./35.01 Por que estudar sistemas operacionais.md
+# Por que estudar sistemas operacionais
+
 "O sistema operacional surgiu para proteger o usuário do seu maior inimigo: O usuário"
 
-# Razões técnicas
+## Razões técnicas
 
 - Gerencia as tarefas do computador
 - Do ponto de vista do software, divide serviços a serem utilizados (chamadas de sistema ou system calls)
 - Do ponto de vista do harware, implementa a camada de abstração que traduz funções elementais (HAL hardware abstraction layer)
 
-# Razões de mercado
+## Razões de mercado
 
 - Sistemas operacionais ditam a maneira como os outros sistemas enxergam os recursos
 - As maiores empresas da área de tecnologia da informação tem um sistema operacional próprio
 
-# Função de um sistema operacional
+## Função de um sistema operacional
 
-# A partir da máquina real, criar uma máquina extendida.
+## A partir da máquina real, criar uma máquina extendida.
 
 Parte da camada de abstrações enxergada pelo usuário
 
-# Gerenciar os recursos de hardware disponíveis para as aplicações
+## Gerenciar os recursos de hardware disponíveis para as aplicações
 
 - Recursos da máquina
     - Processadores
@@ -31,22 +32,22 @@ Parte da camada de abstrações enxergada pelo usuário
     - Equlibrar usos
     - Evitar conflitos
 
-# Histórico dos Sistemas Operacionais
+## Histórico dos Sistemas Operacionais
 
-# Priemira Geração (1945-1955)
+## Priemira Geração (1945-1955)
 
 - Programação através de chaves
 - inexistência de linguagens ou S.O.
 - Toda a atividade é sequencial
 
-# Segunda Geração (1956-1965)
+## Segunda Geração (1956-1965)
 
 - IBM 1401 e 7094
 - Separação entre programação e operação
 - Execução em batches de programas
 - Linguagens Fortran e Assembly
 
-# Terceira Geração (1966-1980)
+## Terceira Geração (1966-1980)
 
 - IBM 360 e sucessores
 - Compatibilidade a nível de software
@@ -55,21 +56,21 @@ Parte da camada de abstrações enxergada pelo usuário
 - Sistemas Online
 - Base dos S.O. modernos
 
-# Quarta Geração (1980-1990)
+## Quarta Geração (1980-1990)
 
 - Multiprocessadores
 - Sistemas operacionais user-friendly
 - S.O. para computadores pessoais
 - S.O. para redes de computadores
 
-# Quinta Geração (1991-)
+## Quinta Geração (1991-)
 
 - Processamento distribuído
 - Interfaces gráficas
 - S.O. para dispositivos móveis
 - S.O. para cloud computing
 
-# Chamada de sistema
+## Chamada de sistema
 
 - Forma que um programa solicita serviços ao sistema operacional
     - Análogo a sub-rotinas
@@ -81,7 +82,7 @@ Parte da camada de abstrações enxergada pelo usuário
     - Serviços básicos sáo implementados pelo micro-kernel
     - Kernel implmeneta demais serviços empregando esses serviços básicos 
 
-# Programas de sistema
+## Programas de sistema
 
 - Programas executados fora do kernel (utilitários)
 - Implementam tarefas básicas
@@ -89,7 +90,7 @@ Parte da camada de abstrações enxergada pelo usuário
     - Interpretadores de comandos
     - Interface gráfica de usuáio (GUI)
 
-# Sistema em lote (batch)
+## Sistema em lote (batch)
 
 - Introdução de operadores profissionais
     - Usuário era mais o operador da máquina
@@ -99,7 +100,7 @@ Parte da camada de abstrações enxergada pelo usuário
 
 - Passagem manual entre jobs
 
-# Monitor residente
+## Monitor residente
 
 - Evolução
     - Sequencialmente automático de jobs, transferindo o controle de um job a outro
@@ -111,7 +112,7 @@ Parte da camada de abstrações enxergada pelo usuário
     - Controle é transferido para o job
     - Quanto o job termina, o controle retorna ao monitor
 
-# Sistema batch multiprogramado
+## Sistema batch multiprogramado
 
 - Monitor residente permite a execução de apenas um programa a cada vez
 - Desperdício de tempo de CPU com operações de E/S
@@ -119,7 +120,7 @@ Parte da camada de abstrações enxergada pelo usuário
     - Manter diversos programas na memória ao mesmo tempo
     - Enquanto um programa realiza E/S, outro pode ser executado
 
-# Multriprogramação
+## Multriprogramação
 
 - Manter mais de um programa em execução simultâneamente
 
@@ -127,7 +128,7 @@ Parte da camada de abstrações enxergada pelo usuário
     - Interrupção
     - Discos magnéticos
 
-# Sistema Timesharing
+## Sistema Timesharing
 
 - Tipo de multiprogramação
 - Usuários possuem um terminal
@@ -135,16 +136,16 @@ Parte da camada de abstrações enxergada pelo usuário
 
 - Ilusão de possuir uma máquina dedicada a execução de cada programa
 
-# Sistema monousuário e multiusuário
+## Sistema monousuário e multiusuário
 
 - Projetados para serem usados por um único usuário ou várias sessões de vários usuários
 
-# Sistemas monotarefa e multitarefa
+## Sistemas monotarefa e multitarefa
 
 - Existem dois tipos de multitarefa: Preemptivo ou não preemptivo
     - Preempção: Capacidade de interromper a execução de um processo em execução
 
-# Sistemas distribuídos
+## Sistemas distribuídos
 
 - Distribuir a realização de uma tarefa entre vários computadores
 - Conjunto de computadores autônomos interconectados de forma a possibilitar a execução de um serviço
@@ -152,54 +153,54 @@ Parte da camada de abstrações enxergada pelo usuário
 - Software fornece uma visão única de sistema
 - Palavra chave é transparente
 
-# Sistemas fracamente acoplados
+## Sistemas fracamente acoplados
 
 - Máquinas independentes
 - Comunicação é feita através de troca de mensagens entre processos
 
-# Vantagens
+## Vantagens
 
 - Compartilhamento de recursos
 - Balanceamento da carga
 - Aumento de confiabilidade
 
-# Sitemas paralelos
+## Sitemas paralelos
 
 - Máquinas multiprocessadas possuem mais de um processador
 
-# Sistemas fortemente acoplados
+## Sistemas fortemente acoplados
 
 - Processadores compartilham memória e relógios comuns
 - Comunicação é realizada através da memória
 
-# Vantagens
+## Vantagens
 
 - Aumento de troughtput (Número de processos executados)
 - Aspectos econômicos
 - Aumento de confiabilidade
 
-# Symmetric multiprocessing (SMP)
+## Symmetric multiprocessing (SMP)
 
 - Cada processador executa uma cópia idêntica do sistema operacional
 - Vários processos podem ser executados em paralelo
 - A maioria dos sistemas operacionais suportam SMP através do conceito de multithreading
 
-# Assymetric multiprocessing
+## Assymetric multiprocessing
 
 - Cada processador executa uma tarefa expecífica
 
-# Sistema de tempo real
+## Sistema de tempo real
 
 - Empregado para o controle de procesiimentos que devem responder dentro de um certo intervalo de tempo
 - Noção de tempo real é dependente da aplicação
 
-# Dois tipos
+## Dois tipos
 
 - Hard real time: Tarefas críticas sáo completadas dentro de um intervalo de tempo. a relevância do processamento cai drásticamente após o deadline.
 
 - Soft real time: Tarefa crítica tem mais prioridade que as demais. A relevância do processamento decai suavemente após o deadline
 
-# Sistemas para dispositivos móveis
+## Sistemas para dispositivos móveis
 
 - Restrições em espaço de memória, consumo de energia, tempo de resposta.
 - Muitos costumamm ser também de tempo real
@@ -208,19 +209,19 @@ Parte da camada de abstrações enxergada pelo usuário
     - Grande dependência de interface 
     - Existem funções cada vez mais similares a computadores desktop
 
+# Processo
 
-# ./35.02 Processo.md
 Processo é um programa em execução
 
 - O SO trata com processos e não com programas.
 
-# Processo x Programa
+## Processo x Programa
 
 - Programa: Conjunto estático das intruções e os dados de uma aplicação.
 - Processo: Entidade ativa. Instância de um programa em execução.
 - Dois processos podemos executar instâncias diferentes do mesmo programa.
 
-# Estrutura de um processo na memória
+## Estrutura de um processo na memória
 
 ````
 stack
@@ -235,11 +236,11 @@ data
 text
 ````
 
-# ciclo de vida de processos
+## ciclo de vida de processos
 
 Como são programas em execução, eles têm começo, meio e fim.
 
-# Estados de um processo
+## Estados de um processo
 
 - Novo. Se é admitido, ele passa ao próximo estado
 - É preciso saber se os recursos necessários para a execução de um processo estão disponível, por exemplo.
@@ -248,7 +249,7 @@ Como são programas em execução, eles têm começo, meio e fim.
 - Em execução. Quando termina de ser executado, ele passa ao próximo estado.
 - Encerrado
 
-# Criação de processo
+## Criação de processo
 
 - Representado por um bloco de controle de processo (PCB) contendo:
 - Estado doprocesso
@@ -269,40 +270,42 @@ Como são programas em execução, eles têm começo, meio e fim.
     - Ao se iniciar o copmutador, o SO cria vários processos
 - Em unix, a se inciar uma seção, o SO cira o processo init (PID=1)
 
-# Multiprocessos e Escalonamento
+## Multiprocessos e Escalonamento
 
     Necessidade de mudança de contexto entre processos
 
-# Filas de escalonamento de processos
+## Filas de escalonamento de processos
 
     - Fila de job: Conjunto de todos os processos no sistema
     - FIla de processos prontos: Conjunto de todos os processos residentes na memória principal, prontos e esperando para executar.
     - Fila de dispositivos: Conjunto dos processos esperando por um dispositivo de E/S
     - Migração de processos entre várias filas.
 
-# Escalonadores
+## Escalonadores
 
     - Escalonadores de longo prazo: Seleiona quais processos devem ser trazidos para a fial de processos prontos
 
     - Escalonadores de curto prazo: Seleciona qual processo deve ser executado a seguir e aloca CPU para ele.
 
-# Processo em execução
+## Processo em execução
 
 - Quando em execução, há basicamente dois modos de operação:
     - Ciclo de processador: quando está utilizando a CPU
     - Ciclo de E/S: quando está esperando algum dado de E/S
 
-# Término de Processo
+## Término de Processo
 
 - Fnal do processo: POde ser normal ou erro
 - Necessidade de liberar os recursos alocados ao processo
 
-# Relacionamento entre processos
+## Relacionamento entre processos
 
 - Processos independentes: Não há nenhum vínculo entre eles.
 - Grupos de processos: Quando há alguma relação: pai-filho, compartilhamento de recurso, compartilhamento de resultado de processamento, etc...
-# ./35.03 Implementação de processos em UNIX.md
-# Criação de processos
+
+# Implementação de processos em UNIX
+
+## Criação de processos
 
 Processo pai cira processo filho, o qual, por sua vez, pode criar outros processos, formando uma árvore de processoos
 
@@ -318,11 +321,11 @@ Processo pai cira processo filho, o qual, por sua vez, pode criar outros process
     - Pai espera até filho terminar
     - Depende da implementação do SO
 
-# Hierarquia de processos
+## Hierarquia de processos
 
 Por exemplo, cria-se um processo via a rimitiva fork(). O criador é o pai e o processo criado é o filho
 
-# Chamadas de sistema
+## Chamadas de sistema
 
 ### Fork
 
@@ -360,12 +363,14 @@ void exit(char n);
 
 - Deve ser chaamado como parâmetro um alor entre 0 e 255 que representa alguma informação sobre a finalização do processo.
 
-# Terminação de processos
+## Terminação de processos
 
 Processo executa última declaração e pede ao sistema operacional para decidir (exit)
 
 - Dados de saída passam do filho para o pai (via wait)
-# ./35.04 Comunicação entre processos.md
+
+# Comunicação entre processos
+
 Processos em um sistema podem ser *independentes* ou *cooperantes*.
 
 - Processos independentes não podem afetar ou ser afetados pela execução de outro processo.
@@ -377,11 +382,11 @@ Processos em um sistema podem ser *independentes* ou *cooperantes*.
     - Modularidade
     - Conveniência
 
-# Modelos de comunicação
+## Modelos de comunicação
 
 Processos cooperantes precisam de comunicação entre processos. Seja por memória compartilhada ou troca de mensagens.
 
-# Comunicação por memória compartilhada
+## Comunicação por memória compartilhada
 
 ### Memória compartilhada no POSIX
 
@@ -404,7 +409,7 @@ Tendo feito isso, o processo agora pode escreer na memória compartilhada
 
 - Quando terminar, um processo pode desanexar a memória compartilhada do seu espaço de armazenamento, usando `shmdt(endereço de memória);`
 
-# Comunicação por PIPES
+## Comunicação por PIPES
 
 Pipes pesmitem a comunicação no estilo rodutor-consumidor. O produtor escreve em um extremo e o consumidor lê do outro extremo.
 
@@ -424,8 +429,10 @@ int pipe(int filedes[2])
 
 - Comunicação bidirecional: usamos dois pipes.
 
-# ./35.05 Threads.md
-# Conceito
+
+# Threads
+
+## Conceito
 
 - "Entidade escalonada para execução" - Tenenbaum
 - "Fluxo de execução dentro de um processo" - Oliveira
@@ -436,7 +443,7 @@ int pipe(int filedes[2])
 - As threads compartilham os mesmos recursos de um processo
 - Threads de um mesmo processo não são independentes entre si
 
-# Comparação com processos
+## Comparação com processos
 
 Threads do mesmo processo compartilham várias informações.
 
@@ -452,18 +459,18 @@ Threads do mesmo processo compartilham várias informações.
 | Sinais e tratadores de sinais | |
 | Informação de contabilidade | |
 
-# Uso de threads
+## Uso de threads
 
 O uso de thread em uma aplicação interativa permite que um programa continue a execução mesmo se parte dele for bloqueado.
 
-# Usuário x Núcleo
+## Usuário x Núcleo
 
 Threads podem ser implementadas dependendo do suporte do sistema operacional
 
 - Threads de usuário: São historicamente pioneiras e resultado da falta de suporte de threads pelo SO.
 - Threads de núcleo (ou threads de kernel): Implementações de sistemas operacionais modernos. Praticamente todos os SOs modernos dão suporte.
 
-# Threads de Núcleo
+## Threads de Núcleo
 
 O núcleo do sistema operacional tem ciência de todas as threads em execução (e a que processos pertencem)
 
@@ -473,7 +480,7 @@ O núcleo do sistema operacional tem ciência de todas as threads em execução 
 - Oferece mais concorrência de execução.
 - Gera mais "overhead" de escalonamento
 
-# Threads de usuário
+## Threads de usuário
 
 Gerenciada por bibliotecas de threads. Do ponto de vista do núcleo do sistema operacional, os processos executam, porém, internamente, eles criam e gerenciam suas próprias threads.
 
@@ -482,7 +489,7 @@ Gerenciada por bibliotecas de threads. Do ponto de vista do núcleo do sistema o
 - Mais eficiente na execução (as threads são mais leves)
 - porém, se uma thread bloquear, todo o processo bloqueia.
 
-# Implementações híbridas
+## Implementações híbridas
 
 ### Modelo N:M
 
@@ -498,7 +505,7 @@ Threads de núcleo criam threads de usuário, para aproveitar dos beneficios de 
 - Núcleo atribui processadores virtuais para cada processo, o que deixa o sistema supervisor alocar threads para processadores
 - Problema: Baseia-se fundamentalmente nos upcalls - o núcleo (camada inferior) chamadando procedimentos no usuário (camada mais superior)
 
-# Criação de threads no UNIX
+## Criação de threads no UNIX
 
 - A implementação depende da biblioteca utilizada. No POSIX, é o Pthreads
 
@@ -513,7 +520,7 @@ int pthread_create(pthread_t* thread, const pthread_attr_t* attr, void* (*start_
 | `start_routine` | é uma função que será executada pela thread. Pega um argumento void* e retona um void* |
 | `arg`       | ponteiro sobre o argumento da função. Para passar mais de um argumento, usar um vetor ou uma struct |
 
-# Terminação de uma thread
+## Terminação de uma thread
 
 ```
 int pthread_exit(void *ret);
@@ -529,8 +536,10 @@ Threads podem terminar:
 - Realizando uma chamada a `pthred_exit`
 - Sendo cancelada por outra thread (`pthread_cancel`)
 - o processo do qual ela faz parte for terminado
-# ./35.06 Threads - implementação.md
-# Espaço de endereçamento
+
+# Threads - implementação
+
+## Espaço de endereçamento
 
 - Quando uma thread é criada, existem dois espaços de endereçamento: um compartilhado entre todas as threads e um privado e acessível exclusivamente pela thread
 
@@ -538,7 +547,7 @@ Threads podem terminar:
 
 - Parâmetros passados na execũção da thread e variáveis de escopo local são de acesso privado da thread
 
-# Junção de threads
+## Junção de threads
 
 ```
 int pthread_join(pthread id, void** ref);
@@ -548,7 +557,7 @@ int pthread_join(pthread id, void** ref);
 
 - O valor de retorno recebido da execução da thread é escrito no parâmetro ref.
 
-# Criação de processos com multiplas threads
+## Criação de processos com multiplas threads
 
 - O que acontece quando um processo que contém multiplas threads e utiliza uma chamada `fork`:
     - Umnovo processo é criado com uma cópia das memórias de dados e instruções
@@ -557,7 +566,7 @@ int pthread_join(pthread id, void** ref);
 
 - As threads criadas são associadas ao processo que as criou.
 
-# Escalonamento de threads
+## Escalonamento de threads
 
 dependendo de como for implementado o escalonamento das threads (e do process), a sequência de execução das threads pode mudar
 
@@ -570,14 +579,16 @@ int sched_yield()
 
 - Ela pode voltar a executar normalmente se for escolhida pelo escalonador.
 
-# ./35.07 Escalonamento I.md
+
+# Escalonamento I
+
 Máxima execução da CPU é obtida com multiprogramação
 
 - Fase de uso da CPU e de E/S - execução de processos consiste de uma fase de execução da CPU e espera po E/S
 
 - Distribuição das fases de us da CPU (CPU bursts ou rajadas)
 
-# Escalonador da CPU
+## Escalonador da CPU
 
 Seleciona dentre os processos na memória em estado pronto, e aloca a CPU para um deles.
 
@@ -591,7 +602,7 @@ Seleciona dentre os processos na memória em estado pronto, e aloca a CPU para u
 - Escalonamento nas condições 1 e 5 é não-preemptivo (sem interrupção forçada)
 - Todas as outras alocações são preemptivas.
 
-# Despachante
+## Despachante
 
 O despachante (dspatcher) é o módulo que fornece o controle da CPU ao processo selecionado pelo escalonador da CPU. essa função envolve:
 
@@ -601,7 +612,7 @@ O despachante (dspatcher) é o módulo que fornece o controle da CPU ao processo
 
 > Latência de Despacho: o tempo gasto pelo despachante para interromper a execução de um processo e iniciar a execuçãode outro.
 
-# Critérios de Alocação
+## Critérios de Alocação
 
 - Utilização da CPU - manter a CPU ocupada a maior parte possível do tempo
 
@@ -613,7 +624,7 @@ O despachante (dspatcher) é o módulo que fornece o controle da CPU ao processo
 
 - Tempo de Resposta: Intervalo de tempo entre o envio de uma requisição e a produção da primeira resposta, não a saída (para ambientes de tempo compartilhado).
 
-# Critérios de Otimização
+## Critérios de Otimização
 
 - Maximizar utilização da CPU
 - Maximizar produtividade
@@ -621,9 +632,9 @@ O despachante (dspatcher) é o módulo que fornece o controle da CPU ao processo
 - Minimizar o tempo de espera
 - Minimizar o tempo de resposta
 
-# Algoritmos de escalonamento: First come, first serve (FCFS)
+## Algoritmos de escalonamento: First come, first serve (FCFS)
 
-# Algoritmos de escalonamento: Menor job primeiro (SJR)
+## Algoritmos de escalonamento: Menor job primeiro (SJR)
 
 associado com cada processo a duração da sua próxima fase de uso da CPU. Uso dessas durações para escalonar o processo com menor tempo.
 
@@ -641,7 +652,7 @@ associado com cada processo a duração da sua próxima fase de uso da CPU. Uso 
   - 3. αₜ ≤ α ≤ 1
   - define: τₙ₊₁ = αtₙ + (1-α)τₙ
 
-# Algoritmos de escalonamento: Por prioridade
+## Algoritmos de escalonamento: Por prioridade
 
 Um número de prioridade (Int) é associado com cada processoe a CPU é alocada para o processo com a maior prioridade (menor inteiro = maior prioridade)
 
@@ -651,24 +662,26 @@ Um número de prioridade (Int) é associado com cada processoe a CPU é alocada 
 
 - Solução (_aging_): Com o passar do tempo, aumentar a prioridade dos processos que ficam em espera no sistema.
 
-# Algoritmos de escalonamento: Alocação circular 
+## Algoritmos de escalonamento: Alocação circular 
 
 Cada processo recebe uma pequena unidade de tempo de CPU (quantum), usualmente de 10 a 100 milissegundos. Um processo executa por esse tempo e depois é tirado da CPU.
 
-# Algoritmos de escalonamento: Alocação com Múltiplas filas
+## Algoritmos de escalonamento: Alocação com Múltiplas filas
 
 - Filas de procesoss prontos é particioonadas em filas separadas: Primeiro plano e segundo plano. E cada fila tem seu próprio algoritmo de escalonamento.
-# ./35.10 Programação concorrente.md
+
+# Programação concorrente
+
 Um programa concorrente é executado simultaneamente por diversos processos (ou threads) que cooperam entre si.
 
-# Motivação
+## Motivação
 
 Programas concorrentes são mais complexos de desenvolver: Temos os mesmos problemas encontrados em programas sequenciais e mais!
 
 - Tenho que garantir a corretude da comunicação
 - Exige cuidados quanto à temporalidade da execução dos processos envolvidos
 
-# FUndamentos
+## FUndamentos
 
 Acesso concorrente a dados compartilhados pode resultar em inconsistencias
 
@@ -678,7 +691,7 @@ Acesso concorrente a dados compartilhados pode resultar em inconsistencias
 
 - Condição de corrida: Sao situação onde dois ou mais processos acessam dados compartilhados e o resultado final depende da ordem em que os porcessos são executados
 
-# Exclusao mutua
+## Exclusao mutua
 
 - Existe exclusividade mutua entre os processos no acesso à regiao critica.
 
@@ -687,8 +700,10 @@ Acesso concorrente a dados compartilhados pode resultar em inconsistencias
 - Nenhum processo pode ter seu ingresso na seção crítica postergado indefinidamente.
 
 - Não depender da velocidade de relativa da execução dos processos nem da quantidade de processadores.
-# ./35.11 Soluções para exclusão mútua.md
-# Interrupções
+
+# Soluções para exclusão mútua
+
+## Interrupções
 
 Parte do principio de que o processo, imediatamente após entrar na região crítica, desabilita interrupções. Sem interrupções, não há escalonamento de um novo processo
 
@@ -696,7 +711,7 @@ Parte do principio de que o processo, imediatamente após entrar na região crí
 
 - Não funciona em um ambiente multiprocessado, já que não existe um mecanismo para parar todos os processadores
 
-# variáveis de trava (lock)
+## variáveis de trava (lock)
 
 Utilizar uma única variável compartilhada, incialmente contendo o valor 0. Então, para acessar a região crítica, o processo realiza um teste sobre essa variável e:
     - Se o valor é 0, significa que ela pode entrar
@@ -710,13 +725,13 @@ Cada processo recebe um identificador 0 ou 1 e só pode acessar a região críti
 
 - Cada processo fica encarregado de chavear a variável compartilhada para deixar o colega entrar
 
-# Solução de Peterson
+## Solução de Peterson
 
 Antes de usar as variavéis compartilhadas, cada processo chama a função `enter_region`, passando como parametro o numero do seu processo
 
 - Imediatamente antes de sair da regiap critica, o processo chama `leave_region`
 
-# Instrução TSL
+## Instrução TSL
 
 O principal problema para a corretude das funçoes até agora é durante a checagem de entrada a região crítica.
 
@@ -737,7 +752,7 @@ leave_region:
     RET
 ```
 
-# Soluções de dormir e acordar
+## Soluções de dormir e acordar
 
 Para evitar o uso de espera ocupada, foram propostas primitivas Sleep e Wakeup
 
@@ -747,7 +762,7 @@ Para evitar o uso de espera ocupada, foram propostas primitivas Sleep e Wakeup
 
 - Esses mecanismos não são suficientes para garantir exclusão mútua, pela falta de atomicidade no acesso à região crítica.
 
-# Mutex (Mutual Exclusion)
+## Mutex (Mutual Exclusion)
 
 Faz uso do conceito de instruções TSL para garantir atomicidade e primitivas sleep e wakeup
 
@@ -755,7 +770,7 @@ Faz uso do conceito de instruções TSL para garantir atomicidade e primitivas s
     - Essas variáveis de trava são binárias
     - Sempre que há uma chamada de Lock, existe uma chamada de yield que abre mão do processador
 
-# Semáforos
+## Semáforos
 
 Implementação mais robustas do que os Mutexes, usando primitivas down e up 
 

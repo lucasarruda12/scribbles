@@ -1,57 +1,62 @@
-# ./32.01 Linguagem imperativas.md
+# Linguagem imperativas
+
 O programa é uma série de ordens que a máquina segue fielmente.
 
-# Linguagens multiparadigma
+## Linguagens multiparadigma
 
 Linguagens que misturam mais de uma forma de programar
 
 - Muitas linguagens multiparadigma sofrem de: buscar o melhor dos dois mundos (a união do que as duas podem fazer) e acabar com a interseção.
 - Algumas funcionalidades legais de um paradigma vêm da *impossibilidade* de fazer certas coisas.
 
-# Linguagens declarativas
+## Linguagens declarativas
 
-# Programação Funcional x Programação Lógica
+## Programação Funcional x Programação Lógica
 
 - Funcional: Funções *puras* como protagonistas
 - Lógica: Relações como protagonistas
 
-# Tipagem
+## Tipagem
 
 ### Static x Dynamic
 
 - Vá ver as anotações de FMC1
 
-# REPL
+## REPL
 
 - Read
 - Evaluate
 - Print
 - Loop
-# ./32.02 Tipos e árvores de inferência.md
+
+# Tipos e árvores de inferência
+
 ````
 f : alpha -> beta    a : alpha
 ------------------------------
           f a : beta
 ````
 
-# Aplicação de função como operador
+## Aplicação de função como operador
 
 f a <- existe um operador escondido aqui. poderíamos (e vamos (quando necessário) destacá-lo escrevendo f$a.
 
-# Parsing
+## Parsing
 
 O processo de pegar uma coisa linear e reorganizar sua estrutura.
 
 - Pegar o f a e voltar praquela árvore lá do início do arquivo
 
-# Notações \_fix
+## Notações \_fix
 
 - Prefix: f a
 - Infix: a + b
 - Postfix: 3!
 - Mixfix: if \_ then \_ else \_
-# ./32.03 2024 out 2.md
-# Subexpressões
+
+# 2024 out 2
+
+## Subexpressões
 
 Subexpressões são subárvores da árvore de inferência que representa a expressão inicial
 
@@ -64,33 +69,39 @@ Subexpressões são subárvores da árvore de inferência que representa a expre
 
 Nessa expressão, 3, 4 e 3.4 são subexpressões
 
-# Buracos x Lambda
+## Buracos x Lambda
 
 Vá ver as anotações de IRI
 
-# Curry e Uncurry
+## Curry e Uncurry
 
 Vá ver as anotações de IRI
 
-# Os Nats
+## Os Nats
 
 Vá ver o tópico acima
-# ./32.04 2024 out 04.md
-# Definindo soma e multiplicação pros meus Nats
+
+# 2024 out 04
+
+## Definindo soma e multiplicação pros meus Nats
 
 Volte duas casas para IRI.
 
-# 2 + 3
+## 2 + 3
 
 IRI.
 
-# 0 + n = 0
+## 0 + n = 0
 
 IRI.
-# ./32.05 Muito sobre Haskell.md
+
+# Muito sobre Haskell
+
 undefined, Nats, pattern matching...
-# ./32.06 2024 nov 11.md
-# Nats de novo
+
+# 2024 nov 11
+
+## Nats de novo
 
 ```haskell
 data Nat
@@ -98,15 +109,15 @@ data Nat
     S :: Nat -> Nat
 ```
 
-# Algumas funções
+## Algumas funções
 
 min, max, fib, div, quot, rem...
 
-# Abuso de tipos
+## Abuso de tipos
 
 Aqui teve uma conversa legal sobre Unix entendendo 0 como ok e qualquer outro inteiro como problema. Mesma conversa de FMC1, se pá tá até no FMCbook.
 
-# Booleanos
+## Booleanos
 
 ```haskell
 data Bool
@@ -117,26 +128,28 @@ data Bool
 `lnot` :: Bool -> Bool
 ```
 
-# Mais funções
+## Mais funções
 
 even, odd. Com 3 equações, pulando de even pra odd e usando o `not :: Bool -> Bool`.
 
-# Weekday
+## Weekday
 
 ```haskell
 data weekday
     pipipi popopo
 ```
 
-# ListNat
+## ListNat
 
 Quase tipos polimórficos!!
-# ./32.07 16 de out de 2024.md
-# Recaptulando tipos novos
+
+# 16 de out de 2024
+
+## Recaptulando tipos novos
 
 Nat, Bool, ListNat
 
-# Head e Tail
+## Head e Tail
 
 > [Sobre desconstrutores] Em geral, se eu penso em chamar head xs, tail xs, pred n: Eu já tô fazendo uma coisa errada. já deveria ter um nome muito bom pro `head xs` (x, inclusive). Precisar chamar isNotNil numa lista sempre que eu quiser chamar as head, tail pra ter certeza que ela não vai explodir o mundo vai me deixar de novo no problema do booleanismo.
 
@@ -155,7 +168,7 @@ tail _         = error "..."
 - Faz sentido pensar que os construtores (e não os tipos) tem desconstrutures.
 - Faz (mais ainda) sentido esperar que um constutor tenha número de desconstrutores igual à aridade dele.
 
-# OMG polimorfismo hi!!
+## OMG polimorfismo hi!!
 
 No lugar de fazer 
 
@@ -185,12 +198,12 @@ data List a
     Cons   :: a -> List a -> List a
 ```
 
-# List
+## List
 
 - Tipos e Kastas 
 - GHCI e *
 
-# Typeclasses
+## Typeclasses
 
 Quero definir uma sum pras listas. Não posso definir pra todo tipo a, pode ser que eu não saiba somar em um certo a. Adiciono constraints na minha função.
 
@@ -204,8 +217,10 @@ Show Nat
     show O      = "O"
     show S n    = "S" ++ show n
 ```
-# ./32.08 18 de out de 2024.md
-# Match expression
+
+# 18 de out de 2024
+
+## Match expression
 
 ```
 match _ with
@@ -217,7 +232,7 @@ match _ with
 -- onde todos os expN tem o mesmo tipo α. E toda a expressão `match _ with` tem esse mesmo tipo α.
 ```
 
-# Let
+## Let
 
 ```haskell
 let pattern = exp in ...
@@ -227,7 +242,7 @@ let pattern = exp in ...
 let (q, r) = div(a, b) in ...
 ```
 
-# Guards
+## Guards
 
 O `Guard` é um guarda mesmo, que não te deixa ver a expressão se a condição não for verdadeira.
 
@@ -240,14 +255,16 @@ foo x y
 otherwise :: Bool
 otherwise = True
 ```
-# ./32.09 2024 out 23.md
-# Relembrando:
+
+# 2024 out 23
+
+## Relembrando:
 
 - Tipos Polimórficos
 - Map
 - Filter
 
-# List comprehension como aplicações de MAP e FILTER
+## List comprehension como aplicações de MAP e FILTER
 
 ```
 [ t x | x ← xs ] ⇐≝⇒ map t xs
@@ -255,7 +272,7 @@ otherwise = True
 [ t x | x ← xs, p x ] ⇐≝⇒ map t (filter p xs)
 ```
 
-# Conjer
+## Conjer
 
 Eu tenho n predicados P e quero definir um único predicado pn t.q. x satisfaz pn só se (∀p ∈ P)[x satisfaz p]
 
@@ -277,7 +294,7 @@ conjer ps x = ands ([p x | p ← ps])
 
 > O `ors` fica como exercício para o leitor.
 
-# omg fold hi!!!
+## omg fold hi!!!
 
 - ff (First fold)
 
@@ -286,8 +303,10 @@ fold :: α → (α → α → α) → List α → α
 fold z f []         = z
 fold z f (x : xs)   = f x (fold z f xs)
 ```
-# ./32.10 2024 out 25.md
-# Composição
+
+# 2024 out 25
+
+## Composição
 
 ```
     P₁     P₂
@@ -310,11 +329,11 @@ P = P2 . P1
 
 > omg programação tácita hi!!
 
-# Igualdade entre funções
+## Igualdade entre funções
 
 As anotações de FMC2 ainda existem. Pode ir lá buscar.
 
-# Desafio
+## Desafio
 
 Definir a `f n = 2 (n² + 1)` sem pontos.
 
@@ -326,14 +345,16 @@ f = double . (+1) . (^2)
 
 - Feedback aqui: Usar os nomes bons! Tenho nomes muito bons pra (+1) e pra (^2), que faz (muito) sentido usar aqui (e até definir a square, que eu ainda não tenho).
 
-# Δ
+## Δ
 
 ```
 Δ :: α → α × α
 Δ a = (a, a)
 ```
-# ./32.11 01 nov 2024.md
-# at-patterns
+
+# 01 nov 2024
+
+## at-patterns
 
 ```haskell
 pairs ∷ (a da prova)
@@ -347,13 +368,17 @@ pairs _             = []
 pairs (x ∷ xs@(x´ ∷ _) = (x, x´) : pairs xs
 ```
 
-# Demonstrações, indução...
+## Demonstrações, indução...
 
 - (Ver anotações fmc1)
-# ./32.12 Mais demonstrações.md
+
+# Mais demonstrações
+
 Listas, maps, lens...
-# ./32.13 Units, Empties, Maybes.md
-# Unit
+
+# Units, Empties, Maybes
+
+## Unit
 
 Se eu quero um tipo cujos habitantes eu não posso extrair nenhuma informação, como seria o `void` em C -> Unit type!
 
@@ -368,7 +393,7 @@ data Unit
 - Entrando (`f : β → Unit `) Tenho tantas funções de Unit para β quantos habitantes de Unit*
     - (*) ver o próximo tópico.
 
-# Empty
+## Empty
 
 E um tipo que não tem habitantes!
 
@@ -382,7 +407,7 @@ data Empty
 
 - Entrando: Aí é mais complicado! Tenho que responder tantas perguntas quantos habitantes de α, mas não tenho nenhuma resposta possível.
 
-# Maybe
+## Maybe
 
 ```
 data Maybe α 
@@ -395,7 +420,9 @@ safeHead :: List α → Maybe α
 sh []       = Nothing
 sh (x:xs)   = Just x
 ```
-# ./32.14 Functors.md
+
+# Functors
+
 ```haskell
 typeclass Functor (f : Type → Type)
 
@@ -409,7 +436,7 @@ fmap :: (α → β) → f α → f β
 
 - As nossas listas (e os maybe) são functors (com suas respectivas maps).
 
-# Either
+## Either
 
 ```haskell
 data Either where
@@ -420,7 +447,7 @@ data Either where
 - Functor? Sim!\*
     - Eu tenho um type error aqui se eu tento instanciar o Either como functor. O (Either α) seria o meu functor aqui.
 
-# Mais sobre functors
+## Mais sobre functors
 
 Composições de functors são functors!
 
@@ -428,8 +455,10 @@ Composições de functors são functors!
 instance Functor (Maybe ∘ List)
     fmap = Mmap ∘ Lmap
 ```
-# ./32.15 Produto e Coproduto.md
-# Produto
+
+# Produto e Coproduto
+
+## Produto
 
 ```haskell
 α : Type    β : Type
@@ -466,7 +495,7 @@ data Customer = Customer {
 -- Posso acessar esses destrutores em um c : Customer usando c.name (.name c).
 ```
 
-# Diagramas
+## Diagramas
 
 - Estou limitado pela tecnologia do meu tempo. Imagine aqui aquele diagrama de FMC2.
 
@@ -474,10 +503,10 @@ data Customer = Customer {
 
 - Afirmar que o diagrama `d` comuta _é_ afirmar que os caminhos que vão da mesma `source` para o mesmo `target` (onde pelo menos um dele é legal) são iguais.
 
-# Coproduto
+## Coproduto
 
 - Não anotei.
-# ./32.16.md
+
 # 2024-Nov-27
 
 ## Indução em listas
