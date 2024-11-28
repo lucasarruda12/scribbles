@@ -1,2 +1,5 @@
 theme: minima
 title: College notes for college
+
+header_pages:
+  - index.md
