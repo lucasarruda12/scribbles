@@ -121,7 +121,7 @@ a : α       b : β
 
 - Haskell usa o mesmo construtor (,) para tipos e para habitantes de tipos (eca!). Usamos (,) para os habitantes e × para tipos.
 
-### Tipos de dados, destrutores, extratores e notação
+## Records
 
 ```haskell
 data Customer
@@ -191,4 +191,26 @@ L α × L α -----------→ α × α
    γ ←-- γ × δ --→ δ
 
 f × g ≝ pairing (f ∘ outl, g ∘ outr)
+```
+
+# operaçÕes de E/S
+
+```haskell
+module OI where
+
+type IO a = World -> (World, a)
+
+putChar :: Char -> IO ()
+getChar :: IO Char
+```
+
+- putChar não é uma função impura! Se o trabalho das fábricas de dados é produzir dados iguais, jogar dois dados e ver dois valores diferentes não é suficiente pra processar a fábrica.
+
+```haskell
+putString :: String -> IO ()
+putString "" = pure ()
+putString (c : cs) =
+  do 
+    putChar c
+    putString cs 
 ```
