@@ -325,3 +325,5 @@ sem_post(sem_t* nome);
 ```
 
 - Se refere a um "↑" em um semáforo. Incrementa o valor de um semáforo e, se o valor anterior era zero, uma thread bloqueada nesse semáforo é desbloqueada.
+
+
