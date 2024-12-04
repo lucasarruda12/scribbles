@@ -214,3 +214,58 @@ putString (c : cs) =
     putChar c
     putString cs 
 ```
+
+## IO como functor
+
+```haskell
+Instance Functor (IO :: ty -> ty) where
+
+    fmap :: (a -> b) -> IO a -> IO b
+    fmap f ax = do
+        x <- ax
+        pure (f x)
+```
+
+# Applicative
+
+- vem de ApplicativeFunctors! :D
+
+```haskell
+typeclass Applicative (f :: * -> *)
+    pure :: a -> f a
+    <*>  :: f (a -> b) -> f a -> f b -- O nome desse cara é splat!
+
+    -- E as leis!
+    -- 
+```
+
+## Instances de Applicative
+
+- IO
+
+```haskell
+Instance Applicative IO where
+    pure = pureⁱᵒ 
+    af <*> ax = do
+        f <- af
+        x <- ax
+        pure (f x)
+```
+
+- Maybe
+
+```haskell
+instance Applicative Maybe where
+    pure = Just
+    <*> (Just f) (Just a) = Just (f a)
+    <*> _        _        = Nothing
+```
+
+- List (duas implementações diferentes! :O)
+
+```haskell
+instance Applicative List where
+    pure x = [x]
+    <*> (f : fs) (x : xs) = (f x) : (<*> fs xs)
+    <*> _        _        = []
+```
