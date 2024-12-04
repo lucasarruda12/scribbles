@@ -326,4 +326,21 @@ sem_post(sem_t* nome);
 
 - Se refere a um "↑" em um semáforo. Incrementa o valor de um semáforo e, se o valor anterior era zero, uma thread bloqueada nesse semáforo é desbloqueada.
 
+# Deadlocks
+
+Um conjunto de processos bloqueados, cada um detendo um recurso e esperando para adquirir um recurso detido por outro processo no conjunto. O deadlock pode ocorrer se quatro condições são satisfeitas simultaneamente;
+
+- Exclusão mútua: somente um processo de cada vez pode usar um recurso.
+
+- Posse e espera: Um processo que está usando pelo menos um recurso e esperando que outros recursos, que estão nesse instante sendo usados por outros processos, sejam alocados para o seu uso.
+
+- Inexistência de preempção: um recurso só pode ser liberado voluntariamente pelo processo ao qual está alocado depois que o processo terminar de usá-lo.
+
+- Espera circular: deve existir um conjunto de procesoss em espera, tal que exista circularidade nas necessidades de recursos em uso/necessários.
+
+## Tratagem de Deadlocks
+
+O ideal é garantir que o sistema nunca entrará em estado de DeadLock. Se não, permitir a recuperação de um deadlock.
+
+- A maioria dos sistemas operacionais ignora o problema e assumem que Deadlocks nunca ocorrem durante a sua execução (unix included!).
 
