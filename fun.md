@@ -226,7 +226,7 @@ Instance Functor (IO :: ty -> ty) where
         pure (f x)
 ```
 
-# Applicative
+# Functor, Applicative, Monad
 
 - vem de ApplicativeFunctors! :D
 
@@ -266,6 +266,17 @@ instance Applicative Maybe where
 ```haskell
 instance Applicative List where
     pure x = [x]
-    <*> (f : fs) (x : xs) = (f x) : (<*> fs xs)
-    <*> _        _        = []
+    <*> (f : fs) xs = map f xs ++ <*> fs xs
+    <*> _        _  = []
 ```
+
+```haskell
+istance Applicative List where
+    pure x = [x, x, x, ...]
+    splat = pointwise ($)
+```
+
+# Semigrupo, Monoid, Grupo
+
+- Nas anotações de FMC2
+
