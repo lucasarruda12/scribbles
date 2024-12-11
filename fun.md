@@ -193,7 +193,7 @@ L α × L α -----------→ α × α
 f × g ≝ pairing (f ∘ outl, g ∘ outr)
 ```
 
-# operaçÕes de E/S
+# operações de E/S
 
 ```haskell
 module OI where
@@ -226,7 +226,7 @@ Instance Functor (IO :: ty -> ty) where
         pure (f x)
 ```
 
-# Functor, Applicative, Monad
+# Applicative
 
 - vem de ApplicativeFunctors! :D
 
@@ -236,8 +236,14 @@ typeclass Applicative (f :: * -> *)
     <*>  :: f (a -> b) -> f a -> f b -- O nome desse cara é splat!
 
     -- E as leis!
-    -- 
 ```
+
+## Leis de Applicative
+
+- id: `pure id <*> v = v`
+- homomorfismo: `pure f <*> pure x = pure (f x)`
+- `u <*> pure x = `
+- `u <*> (v <*> w) =`
 
 ## Instances de Applicative
 
@@ -271,7 +277,7 @@ instance Applicative List where
 ```
 
 ```haskell
-istance Applicative List where
+instance Applicative List where
     pure x = [x, x, x, ...]
     splat = pointwise ($)
 ```
@@ -280,3 +286,6 @@ istance Applicative List where
 
 - Nas anotações de FMC2
 
+# Thunks
+
+- sorry
