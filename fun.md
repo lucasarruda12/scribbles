@@ -289,3 +289,70 @@ instance Applicative List where
 # Thunks
 
 - sorry
+
+# Folds
+
+## Foldr
+
+```haskell
+foldr : (a -> b -> b) -> b -> [a] -> b
+foldr f e (x : xs) = f x (foldr f e xs) 
+
+// A tipagem dos construtores da Lista:
+cons : a -> [a] -> [a]
+nil  : [a]
+
+// A tipagem dos argumentos da fold:
+f : a -> b -> b
+e : b
+
+// Muito suspeito!
+```
+
+- Uma forma de pensar na fold e, entao, como uma troca de construtores. Eu troco o `(::)` por `f` e o `[]` por `e`
+
+## Foldl
+
+
+```haskell
+foldl : (b -> a -> b) -> b -> [a] -> b
+foldl f v (x : xs) = f (foldr xs (f v)) x  
+```
+
+## FoldNat
+
+```haskell
+foldnat : (b -> b) -> b -> Nat -> b
+foldnat f e O = e
+foldnat f e (S n) = f (foldnat f e n)
+
+// Mas como definimos funcoes nos Nats?
+f : Nat -> b
+f O = ...
+f (S n) = ... (f n) ...
+
+// Muito suspeito!
+```
+
+- Voltando a fatorial:
+
+```haskell
+fact O = 1 (... = 1)
+fact (s n) = S n * fact n (tem algo estranho acontecendo aqui)*
+
+// *Como eu posso ter acesso ao `S n` dentro da minha fold?
+```
+
+- Agora com foldNat:
+
+```haskell
+fact = foldNat 1 _ (como preencher esse _?)
+```
+
+# Copias isomorficas de tipos
+
+- `type`: Cria um "alias". Um nome melhor (talvez pior) para alguma coisa, mas o compilador nao enxerga como algo diferente.
+
+- `newtype`: Cria uma copia de outro tipo, sem adicionar nenhuma nova informacao.
+
+- `data`: Um novo tipo de fato.
