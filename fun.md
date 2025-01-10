@@ -289,3 +289,48 @@ instance Applicative List where
 # Thunks
 
 - sorry
+
+# Intro to Monads
+
+```haskell
+case eval u of
+    nothing -> nothing
+    just x -> f x
+```
+
+- Tentando parametrizar esse padrão, quero definir uma função: `legal : Maybe α → (α → Maybe β) → Maybe β`:
+
+```haskell
+legal mx f = case mx of
+    nothing -> nothing
+    just x -> f x
+```
+
+- O nome dessa função legal é `>>=`
+
+```haskell
+eval (V n) = Just n
+eval (D u v) = eval u >>= λx. (eval v >>= λy. safediv x y)
+
+-- Separando um pouco:
+
+eval (D u v) = eval u >>= λx. 
+               eval v >>= λy.
+               safediv x y
+
+-- Agora usando do-notation!
+
+eval (D u v) = do
+    x <- eval u
+    y <- eval v
+    safediv u v
+```
+
+# Monads
+
+- return : α → m α <- esse aqui *é* o pure mesmo
+- (>>=) : m α → (α → m β) → m β
+- join : m (m α) → m α
+- (>=>) : (α → m β) → (β → m γ) → α → m γ
+
+> Qualquer uma das 3 últimas é suficientes para definir as outras.
