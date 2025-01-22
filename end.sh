@@ -9,7 +9,7 @@ function make_summary {
     sed '/u[0-9]/ s/^/\t/' # Add indentation for subchapters (marked as u1-u3)
 }
 
-make_summary src
+make_summary src > src/SUMMARY.md
 git add .
-date | git commit -m 
+git commit -m "`date`"
 git push
