@@ -26,5 +26,19 @@ bind f´ (x, s) = let (fx, fs) = f´ x in (fx, s ++ fs)
 ```
 
 - e agora eu tenho uma forma legal de loggar com minhas funções.
-
 - Ficou faltando (muita) coisa aqui. Parei por conta da prova.
+
+# Monoidal
+
+```haskell
+class Functor f => Monoidal f
+    unit : f ()
+    (**) : f a -> f b -> f (a, b)
+
+-- E as leis!
+--
+-- unit é uma identidade da (**)
+-- (**) é associativa
+```
+
+- Monoidal ≅ Applicative
