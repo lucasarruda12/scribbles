@@ -1,7 +1,6 @@
 
 # curr-sem
 
-
 # prev-sem
 
 - [arq.md](./prev-sem/arq.md)
