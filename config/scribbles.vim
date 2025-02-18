@@ -9,1210 +9,1210 @@ nnoremap <localleader>b 1z=
 nnoremap <localleader>gf I<esc>f(lgf
 
 "modified unicodef (github.com/tsouanas/unicodef)
-abbrev <buffer> bomb 💣
-abbrev <buffer> boom 💥
-abbrev <buffer> bulb 💡
-abbrev <buffer> hrmf ⍨
-abbrev <buffer> pirate ☠
-abbrev <buffer> poo 💩
-abbrev <buffer> smooch ⍣
-abbrev <buffer> zzz 💤
-abbrev <buffer> tada 🎉
-abbrev <buffer> scrA 𝒜
-abbrev <buffer> scrB ℬ
-abbrev <buffer> scrC 𝒞
-abbrev <buffer> scrD 𝒟
-abbrev <buffer> scrE ℰ
-abbrev <buffer> scrF ℱ
-abbrev <buffer> scrG 𝒢
-abbrev <buffer> scrH ℋ
-abbrev <buffer> scrI ℐ
-abbrev <buffer> scrJ 𝒥
-abbrev <buffer> scrK 𝒦
-abbrev <buffer> scrL ℒ
-abbrev <buffer> scrM ℳ
-abbrev <buffer> scrN 𝒩
-abbrev <buffer> scrO 𝒪
-abbrev <buffer> scrP 𝒫
-abbrev <buffer> scrQ 𝒬
-abbrev <buffer> scrR ℛ
-abbrev <buffer> scrS 𝒮
-abbrev <buffer> scrT 𝒯
-abbrev <buffer> scrU 𝒰
-abbrev <buffer> scrV 𝒱
-abbrev <buffer> scrW 𝒲
-abbrev <buffer> scrX 𝒳
-abbrev <buffer> scrY 𝒴
-abbrev <buffer> scrZ 𝒵
-abbrev <buffer> scra 𝒶
-abbrev <buffer> scrb 𝒷
-abbrev <buffer> scrc 𝒸
-abbrev <buffer> scrd 𝒹
-abbrev <buffer> scre ℯ
-abbrev <buffer> scrf 𝒻
-abbrev <buffer> scrg ℊ
-abbrev <buffer> scrh 𝒽
-abbrev <buffer> scri 𝒾
-abbrev <buffer> scrj 𝒿
-abbrev <buffer> scrk 𝓀
-abbrev <buffer> scrl 𝓁
-abbrev <buffer> scrm 𝓂
-abbrev <buffer> scrn 𝓃
-abbrev <buffer> scro ℴ
-abbrev <buffer> scrp 𝓅
-abbrev <buffer> scrq 𝓆
-abbrev <buffer> scrr 𝓇
-abbrev <buffer> scrs 𝓈
-abbrev <buffer> scrt 𝓉
-abbrev <buffer> scru 𝓊
-abbrev <buffer> scrv 𝓋
-abbrev <buffer> scrw 𝓌
-abbrev <buffer> scrx 𝓍
-abbrev <buffer> scry 𝓎
-abbrev <buffer> scrz 𝓏
-abbrev <buffer> calA 𝓐
-abbrev <buffer> calB 𝓑
-abbrev <buffer> calC 𝓒
-abbrev <buffer> calD 𝓓
-abbrev <buffer> calE 𝓔
-abbrev <buffer> calF 𝓕
-abbrev <buffer> calG 𝓖
-abbrev <buffer> calH 𝓗
-abbrev <buffer> calI 𝓘
-abbrev <buffer> calJ 𝓙
-abbrev <buffer> calK 𝓚
-abbrev <buffer> calL 𝓛
-abbrev <buffer> calM 𝓜
-abbrev <buffer> calN 𝓝
-abbrev <buffer> calO 𝓞
-abbrev <buffer> calP 𝓟
-abbrev <buffer> calQ 𝓠
-abbrev <buffer> calR 𝓡
-abbrev <buffer> calS 𝓢
-abbrev <buffer> calT 𝓣
-abbrev <buffer> calU 𝓤
-abbrev <buffer> calV 𝓥
-abbrev <buffer> calW 𝓦
-abbrev <buffer> calX 𝓧
-abbrev <buffer> calY 𝓨
-abbrev <buffer> calZ 𝓩
-abbrev <buffer> cala 𝓪
-abbrev <buffer> calb 𝓫
-abbrev <buffer> calc 𝓬
-abbrev <buffer> cald 𝓭
-abbrev <buffer> cale 𝓮
-abbrev <buffer> calf 𝓯
-abbrev <buffer> calg 𝓰
-abbrev <buffer> calh 𝓱
-abbrev <buffer> cali 𝓲
-abbrev <buffer> calj 𝓳
-abbrev <buffer> calk 𝓴
-abbrev <buffer> call 𝓵
-abbrev <buffer> calm 𝓶
-abbrev <buffer> caln 𝓷
-abbrev <buffer> calo 𝓸
-abbrev <buffer> calp 𝓹
-abbrev <buffer> calq 𝓺
-abbrev <buffer> calr 𝓻
-abbrev <buffer> cals 𝓼
-abbrev <buffer> calt 𝓽
-abbrev <buffer> calu 𝓾
-abbrev <buffer> calv 𝓿
-abbrev <buffer> calw 𝔀
-abbrev <buffer> calx 𝔁
-abbrev <buffer> caly 𝔂
-abbrev <buffer> calz 𝔃
-abbrev <buffer> ttA 𝙰
-abbrev <buffer> ttB 𝙱
-abbrev <buffer> ttC 𝙲
-abbrev <buffer> ttD 𝙳
-abbrev <buffer> ttE 𝙴
-abbrev <buffer> ttF 𝙵
-abbrev <buffer> ttG 𝙶
-abbrev <buffer> ttH 𝙷
-abbrev <buffer> ttI 𝙸
-abbrev <buffer> ttJ 𝙹
-abbrev <buffer> ttK 𝙺
-abbrev <buffer> ttL 𝙻
-abbrev <buffer> ttM 𝙼
-abbrev <buffer> ttN 𝙽
-abbrev <buffer> ttO 𝙾
-abbrev <buffer> ttP 𝙿
-abbrev <buffer> ttQ 𝚀
-abbrev <buffer> ttR 𝚁
-abbrev <buffer> ttS 𝚂
-abbrev <buffer> ttT 𝚃
-abbrev <buffer> ttU 𝚄
-abbrev <buffer> ttV 𝚅
-abbrev <buffer> ttW 𝚆
-abbrev <buffer> ttX 𝚇
-abbrev <buffer> ttY 𝚈
-abbrev <buffer> ttZ 𝚉
-abbrev <buffer> tta 𝚊
-abbrev <buffer> ttb 𝚋
-abbrev <buffer> ttc 𝚌
-abbrev <buffer> ttd 𝚍
-abbrev <buffer> tte 𝚎
-abbrev <buffer> ttf 𝚏
-abbrev <buffer> ttg 𝚐
-abbrev <buffer> tth 𝚑
-abbrev <buffer> tti 𝚒
-abbrev <buffer> ttj 𝚓
-abbrev <buffer> ttk 𝚔
-abbrev <buffer> ttl 𝚕
-abbrev <buffer> ttm 𝚖
-abbrev <buffer> ttn 𝚗
-abbrev <buffer> tto 𝚘
-abbrev <buffer> ttp 𝚙
-abbrev <buffer> ttq 𝚚
-abbrev <buffer> ttr 𝚛
-abbrev <buffer> tts 𝚜
-abbrev <buffer> ttt 𝚝
-abbrev <buffer> ttu 𝚞
-abbrev <buffer> ttv 𝚟
-abbrev <buffer> ttw 𝚠
-abbrev <buffer> ttx 𝚡
-abbrev <buffer> tty 𝚢
-abbrev <buffer> ttz 𝚣
-abbrev <buffer> itA 𝐴
-abbrev <buffer> itB 𝐵
-abbrev <buffer> itC 𝐶
-abbrev <buffer> itD 𝐷
-abbrev <buffer> itE 𝐸
-abbrev <buffer> itF 𝐹
-abbrev <buffer> itG 𝐺
-abbrev <buffer> itH 𝐻
-abbrev <buffer> itI 𝐼
-abbrev <buffer> itJ 𝐽
-abbrev <buffer> itK 𝐾
-abbrev <buffer> itL 𝐿
-abbrev <buffer> itM 𝑀
-abbrev <buffer> itN 𝑁
-abbrev <buffer> itO 𝑂
-abbrev <buffer> itP 𝑃
-abbrev <buffer> itQ 𝑄
-abbrev <buffer> itR 𝑅
-abbrev <buffer> itS 𝑆
-abbrev <buffer> itT 𝑇
-abbrev <buffer> itU 𝑈
-abbrev <buffer> itV 𝑉
-abbrev <buffer> itW 𝑊
-abbrev <buffer> itX 𝑋
-abbrev <buffer> itY 𝑌
-abbrev <buffer> itZ 𝑍
-abbrev <buffer> ita 𝑎
-abbrev <buffer> itb 𝑏
-abbrev <buffer> itc 𝑐
-abbrev <buffer> itd 𝑑
-abbrev <buffer> ite 𝑒
-abbrev <buffer> itf 𝑓
-abbrev <buffer> itg 𝑔
-abbrev <buffer> ith ℎ
-abbrev <buffer> iti 𝑖
-abbrev <buffer> itj 𝑗
-abbrev <buffer> itk 𝑘
-abbrev <buffer> itl 𝑙
-abbrev <buffer> itm 𝑚
-abbrev <buffer> itn 𝑛
-abbrev <buffer> ito 𝑜
-abbrev <buffer> itp 𝑝
-abbrev <buffer> itq 𝑞
-abbrev <buffer> itr 𝑟
-abbrev <buffer> its 𝑠
-abbrev <buffer> itt 𝑡
-abbrev <buffer> itu 𝑢
-abbrev <buffer> itv 𝑣
-abbrev <buffer> itw 𝑤
-abbrev <buffer> itx 𝑥
-abbrev <buffer> ity 𝑦
-abbrev <buffer> itz 𝑧
-abbrev <buffer> isA 𝘈
-abbrev <buffer> isB 𝘉
-abbrev <buffer> isC 𝘊
-abbrev <buffer> isD 𝘋
-abbrev <buffer> isE 𝘌
-abbrev <buffer> isF 𝘍
-abbrev <buffer> isG 𝘎
-abbrev <buffer> isH 𝘏
-abbrev <buffer> isI 𝘐
-abbrev <buffer> isJ 𝘑
-abbrev <buffer> isK 𝘒
-abbrev <buffer> isL 𝘓
-abbrev <buffer> isM 𝘔
-abbrev <buffer> isN 𝘕
-abbrev <buffer> isO 𝘖
-abbrev <buffer> isP 𝘗
-abbrev <buffer> isQ 𝘘
-abbrev <buffer> isR 𝘙
-abbrev <buffer> isS 𝘚
-abbrev <buffer> isT 𝘛
-abbrev <buffer> isU 𝘜
-abbrev <buffer> isV 𝘝
-abbrev <buffer> isW 𝘞
-abbrev <buffer> isX 𝘟
-abbrev <buffer> isY 𝘠
-abbrev <buffer> isZ 𝘡
-abbrev <buffer> isa 𝘢
-abbrev <buffer> isb 𝘣
-abbrev <buffer> isc 𝘤
-abbrev <buffer> isd 𝘥
-abbrev <buffer> ise 𝘦
-abbrev <buffer> isf 𝘧
-abbrev <buffer> isg 𝘨
-abbrev <buffer> ish 𝘩
-abbrev <buffer> isi 𝘪
-abbrev <buffer> isj 𝘫
-abbrev <buffer> isk 𝘬
-abbrev <buffer> isl 𝘭
-abbrev <buffer> ism 𝘮
-abbrev <buffer> isn 𝘯
-abbrev <buffer> iso 𝘰
-abbrev <buffer> isp 𝘱
-abbrev <buffer> isq 𝘲
-abbrev <buffer> isr 𝘳
-abbrev <buffer> iss 𝘴
-abbrev <buffer> ist 𝘵
-abbrev <buffer> isu 𝘶
-abbrev <buffer> isv 𝘷
-abbrev <buffer> isw 𝘸
-abbrev <buffer> isx 𝘹
-abbrev <buffer> isy 𝘺
-abbrev <buffer> isz 𝘻
-abbrev <buffer> bfA 𝐀
-abbrev <buffer> bfB 𝐁
-abbrev <buffer> bfC 𝐂
-abbrev <buffer> bfD 𝐃
-abbrev <buffer> bfE 𝐄
-abbrev <buffer> bfF 𝐅
-abbrev <buffer> bfG 𝐆
-abbrev <buffer> bfH 𝐇
-abbrev <buffer> bfI 𝐈
-abbrev <buffer> bfJ 𝐉
-abbrev <buffer> bfK 𝐊
-abbrev <buffer> bfL 𝐋
-abbrev <buffer> bfM 𝐌
-abbrev <buffer> bfN 𝐍
-abbrev <buffer> bfO 𝐎
-abbrev <buffer> bfP 𝐏
-abbrev <buffer> bfQ 𝐐
-abbrev <buffer> bfR 𝐑
-abbrev <buffer> bfS 𝐒
-abbrev <buffer> bfT 𝐓
-abbrev <buffer> bfU 𝐔
-abbrev <buffer> bfV 𝐕
-abbrev <buffer> bfW 𝐖
-abbrev <buffer> bfX 𝐗
-abbrev <buffer> bfY 𝐘
-abbrev <buffer> bfZ 𝐙
-abbrev <buffer> bfa 𝐚
-abbrev <buffer> bfb 𝐛
-abbrev <buffer> bfc 𝐜
-abbrev <buffer> bfd 𝐝
-abbrev <buffer> bfe 𝐞
-abbrev <buffer> bff 𝐟
-abbrev <buffer> bfg 𝐠
-abbrev <buffer> bfh 𝐡
-abbrev <buffer> bfi 𝐢
-abbrev <buffer> bfj 𝐣
-abbrev <buffer> bfk 𝐤
-abbrev <buffer> bfl 𝐥
-abbrev <buffer> bfm 𝐦
-abbrev <buffer> bfn 𝐧
-abbrev <buffer> bfo 𝐨
-abbrev <buffer> bfp 𝐩
-abbrev <buffer> bfq 𝐪
-abbrev <buffer> bfr 𝐫
-abbrev <buffer> bfs 𝐬
-abbrev <buffer> bft 𝐭
-abbrev <buffer> bfu 𝐮
-abbrev <buffer> bfv 𝐯
-abbrev <buffer> bfw 𝐰
-abbrev <buffer> bfx 𝐱
-abbrev <buffer> bfy 𝐲
-abbrev <buffer> bfz 𝐳
-abbrev <buffer> bf1 𝟎
-abbrev <buffer> bf2 𝟏
-abbrev <buffer> bf3 𝟐
-abbrev <buffer> bf4 𝟑
-abbrev <buffer> bf5 𝟒
-abbrev <buffer> bf6 𝟓
-abbrev <buffer> bf7 𝟔
-abbrev <buffer> bf8 𝟕
-abbrev <buffer> bf9 𝟖
-abbrev <buffer> bf10 𝟗
-abbrev <buffer> bfiA 𝑨
-abbrev <buffer> bfiB 𝑩
-abbrev <buffer> bfiC 𝑪
-abbrev <buffer> bfiD 𝑫
-abbrev <buffer> bfiE 𝑬
-abbrev <buffer> bfiF 𝑭
-abbrev <buffer> bfiG 𝑮
-abbrev <buffer> bfiH 𝑯
-abbrev <buffer> bfiI 𝑰
-abbrev <buffer> bfiJ 𝑱
-abbrev <buffer> bfiK 𝑲
-abbrev <buffer> bfiL 𝑳
-abbrev <buffer> bfiM 𝑴
-abbrev <buffer> bfiN 𝑵
-abbrev <buffer> bfiO 𝑶
-abbrev <buffer> bfiP 𝑷
-abbrev <buffer> bfiQ 𝑸
-abbrev <buffer> bfiR 𝑹
-abbrev <buffer> bfiS 𝑺
-abbrev <buffer> bfiT 𝑻
-abbrev <buffer> bfiU 𝑼
-abbrev <buffer> bfiV 𝑽
-abbrev <buffer> bfiW 𝑾
-abbrev <buffer> bfiX 𝑿
-abbrev <buffer> bfiY 𝒀
-abbrev <buffer> bfiZ 𝒁
-abbrev <buffer> bfia 𝒂
-abbrev <buffer> bfib 𝒃
-abbrev <buffer> bfic 𝒄
-abbrev <buffer> bfid 𝒅
-abbrev <buffer> bfie 𝒆
-abbrev <buffer> bfif 𝒇
-abbrev <buffer> bfig 𝒈
-abbrev <buffer> bfih 𝒉
-abbrev <buffer> bfii 𝒊
-abbrev <buffer> bfij 𝒋
-abbrev <buffer> bfik 𝒌
-abbrev <buffer> bfil 𝒍
-abbrev <buffer> bfim 𝒎
-abbrev <buffer> bfin 𝒏
-abbrev <buffer> bfio 𝒐
-abbrev <buffer> bfip 𝒑
-abbrev <buffer> bfiq 𝒒
-abbrev <buffer> bfir 𝒓
-abbrev <buffer> bfis 𝒔
-abbrev <buffer> bfit 𝒕
-abbrev <buffer> bfiu 𝒖
-abbrev <buffer> bfiv 𝒗
-abbrev <buffer> bfiw 𝒘
-abbrev <buffer> bfix 𝒙
-abbrev <buffer> bfiy 𝒚
-abbrev <buffer> bfiz 𝒛
-abbrev <buffer> bsA 𝗔
-abbrev <buffer> bsB 𝗕
-abbrev <buffer> bsC 𝗖
-abbrev <buffer> bsD 𝗗
-abbrev <buffer> bsE 𝗘
-abbrev <buffer> bsF 𝗙
-abbrev <buffer> bsG 𝗚
-abbrev <buffer> bsH 𝗛
-abbrev <buffer> bsI 𝗜
-abbrev <buffer> bsJ 𝗝
-abbrev <buffer> bsK 𝗞
-abbrev <buffer> bsL 𝗟
-abbrev <buffer> bsM 𝗠
-abbrev <buffer> bsN 𝗡
-abbrev <buffer> bsO 𝗢
-abbrev <buffer> bsP 𝗣
-abbrev <buffer> bsQ 𝗤
-abbrev <buffer> bsR 𝗥
-abbrev <buffer> bsS 𝗦
-abbrev <buffer> bsT 𝗧
-abbrev <buffer> bsU 𝗨
-abbrev <buffer> bsV 𝗩
-abbrev <buffer> bsW 𝗪
-abbrev <buffer> bsX 𝗫
-abbrev <buffer> bsY 𝗬
-abbrev <buffer> bsZ 𝗭
-abbrev <buffer> bsa 𝗮
-abbrev <buffer> bsb 𝗯
-abbrev <buffer> bsc 𝗰
-abbrev <buffer> bsd 𝗱
-abbrev <buffer> bse 𝗲
-abbrev <buffer> bsf 𝗳
-abbrev <buffer> bsg 𝗴
-abbrev <buffer> bsh 𝗵
-abbrev <buffer> bsi 𝗶
-abbrev <buffer> bsj 𝗷
-abbrev <buffer> bsk 𝗸
-abbrev <buffer> bsl 𝗹
-abbrev <buffer> bsm 𝗺
-abbrev <buffer> bsn 𝗻
-abbrev <buffer> bso 𝗼
-abbrev <buffer> bsp 𝗽
-abbrev <buffer> bsq 𝗾
-abbrev <buffer> bsr 𝗿
-abbrev <buffer> bss 𝘀
-abbrev <buffer> bst 𝘁
-abbrev <buffer> bsu 𝘂
-abbrev <buffer> bsv 𝘃
-abbrev <buffer> bsw 𝘄
-abbrev <buffer> bsx 𝘅
-abbrev <buffer> bsy 𝘆
-abbrev <buffer> bsz 𝘇
-abbrev <buffer> bs1 𝟬
-abbrev <buffer> bs2 𝟭
-abbrev <buffer> bs3 𝟮
-abbrev <buffer> bs4 𝟯
-abbrev <buffer> bs5 𝟰
-abbrev <buffer> bs6 𝟱
-abbrev <buffer> bs7 𝟲
-abbrev <buffer> bs8 𝟳
-abbrev <buffer> bs9 𝟴
-abbrev <buffer> bs10 𝟵
-abbrev <buffer> bsiA 𝘼
-abbrev <buffer> bsiB 𝘽
-abbrev <buffer> bsiC 𝘾
-abbrev <buffer> bsiD 𝘿
-abbrev <buffer> bsiE 𝙀
-abbrev <buffer> bsiF 𝙁
-abbrev <buffer> bsiG 𝙂
-abbrev <buffer> bsiH 𝙃
-abbrev <buffer> bsiI 𝙄
-abbrev <buffer> bsiJ 𝙅
-abbrev <buffer> bsiK 𝙆
-abbrev <buffer> bsiL 𝙇
-abbrev <buffer> bsiM 𝙈
-abbrev <buffer> bsiN 𝙉
-abbrev <buffer> bsiO 𝙊
-abbrev <buffer> bsiP 𝙋
-abbrev <buffer> bsiQ 𝙌
-abbrev <buffer> bsiR 𝙍
-abbrev <buffer> bsiS 𝙎
-abbrev <buffer> bsiT 𝙏
-abbrev <buffer> bsiU 𝙐
-abbrev <buffer> bsiV 𝙑
-abbrev <buffer> bsiW 𝙒
-abbrev <buffer> bsiX 𝙓
-abbrev <buffer> bsiY 𝙔
-abbrev <buffer> bsiZ 𝙕
-abbrev <buffer> bsia 𝙖
-abbrev <buffer> bsib 𝙗
-abbrev <buffer> bsic 𝙘
-abbrev <buffer> bsid 𝙙
-abbrev <buffer> bsie 𝙚
-abbrev <buffer> bsif 𝙛
-abbrev <buffer> bsig 𝙜
-abbrev <buffer> bsih 𝙝
-abbrev <buffer> bsii 𝙞
-abbrev <buffer> bsij 𝙟
-abbrev <buffer> bsik 𝙠
-abbrev <buffer> bsil 𝙡
-abbrev <buffer> bsim 𝙢
-abbrev <buffer> bsin 𝙣
-abbrev <buffer> bsio 𝙤
-abbrev <buffer> bsip 𝙥
-abbrev <buffer> bsiq 𝙦
-abbrev <buffer> bsir 𝙧
-abbrev <buffer> bsis 𝙨
-abbrev <buffer> bsit 𝙩
-abbrev <buffer> bsiu 𝙪
-abbrev <buffer> bsiv 𝙫
-abbrev <buffer> bsiw 𝙬
-abbrev <buffer> bsix 𝙭
-abbrev <buffer> bsiy 𝙮
-abbrev <buffer> bsiz 𝙯
-abbrev <buffer> bbA 𝔸
-abbrev <buffer> bbB 𝔹
-abbrev <buffer> bbC ℂ
-abbrev <buffer> bbD 𝔻
-abbrev <buffer> bbE 𝔼
-abbrev <buffer> bbF 𝔽
-abbrev <buffer> bbG 𝔾
-abbrev <buffer> bbH ℍ
-abbrev <buffer> bbI 𝕀
-abbrev <buffer> bbJ 𝕁
-abbrev <buffer> bbK 𝕂
-abbrev <buffer> bbL 𝕃
-abbrev <buffer> bbM 𝕄
-abbrev <buffer> bbN ℕ
-abbrev <buffer> bbO 𝕆
-abbrev <buffer> bbP ℙ
-abbrev <buffer> bbQ ℚ
-abbrev <buffer> bbR ℝ
-abbrev <buffer> bbS 𝕊
-abbrev <buffer> bbT 𝕋
-abbrev <buffer> bbU 𝕌
-abbrev <buffer> bbV 𝕍
-abbrev <buffer> bbW 𝕎
-abbrev <buffer> bbX 𝕏
-abbrev <buffer> bbY 𝕐
-abbrev <buffer> bbZ ℤ
-abbrev <buffer> bba 𝕒
-abbrev <buffer> bbb 𝕓
-abbrev <buffer> bbc 𝕔
-abbrev <buffer> bbd 𝕕
-abbrev <buffer> bbe 𝕖
-abbrev <buffer> bbf 𝕗
-abbrev <buffer> bbg 𝕘
-abbrev <buffer> bbh 𝕙
-abbrev <buffer> bbi 𝕚
-abbrev <buffer> bbj 𝕛
-abbrev <buffer> bbk 𝕜
-abbrev <buffer> bbl 𝕝
-abbrev <buffer> bbm 𝕞
-abbrev <buffer> bbn 𝕟
-abbrev <buffer> bbo 𝕠
-abbrev <buffer> bbp 𝕡
-abbrev <buffer> bbq 𝕢
-abbrev <buffer> bbr 𝕣
-abbrev <buffer> bbs 𝕤
-abbrev <buffer> bbt 𝕥
-abbrev <buffer> bbu 𝕦
-abbrev <buffer> bbv 𝕧
-abbrev <buffer> bbw 𝕨
-abbrev <buffer> bbx 𝕩
-abbrev <buffer> bby 𝕪
-abbrev <buffer> bbz 𝕫
-abbrev <buffer> bb1 𝟘
-abbrev <buffer> bb2 𝟙
-abbrev <buffer> bb3 𝟚
-abbrev <buffer> bb4 𝟛
-abbrev <buffer> bb5 𝟜
-abbrev <buffer> bb6 𝟝
-abbrev <buffer> bb7 𝟞
-abbrev <buffer> bb8 𝟟
-abbrev <buffer> bb9 𝟠
-abbrev <buffer> bb10 𝟡
-abbrev <buffer> bbiD ⅅ
-abbrev <buffer> bbid ⅆ
-abbrev <buffer> bbie ⅇ
-abbrev <buffer> bbii ⅈ
-abbrev <buffer> bbij ⅉ
-abbrev <buffer> bbGam ℾ
-abbrev <buffer> bbPi ℿ
-abbrev <buffer> bbSig ⅀
-abbrev <buffer> bbgam ℽ
-abbrev <buffer> bbpi ℼ
-abbrev <buffer> frakA 𝔄
-abbrev <buffer> frakB 𝔅
-abbrev <buffer> frakC ℭ
-abbrev <buffer> frakD 𝔇
-abbrev <buffer> frakE 𝔈
-abbrev <buffer> frakF 𝔉
-abbrev <buffer> frakG 𝔊
-abbrev <buffer> frakH ℌ
-abbrev <buffer> frakI ℑ
-abbrev <buffer> frakJ 𝔍
-abbrev <buffer> frakK 𝔎
-abbrev <buffer> frakL 𝔏
-abbrev <buffer> frakM 𝔐
-abbrev <buffer> frakN 𝔑
-abbrev <buffer> frakO 𝔒
-abbrev <buffer> frakP 𝔓
-abbrev <buffer> frakQ 𝔔
-abbrev <buffer> frakR ℜ
-abbrev <buffer> frakS 𝔖
-abbrev <buffer> frakT 𝔗
-abbrev <buffer> frakU 𝔘
-abbrev <buffer> frakV 𝔙
-abbrev <buffer> frakW 𝔚
-abbrev <buffer> frakX 𝔛
-abbrev <buffer> frakY 𝔜
-abbrev <buffer> frakZ ℨ
-abbrev <buffer> fraka 𝔞
-abbrev <buffer> frakb 𝔟
-abbrev <buffer> frakc 𝔠
-abbrev <buffer> frakd 𝔡
-abbrev <buffer> frake 𝔢
-abbrev <buffer> frakf 𝔣
-abbrev <buffer> frakg 𝔤
-abbrev <buffer> frakh 𝔥
-abbrev <buffer> fraki 𝔦
-abbrev <buffer> frakj 𝔧
-abbrev <buffer> frakk 𝔨
-abbrev <buffer> frakl 𝔩
-abbrev <buffer> frakm 𝔪
-abbrev <buffer> frakn 𝔫
-abbrev <buffer> frako 𝔬
-abbrev <buffer> frakp 𝔭
-abbrev <buffer> frakq 𝔮
-abbrev <buffer> frakr 𝔯
-abbrev <buffer> fraks 𝔰
-abbrev <buffer> frakt 𝔱
-abbrev <buffer> fraku 𝔲
-abbrev <buffer> frakv 𝔳
-abbrev <buffer> frakw 𝔴
-abbrev <buffer> frakx 𝔵
-abbrev <buffer> fraky 𝔶
-abbrev <buffer> frakz 𝔷
-abbrev <buffer> bfrakA 𝕬
-abbrev <buffer> bfrakB 𝕭
-abbrev <buffer> bfrakC 𝕮
-abbrev <buffer> bfrakD 𝕯
-abbrev <buffer> bfrakE 𝕰
-abbrev <buffer> bfrakF 𝕱
-abbrev <buffer> bfrakG 𝕲
-abbrev <buffer> bfrakH 𝕳
-abbrev <buffer> bfrakI 𝕴
-abbrev <buffer> bfrakJ 𝕵
-abbrev <buffer> bfrakK 𝕶
-abbrev <buffer> bfrakL 𝕷
-abbrev <buffer> bfrakM 𝕸
-abbrev <buffer> bfrakN 𝕹
-abbrev <buffer> bfrakO 𝕺
-abbrev <buffer> bfrakP 𝕻
-abbrev <buffer> bfrakQ 𝕼
-abbrev <buffer> bfrakR 𝕽
-abbrev <buffer> bfrakS 𝕾
-abbrev <buffer> bfrakT 𝕿
-abbrev <buffer> bfrakU 𝖀
-abbrev <buffer> bfrakV 𝖁
-abbrev <buffer> bfrakW 𝖂
-abbrev <buffer> bfrakX 𝖃
-abbrev <buffer> bfrakY 𝖄
-abbrev <buffer> bfrakZ 𝖅
-abbrev <buffer> bfraka 𝖆
-abbrev <buffer> bfrakb 𝖇
-abbrev <buffer> bfrakc 𝖈
-abbrev <buffer> bfrakd 𝖉
-abbrev <buffer> bfrake 𝖊
-abbrev <buffer> bfrakf 𝖋
-abbrev <buffer> bfrakg 𝖌
-abbrev <buffer> bfrakh 𝖍
-abbrev <buffer> bfraki 𝖎
-abbrev <buffer> bfrakj 𝖏
-abbrev <buffer> bfrakk 𝖐
-abbrev <buffer> bfrakl 𝖑
-abbrev <buffer> bfrakm 𝖒
-abbrev <buffer> bfrakn 𝖓
-abbrev <buffer> bfrako 𝖔
-abbrev <buffer> bfrakp 𝖕
-abbrev <buffer> bfrakq 𝖖
-abbrev <buffer> bfrakr 𝖗
-abbrev <buffer> bfraks 𝖘
-abbrev <buffer> bfrakt 𝖙
-abbrev <buffer> bfraku 𝖚
-abbrev <buffer> bfrakv 𝖛
-abbrev <buffer> bfrakw 𝖜
-abbrev <buffer> bfrakx 𝖝
-abbrev <buffer> bfraky 𝖞
-abbrev <buffer> bfrakz 𝖟
-abbrev <buffer> ^0 ⁰
-abbrev <buffer> ^1 ¹
-abbrev <buffer> ^2 ²
-abbrev <buffer> ^3 ³
-abbrev <buffer> ^4 ⁴
-abbrev <buffer> ^5 ⁵
-abbrev <buffer> ^6 ⁶
-abbrev <buffer> ^7 ⁷
-abbrev <buffer> ^8 ⁸
-abbrev <buffer> ^9 ⁹
-abbrev <buffer> ^+ ⁺
-abbrev <buffer> ^- ⁻
-abbrev <buffer> ^= ⁼
-abbrev <buffer> ^( ⁽
-abbrev <buffer> ^) ⁾
-abbrev <buffer> ^A ᴬ
-abbrev <buffer> ^B ᴮ
-abbrev <buffer> ^D ᴰ
-abbrev <buffer> ^E ᴱ
-abbrev <buffer> ^G ᴳ
-abbrev <buffer> ^H ᴴ
-abbrev <buffer> ^I ᴵ
-abbrev <buffer> ^J ᴶ
-abbrev <buffer> ^K ᴷ
-abbrev <buffer> ^L ᴸ
-abbrev <buffer> ^M ᴹ
-abbrev <buffer> ^N ᴺ
-abbrev <buffer> ^O ᴼ
-abbrev <buffer> ^P ᴾ
-abbrev <buffer> ^R ᴿ
-abbrev <buffer> ^T ᵀ
-abbrev <buffer> ^U ᵁ
-abbrev <buffer> ^V ⱽ
-abbrev <buffer> ^W ᵂ
-abbrev <buffer> ^a ᵃ
-abbrev <buffer> ^b ᵇ
-abbrev <buffer> ^c ᶜ
-abbrev <buffer> ^d ᵈ
-abbrev <buffer> ^e ᵉ
-abbrev <buffer> ^f ᶠ
-abbrev <buffer> ^g ᵍ
-abbrev <buffer> ^h ʰ
-abbrev <buffer> ^i ⁱ
-abbrev <buffer> ^j ʲ
-abbrev <buffer> ^k ᵏ
-abbrev <buffer> ^l ˡ
-abbrev <buffer> ^m ᵐ
-abbrev <buffer> ^n ⁿ
-abbrev <buffer> ^o ᵒ
-abbrev <buffer> ^p ᵖ
-abbrev <buffer> ^r ʳ
-abbrev <buffer> ^s ˢ
-abbrev <buffer> ^t ᵗ
-abbrev <buffer> ^u ᵘ
-abbrev <buffer> ^v ᵛ
-abbrev <buffer> ^w ʷ
-abbrev <buffer> ^x ˣ
-abbrev <buffer> ^y ʸ
-abbrev <buffer> ^z ᶻ
-abbrev <buffer> _1 ₀
-abbrev <buffer> _2 ₁
-abbrev <buffer> _3 ₂
-abbrev <buffer> _4 ₃
-abbrev <buffer> _5 ₄
-abbrev <buffer> _6 ₅
-abbrev <buffer> _7 ₆
-abbrev <buffer> _8 ₇
-abbrev <buffer> _9 ₈
-abbrev <buffer> _10 ₉
-abbrev <buffer> _+ ₊
-abbrev <buffer> _- ₋
-abbrev <buffer> _= ₌
-abbrev <buffer> _( ₍
-abbrev <buffer> _) ₎
-abbrev <buffer> _a ₐ
-abbrev <buffer> _e ₑ
-abbrev <buffer> _h ₕ
-abbrev <buffer> _i ᵢ
-abbrev <buffer> _j ⱼ
-abbrev <buffer> _k ₖ
-abbrev <buffer> _l ₗ
-abbrev <buffer> _m ₘ
-abbrev <buffer> _n ₙ
-abbrev <buffer> _o ₒ
-abbrev <buffer> _p ₚ
-abbrev <buffer> _r ᵣ
-abbrev <buffer> _s ₛ
-abbrev <buffer> _t ₜ
-abbrev <buffer> _u ᵤ
-abbrev <buffer> _v ᵥ
-abbrev <buffer> _x ₓ
-abbrev <buffer> blank ⠀
-abbrev <buffer> Alpha Α
-abbrev <buffer> Beta Β
-abbrev <buffer> Gamma Γ
-abbrev <buffer> Delta Δ
-abbrev <buffer> Epsilon Ε
-abbrev <buffer> Zeta Ζ
-abbrev <buffer> Eta Η
-abbrev <buffer> Theta Θ
-abbrev <buffer> Iota Ι
-abbrev <buffer> Kappa Κ
-abbrev <buffer> Lambda Λ
-abbrev <buffer> Mu Μ
-abbrev <buffer> Nu Ν
-abbrev <buffer> Xi Ξ
-abbrev <buffer> Omicron Ο
-abbrev <buffer> Pi Π
-abbrev <buffer> Rho Ρ
-abbrev <buffer> Sigma Σ
-abbrev <buffer> Tau Τ
-abbrev <buffer> Upsilon Υ
-abbrev <buffer> Phi Φ
-abbrev <buffer> Chi Χ
-abbrev <buffer> Psi Ψ
-abbrev <buffer> Omega Ω
-abbrev <buffer> alpha α
-abbrev <buffer> beta β
-abbrev <buffer> curbeta ϐ
-abbrev <buffer> gamma γ
-abbrev <buffer> delta δ
-abbrev <buffer> epsilon ε
-abbrev <buffer> lunepsilon ϵ
-abbrev <buffer> zeta ζ
-abbrev <buffer> eta η
-abbrev <buffer> theta ϑ
-abbrev <buffer> vtheta θ
-abbrev <buffer> iota ι
-abbrev <buffer> kappa κ
-abbrev <buffer> curkappa ϰ
-abbrev <buffer> lambda λ
-abbrev <buffer> mu μ
-abbrev <buffer> nu ν
-abbrev <buffer> xi ξ
-abbrev <buffer> omicron ο
-abbrev <buffer> pi π
-abbrev <buffer> curpi ϖ
-abbrev <buffer> rho ρ
-abbrev <buffer> currho ϱ
-abbrev <buffer> sigma σ
-abbrev <buffer> finsigma ς
-abbrev <buffer> tau τ
-abbrev <buffer> upsilon υ
-abbrev <buffer> phi φ
-abbrev <buffer> clophi ϕ
-abbrev <buffer> chi χ
-abbrev <buffer> psi ψ
-abbrev <buffer> omega ω
-abbrev <buffer> eur €
-abbrev <buffer> gbp £
-abbrev <buffer> usd $
-abbrev <buffer> yen ¥
-abbrev <buffer> brl R$
-abbrev <buffer> spc ␣
-abbrev <buffer> nbsp  
-abbrev <buffer> return ⏎
-abbrev <buffer> lqua ⌜
-abbrev <buffer> rqua ⌝
-abbrev <buffer> langle ⟨
-abbrev <buffer> rangle ⟩
-abbrev <buffer> lceil ⌈
-abbrev <buffer> rceil ⌉
-abbrev <buffer> lfloor ⌊
-abbrev <buffer> rfloor ⌋
-abbrev <buffer> lbag ⟅
-abbrev <buffer> rbag ⟆
-abbrev <buffer> lsem ⟦
-abbrev <buffer> rsem ⟧
-abbrev <buffer> lSet ⦃
-abbrev <buffer> rSet ⦄
-abbrev <buffer> lPar ⦅
-abbrev <buffer> rPar ⦆
-abbrev <buffer> lban ⦇
-abbrev <buffer> rban ⦈
-abbrev <buffer> lAngle ⦉
-abbrev <buffer> rAngle ⦊
-abbrev <buffer> lnorm ‖
-abbrev <buffer> rnorm ‖
-abbrev <buffer> halmos ∎
-abbrev <buffer> qed ∎
-abbrev <buffer> leq ≤
-abbrev <buffer> geq ≥
-abbrev <buffer> neq ≠
-abbrev <buffer> nlt ≮
-abbrev <buffer> ngt ≯
-abbrev <buffer> nleq ≰
-abbrev <buffer> ngeq ≱
-abbrev <buffer> div ∣
-abbrev <buffer> ndiv ∤
-abbrev <buffer> forall ∀
-abbrev <buffer> exists ∃
-abbrev <buffer> nexists ∄
-abbrev <buffer> implies ⇒
-abbrev <buffer> implied ⇐
-abbrev <buffer> iff ⇔
-abbrev <buffer> timplies ⟹
-abbrev <buffer> timplied ⟸
-abbrev <buffer> tiff ⟺
-abbrev <buffer> vimplies ⇓
-abbrev <buffer> vimplied ⇑
-abbrev <buffer> viff ⇕
-abbrev <buffer> rlarr ⇄
-abbrev <buffer> lrarr ⇆
-abbrev <buffer> tofrom ⇄
-abbrev <buffer> fromto ⇆
-abbrev <buffer> udarr ⇅
-abbrev <buffer> uuarr ⇈
-abbrev <buffer> ddarr ⇊
-abbrev <buffer> llarr ⇇
-abbrev <buffer> rrarr ⇉
-abbrev <buffer> uarr ↑
-abbrev <buffer> darr ↓
-abbrev <buffer> larr ←
-abbrev <buffer> rarr →
-abbrev <buffer> nimplied ⇍
-abbrev <buffer> nimplies ⇏
-abbrev <buffer> niff ⇎
-abbrev <buffer> inteq ≡
-abbrev <buffer> intneq ≢
-abbrev <buffer> defeq ≝
-abbrev <buffer> doteq ≐
-abbrev <buffer> askeq ≟
-abbrev <buffer> asteq ⩮
-abbrev <buffer> stareq ≛
-abbrev <buffer> defiff ⇐≝⇒
-abbrev <buffer> intiff ⇚⇛
-abbrev <buffer> intimplies ⇛
-abbrev <buffer> vintimplied ⤊
-abbrev <buffer> vintimplies ⤋
-abbrev <buffer> intimplied ⇚
-abbrev <buffer> ledfrom ↜
-abbrev <buffer> leadsto ↝
-abbrev <buffer> rleads ↝
-abbrev <buffer> lleads ↜
-abbrev <buffer> eqto ⥱
-abbrev <buffer> isoto ⥲
-abbrev <buffer> Funto ⥤
-abbrev <buffer> therefore ∴
-abbrev <buffer> because ∵
-abbrev <buffer> vdots ⋮
-abbrev <buffer> hdots ⋯
-abbrev <buffer> cdots ⋯
-abbrev <buffer> dotsb ⋯
-abbrev <buffer> ldots …
-abbrev <buffer> dotsc …
-abbrev <buffer> pm ±
-abbrev <buffer> mp ∓
-abbrev <buffer> infty ∞
-abbrev <buffer> pinfty +∞
-abbrev <buffer> minfty -∞
-abbrev <buffer> pminfty ±∞
-abbrev <buffer> mpinfty ∓∞
-abbrev <buffer> surd √
-abbrev <buffer> integ ∫
-abbrev <buffer> iinteg ∬
-abbrev <buffer> iiinteg ∭
-abbrev <buffer> ointeg ∮
-abbrev <buffer> nabla ∇
-abbrev <buffer> partial ∂
-abbrev <buffer> ast ∗
-abbrev <buffer> star ⋆
-abbrev <buffer> bullet ∙
-abbrev <buffer> cdot ·
-abbrev <buffer> ntimes ·
-abbrev <buffer> cross ×
-abbrev <buffer> times ×
-abbrev <buffer> circ ∘
-abbrev <buffer> oplus ⊕
-abbrev <buffer> ominus ⊖
-abbrev <buffer> otimes ⊗
-abbrev <buffer> tensor ⊗
-abbrev <buffer> ocross ⊗
-abbrev <buffer> odiv ⊘
-abbrev <buffer> odot ⊙
-abbrev <buffer> dotminus ∸
-abbrev <buffer> dotplus ⨢
-abbrev <buffer> monus ∸
-abbrev <buffer> dottimes ⨰
-abbrev <buffer> uplus ⊎
-abbrev <buffer> Uplus ⨄
-abbrev <buffer> dhole –
-abbrev <buffer> hole _
-abbrev <buffer> emptyset Ø
-abbrev <buffer> empty Ø
-abbrev <buffer> bools 𝔹
-abbrev <buffer> nats ℕ
-abbrev <buffer> ints ℤ
-abbrev <buffer> rats ℚ
-abbrev <buffer> reals ℝ
-abbrev <buffer> complex ℂ
-abbrev <buffer> in ∈
-abbrev <buffer> notin ∉
-abbrev <buffer> nin ∉
-abbrev <buffer> ni ∋
-abbrev <buffer> notni ∌
-abbrev <buffer> nni ∌
-abbrev <buffer> Inter ⋂
-abbrev <buffer> Union ⋃
-abbrev <buffer> inter ∩
-abbrev <buffer> union ∪
-abbrev <buffer> disjunion ⊎
-abbrev <buffer> Disjunion ⨄
-abbrev <buffer> dunion ⊎
-abbrev <buffer> Dunion ⨄
-abbrev <buffer> symdiff ∆
-abbrev <buffer> sdiff ∆
-abbrev <buffer> setminus ∖
-abbrev <buffer> minus ∖
-abbrev <buffer> subset ⊆
-abbrev <buffer> supset ⊇
-abbrev <buffer> psubset ⊊
-abbrev <buffer> psupset ⊋
-abbrev <buffer> hsubset ⊂
-abbrev <buffer> hsupset ⊃
-abbrev <buffer> nsubset ⊈
-abbrev <buffer> nsupset ⊉
-abbrev <buffer> subsetneq ⊊
-abbrev <buffer> supsetneq ⊋
-abbrev <buffer> sqleq ⊑
-abbrev <buffer> sqgeq ⊒
-abbrev <buffer> sqlt ⊏
-abbrev <buffer> sqgt ⊐
-abbrev <buffer> sqlneq ⋤
-abbrev <buffer> sqgneq ⋥
-abbrev <buffer> sqnleq ⋢
-abbrev <buffer> sqngeq ⋣
-abbrev <buffer> semleq ⊑
-abbrev <buffer> semgeq ⊒
-abbrev <buffer> semlneq ⋤
-abbrev <buffer> semgneq ⋥
-abbrev <buffer> nsemleq ⋢
-abbrev <buffer> nsemgeq ⋣
-abbrev <buffer> domleq ⊑
-abbrev <buffer> domgeq ⊒
-abbrev <buffer> domlneq ⋤
-abbrev <buffer> domgneq ⋥
-abbrev <buffer> pset ℘
-abbrev <buffer> aleph ℵ
-abbrev <buffer> beth ℶ
-abbrev <buffer> gimel ℷ
-abbrev <buffer> comp ∘
-abbrev <buffer> to →
-abbrev <buffer> from ←
-abbrev <buffer> nto ↛
-abbrev <buffer> nfrom ↚
-abbrev <buffer> parto ⇀
-abbrev <buffer> mapsto ↦
-abbrev <buffer> mapsfrom ↤
-abbrev <buffer> tmapsto ⟼
-abbrev <buffer> tmapsfrom ⟻
-abbrev <buffer> mapsup ↥
-abbrev <buffer> mapsdown ↧
-abbrev <buffer> parfrom ↼
-abbrev <buffer> rest ↾
-abbrev <buffer> surto ↠
-abbrev <buffer> surfrom ↞
-abbrev <buffer> injto ↣
-abbrev <buffer> injfrom ↢
-abbrev <buffer> embto ↪
-abbrev <buffer> embfrom ↩
-abbrev <buffer> bijto ⤖
-abbrev <buffer> relto ⇾
-abbrev <buffer> relfrom ⇽
-abbrev <buffer> dual ∂
-abbrev <buffer> ndetfrom ⇜
-abbrev <buffer> ndetto ⇝
-abbrev <buffer> dfrom ⇠
-abbrev <buffer> dto ⇢
-abbrev <buffer> equiv ≅
-abbrev <buffer> nequiv ≇
-abbrev <buffer> iso ≅
-abbrev <buffer> niso ≇
-abbrev <buffer> rcomp ⋄
-abbrev <buffer> cong ≡
-abbrev <buffer> ncong ≢
-abbrev <buffer> normal ⊴
-abbrev <buffer> pnormal ⊲
-abbrev <buffer> sim ~
-abbrev <buffer> nsim ≁
-abbrev <buffer> approx ≈
-abbrev <buffer> napprox ≉
-abbrev <buffer> Prod ∏
-abbrev <buffer> Coprod ∐
-abbrev <buffer> coprod ⨿
-abbrev <buffer> Sum ∑
-abbrev <buffer> op ᵒᵖ
-abbrev <buffer> concat ⧺
-abbrev <buffer> inv ⁻¹
-abbrev <buffer> lnot ¬
-abbrev <buffer> lforall ∀
-abbrev <buffer> lexists ∃
-abbrev <buffer> limplies →
-abbrev <buffer> limplied ←
-abbrev <buffer> liff ↔
-abbrev <buffer> land ∧
-abbrev <buffer> lor ∨
-abbrev <buffer> Land ⋀
-abbrev <buffer> Lor ⋁
-abbrev <buffer> sequent ⊢
-abbrev <buffer> proves ⊢
-abbrev <buffer> nproves ⊬
-abbrev <buffer> models ⊨
-abbrev <buffer> nmodels ⊭
-abbrev <buffer> forces ⊩
-abbrev <buffer> nforces ⊮
-abbrev <buffer> linnot ⊥
-abbrev <buffer> linto ⊸
-abbrev <buffer> linwith &
-abbrev <buffer> linpar ⅋
-abbrev <buffer> himplies ⥰
-abbrev <buffer> horse ⥰
-abbrev <buffer> top ⊤
-abbrev <buffer> bottom ⊥
-abbrev <buffer> Meet ⋀
-abbrev <buffer> Join ⋁
-abbrev <buffer> meet ∧
-abbrev <buffer> join ∨
-abbrev <buffer> incompar ≸
-abbrev <buffer> incompat ‖
-abbrev <buffer> wbelow ≪
-abbrev <buffer> wabove ≫
-abbrev <buffer> domlt ⊏
-abbrev <buffer> domgt ⊐
-abbrev <buffer> domleq ⊑
-abbrev <buffer> domgeq ⊒
-abbrev <buffer> glb ⊓
-abbrev <buffer> lub ⊔
-abbrev <buffer> Glb ⨅
-abbrev <buffer> Lub ⨆
-abbrev <buffer> spades ♠
-abbrev <buffer> hearts ♡
-abbrev <buffer> diamonds ♢
-abbrev <buffer> clubs ♣
-abbrev <buffer> magic ⛤
-abbrev <buffer> rturnstile ⊢
-abbrev <buffer> lturnstile ⊣
-abbrev <buffer> sqleftarrow ⇜
-abbrev <buffer> sqrightarrow ⇝
-abbrev <buffer> sqbotharrow ↭
-abbrev <buffer> nwarrow ↖
-abbrev <buffer> nearrow ↗
-abbrev <buffer> swarrow ↙
-abbrev <buffer> searrow ↘
-abbrev <buffer> duparrow ⇡
-abbrev <buffer> drightarrow ⇢
-abbrev <buffer> ddownarrow ⇣
-abbrev <buffer> dleftarrow ⇠
-abbrev <buffer> up ↑
-abbrev <buffer> down ↓
-abbrev <buffer> left ←
-abbrev <buffer> right →
-abbrev <buffer> Ell ℒ
-abbrev <buffer> ell ℓ
-abbrev <buffer> bang !
-abbrev <buffer> gnab ¡
-abbrev <buffer> bbang ‼
-abbrev <buffer> ibang ‽
-abbrev <buffer> ignab ⸘
-abbrev <buffer> abang ⁈
-abbrev <buffer> bask ⁉
-abbrev <buffer> frown ⌢
-abbrev <buffer> smile ⌣
-abbrev <buffer> utri △
-abbrev <buffer> dtri ▽
-abbrev <buffer> ltri ◁
-abbrev <buffer> rtri ▷
-abbrev <buffer> utris ▵
-abbrev <buffer> dtris ▿
-abbrev <buffer> ltris ◃
-abbrev <buffer> rtris ▹
-abbrev <buffer> ubtri ▲
-abbrev <buffer> dbtri ▼
-abbrev <buffer> lbtri ◄
-abbrev <buffer> rbtri ►
-abbrev <buffer> ubtris ▴
-abbrev <buffer> dbtris ▾
-abbrev <buffer> lbtris ◂
-abbrev <buffer> rbtris ▸
-abbrev <buffer> CAT 𝐂𝐚𝐭
-abbrev <buffer> SET 𝐒𝐞𝐭
-abbrev <buffer> PSET 𝐏𝐒𝐞𝐭
-abbrev <buffer> PTDSET 𝐏𝐭𝐝𝐒𝐞𝐭
-abbrev <buffer> FINSET 𝐅𝐢𝐧𝐒𝐞𝐭
-abbrev <buffer> FINORD 𝐅𝐢𝐧𝐎𝐫𝐝
-abbrev <buffer> ORD 𝐎𝐫𝐝
-abbrev <buffer> PROSET 𝐏𝐫𝐨𝐬𝐞𝐭
-abbrev <buffer> POSET 𝐏𝐨𝐬𝐞𝐭
-abbrev <buffer> SGROUP 𝐒𝐞𝐦𝐢𝐠𝐫𝐨𝐮𝐩
-abbrev <buffer> SGRP 𝐒𝐞𝐦𝐢𝐠𝐫𝐩
-abbrev <buffer> MON 𝐌𝐨𝐧
-abbrev <buffer> MONOID 𝐌𝐨𝐧𝐨𝐢𝐝
-abbrev <buffer> GROUP 𝐆𝐫𝐨𝐮𝐩
-abbrev <buffer> GRP 𝐆𝐫𝐩
-abbrev <buffer> ABEL 𝐀𝐛𝐞𝐥
-abbrev <buffer> RING 𝐑𝐢𝐧𝐠
-abbrev <buffer> RNG 𝐑𝐧𝐠
-abbrev <buffer> RIG 𝐑𝐢𝐠
-abbrev <buffer> MOD 𝐌𝐨𝐝
-abbrev <buffer> MAT 𝐌𝐚𝐭𝐫𝐢𝐱
-abbrev <buffer> LAT 𝐋𝐚𝐭𝐭𝐢𝐜𝐞
-abbrev <buffer> HALG 𝐇𝐞𝐲𝐭𝐢𝐧𝐠
-abbrev <buffer> BALG 𝐁𝐨𝐨𝐥𝐞𝐚𝐧
-abbrev <buffer> HA 𝐇𝐀
-abbrev <buffer> BA 𝐁𝐀
-abbrev <buffer> MODEL 𝐌𝐨𝐝𝐞𝐥
-abbrev <buffer> psubs ⊊
-abbrev <buffer> psups ⊋
-abbrev <buffer> hsubs ⊂
-abbrev <buffer> hsups ⊃
-abbrev <buffer> nsubs ⊈
-abbrev <buffer> nsups ⊉
-abbrev <buffer> subsne ⊊
-abbrev <buffer> supsne ⊋
-abbrev <buffer> fa ∀
-abbrev <buffer> ex ∃
-abbrev <buffer> nex ∄
-abbrev <buffer> imps ⇒
-abbrev <buffer> impd ⇐
-abbrev <buffer> iff ⇔
-abbrev <buffer> timps ⟹
-abbrev <buffer> timpd ⟸
-abbrev <buffer> tiff ⟺
-abbrev <buffer> vimps ⇓
-abbrev <buffer> vimpd ⇑
-abbrev <buffer> nimpd ⇍
-abbrev <buffer> nimps ⇏
-abbrev <buffer> rmaps ↦
-abbrev <buffer> lmaps ↤
-abbrev <buffer> Rmaps ⟼
-abbrev <buffer> Lmaps ⟻
-abbrev <buffer> there ∴
-abbrev <buffer> cause ∵
-abbrev <buffer> dplus ⨢
-abbrev <buffer> dtimes ⨰
+abbrev bomb 💣
+abbrev boom 💥
+abbrev bulb 💡
+abbrev hrmf ⍨
+abbrev pirate ☠
+abbrev poo 💩
+abbrev smooch ⍣
+abbrev zzz 💤
+abbrev tada 🎉
+abbrev scrA 𝒜
+abbrev scrB ℬ
+abbrev scrC 𝒞
+abbrev scrD 𝒟
+abbrev scrE ℰ
+abbrev scrF ℱ
+abbrev scrG 𝒢
+abbrev scrH ℋ
+abbrev scrI ℐ
+abbrev scrJ 𝒥
+abbrev scrK 𝒦
+abbrev scrL ℒ
+abbrev scrM ℳ
+abbrev scrN 𝒩
+abbrev scrO 𝒪
+abbrev scrP 𝒫
+abbrev scrQ 𝒬
+abbrev scrR ℛ
+abbrev scrS 𝒮
+abbrev scrT 𝒯
+abbrev scrU 𝒰
+abbrev scrV 𝒱
+abbrev scrW 𝒲
+abbrev scrX 𝒳
+abbrev scrY 𝒴
+abbrev scrZ 𝒵
+abbrev scra 𝒶
+abbrev scrb 𝒷
+abbrev scrc 𝒸
+abbrev scrd 𝒹
+abbrev scre ℯ
+abbrev scrf 𝒻
+abbrev scrg ℊ
+abbrev scrh 𝒽
+abbrev scri 𝒾
+abbrev scrj 𝒿
+abbrev scrk 𝓀
+abbrev scrl 𝓁
+abbrev scrm 𝓂
+abbrev scrn 𝓃
+abbrev scro ℴ
+abbrev scrp 𝓅
+abbrev scrq 𝓆
+abbrev scrr 𝓇
+abbrev scrs 𝓈
+abbrev scrt 𝓉
+abbrev scru 𝓊
+abbrev scrv 𝓋
+abbrev scrw 𝓌
+abbrev scrx 𝓍
+abbrev scry 𝓎
+abbrev scrz 𝓏
+abbrev calA 𝓐
+abbrev calB 𝓑
+abbrev calC 𝓒
+abbrev calD 𝓓
+abbrev calE 𝓔
+abbrev calF 𝓕
+abbrev calG 𝓖
+abbrev calH 𝓗
+abbrev calI 𝓘
+abbrev calJ 𝓙
+abbrev calK 𝓚
+abbrev calL 𝓛
+abbrev calM 𝓜
+abbrev calN 𝓝
+abbrev calO 𝓞
+abbrev calP 𝓟
+abbrev calQ 𝓠
+abbrev calR 𝓡
+abbrev calS 𝓢
+abbrev calT 𝓣
+abbrev calU 𝓤
+abbrev calV 𝓥
+abbrev calW 𝓦
+abbrev calX 𝓧
+abbrev calY 𝓨
+abbrev calZ 𝓩
+abbrev cala 𝓪
+abbrev calb 𝓫
+abbrev calc 𝓬
+abbrev cald 𝓭
+abbrev cale 𝓮
+abbrev calf 𝓯
+abbrev calg 𝓰
+abbrev calh 𝓱
+abbrev cali 𝓲
+abbrev calj 𝓳
+abbrev calk 𝓴
+abbrev call 𝓵
+abbrev calm 𝓶
+abbrev caln 𝓷
+abbrev calo 𝓸
+abbrev calp 𝓹
+abbrev calq 𝓺
+abbrev calr 𝓻
+abbrev cals 𝓼
+abbrev calt 𝓽
+abbrev calu 𝓾
+abbrev calv 𝓿
+abbrev calw 𝔀
+abbrev calx 𝔁
+abbrev caly 𝔂
+abbrev calz 𝔃
+abbrev ttA 𝙰
+abbrev ttB 𝙱
+abbrev ttC 𝙲
+abbrev ttD 𝙳
+abbrev ttE 𝙴
+abbrev ttF 𝙵
+abbrev ttG 𝙶
+abbrev ttH 𝙷
+abbrev ttI 𝙸
+abbrev ttJ 𝙹
+abbrev ttK 𝙺
+abbrev ttL 𝙻
+abbrev ttM 𝙼
+abbrev ttN 𝙽
+abbrev ttO 𝙾
+abbrev ttP 𝙿
+abbrev ttQ 𝚀
+abbrev ttR 𝚁
+abbrev ttS 𝚂
+abbrev ttT 𝚃
+abbrev ttU 𝚄
+abbrev ttV 𝚅
+abbrev ttW 𝚆
+abbrev ttX 𝚇
+abbrev ttY 𝚈
+abbrev ttZ 𝚉
+abbrev tta 𝚊
+abbrev ttb 𝚋
+abbrev ttc 𝚌
+abbrev ttd 𝚍
+abbrev tte 𝚎
+abbrev ttf 𝚏
+abbrev ttg 𝚐
+abbrev tth 𝚑
+abbrev tti 𝚒
+abbrev ttj 𝚓
+abbrev ttk 𝚔
+abbrev ttl 𝚕
+abbrev ttm 𝚖
+abbrev ttn 𝚗
+abbrev tto 𝚘
+abbrev ttp 𝚙
+abbrev ttq 𝚚
+abbrev ttr 𝚛
+abbrev tts 𝚜
+abbrev ttt 𝚝
+abbrev ttu 𝚞
+abbrev ttv 𝚟
+abbrev ttw 𝚠
+abbrev ttx 𝚡
+abbrev tty 𝚢
+abbrev ttz 𝚣
+abbrev itA 𝐴
+abbrev itB 𝐵
+abbrev itC 𝐶
+abbrev itD 𝐷
+abbrev itE 𝐸
+abbrev itF 𝐹
+abbrev itG 𝐺
+abbrev itH 𝐻
+abbrev itI 𝐼
+abbrev itJ 𝐽
+abbrev itK 𝐾
+abbrev itL 𝐿
+abbrev itM 𝑀
+abbrev itN 𝑁
+abbrev itO 𝑂
+abbrev itP 𝑃
+abbrev itQ 𝑄
+abbrev itR 𝑅
+abbrev itS 𝑆
+abbrev itT 𝑇
+abbrev itU 𝑈
+abbrev itV 𝑉
+abbrev itW 𝑊
+abbrev itX 𝑋
+abbrev itY 𝑌
+abbrev itZ 𝑍
+abbrev ita 𝑎
+abbrev itb 𝑏
+abbrev itc 𝑐
+abbrev itd 𝑑
+abbrev ite 𝑒
+abbrev itf 𝑓
+abbrev itg 𝑔
+abbrev ith ℎ
+abbrev iti 𝑖
+abbrev itj 𝑗
+abbrev itk 𝑘
+abbrev itl 𝑙
+abbrev itm 𝑚
+abbrev itn 𝑛
+abbrev ito 𝑜
+abbrev itp 𝑝
+abbrev itq 𝑞
+abbrev itr 𝑟
+abbrev its 𝑠
+abbrev itt 𝑡
+abbrev itu 𝑢
+abbrev itv 𝑣
+abbrev itw 𝑤
+abbrev itx 𝑥
+abbrev ity 𝑦
+abbrev itz 𝑧
+abbrev isA 𝘈
+abbrev isB 𝘉
+abbrev isC 𝘊
+abbrev isD 𝘋
+abbrev isE 𝘌
+abbrev isF 𝘍
+abbrev isG 𝘎
+abbrev isH 𝘏
+abbrev isI 𝘐
+abbrev isJ 𝘑
+abbrev isK 𝘒
+abbrev isL 𝘓
+abbrev isM 𝘔
+abbrev isN 𝘕
+abbrev isO 𝘖
+abbrev isP 𝘗
+abbrev isQ 𝘘
+abbrev isR 𝘙
+abbrev isS 𝘚
+abbrev isT 𝘛
+abbrev isU 𝘜
+abbrev isV 𝘝
+abbrev isW 𝘞
+abbrev isX 𝘟
+abbrev isY 𝘠
+abbrev isZ 𝘡
+abbrev isa 𝘢
+abbrev isb 𝘣
+abbrev isc 𝘤
+abbrev isd 𝘥
+abbrev ise 𝘦
+abbrev isf 𝘧
+abbrev isg 𝘨
+abbrev ish 𝘩
+abbrev isi 𝘪
+abbrev isj 𝘫
+abbrev isk 𝘬
+abbrev isl 𝘭
+abbrev ism 𝘮
+abbrev isn 𝘯
+abbrev iso 𝘰
+abbrev isp 𝘱
+abbrev isq 𝘲
+abbrev isr 𝘳
+abbrev iss 𝘴
+abbrev ist 𝘵
+abbrev isu 𝘶
+abbrev isv 𝘷
+abbrev isw 𝘸
+abbrev isx 𝘹
+abbrev isy 𝘺
+abbrev isz 𝘻
+abbrev bfA 𝐀
+abbrev bfB 𝐁
+abbrev bfC 𝐂
+abbrev bfD 𝐃
+abbrev bfE 𝐄
+abbrev bfF 𝐅
+abbrev bfG 𝐆
+abbrev bfH 𝐇
+abbrev bfI 𝐈
+abbrev bfJ 𝐉
+abbrev bfK 𝐊
+abbrev bfL 𝐋
+abbrev bfM 𝐌
+abbrev bfN 𝐍
+abbrev bfO 𝐎
+abbrev bfP 𝐏
+abbrev bfQ 𝐐
+abbrev bfR 𝐑
+abbrev bfS 𝐒
+abbrev bfT 𝐓
+abbrev bfU 𝐔
+abbrev bfV 𝐕
+abbrev bfW 𝐖
+abbrev bfX 𝐗
+abbrev bfY 𝐘
+abbrev bfZ 𝐙
+abbrev bfa 𝐚
+abbrev bfb 𝐛
+abbrev bfc 𝐜
+abbrev bfd 𝐝
+abbrev bfe 𝐞
+abbrev bff 𝐟
+abbrev bfg 𝐠
+abbrev bfh 𝐡
+abbrev bfi 𝐢
+abbrev bfj 𝐣
+abbrev bfk 𝐤
+abbrev bfl 𝐥
+abbrev bfm 𝐦
+abbrev bfn 𝐧
+abbrev bfo 𝐨
+abbrev bfp 𝐩
+abbrev bfq 𝐪
+abbrev bfr 𝐫
+abbrev bfs 𝐬
+abbrev bft 𝐭
+abbrev bfu 𝐮
+abbrev bfv 𝐯
+abbrev bfw 𝐰
+abbrev bfx 𝐱
+abbrev bfy 𝐲
+abbrev bfz 𝐳
+abbrev bf1 𝟎
+abbrev bf2 𝟏
+abbrev bf3 𝟐
+abbrev bf4 𝟑
+abbrev bf5 𝟒
+abbrev bf6 𝟓
+abbrev bf7 𝟔
+abbrev bf8 𝟕
+abbrev bf9 𝟖
+abbrev bf10 𝟗
+abbrev bfiA 𝑨
+abbrev bfiB 𝑩
+abbrev bfiC 𝑪
+abbrev bfiD 𝑫
+abbrev bfiE 𝑬
+abbrev bfiF 𝑭
+abbrev bfiG 𝑮
+abbrev bfiH 𝑯
+abbrev bfiI 𝑰
+abbrev bfiJ 𝑱
+abbrev bfiK 𝑲
+abbrev bfiL 𝑳
+abbrev bfiM 𝑴
+abbrev bfiN 𝑵
+abbrev bfiO 𝑶
+abbrev bfiP 𝑷
+abbrev bfiQ 𝑸
+abbrev bfiR 𝑹
+abbrev bfiS 𝑺
+abbrev bfiT 𝑻
+abbrev bfiU 𝑼
+abbrev bfiV 𝑽
+abbrev bfiW 𝑾
+abbrev bfiX 𝑿
+abbrev bfiY 𝒀
+abbrev bfiZ 𝒁
+abbrev bfia 𝒂
+abbrev bfib 𝒃
+abbrev bfic 𝒄
+abbrev bfid 𝒅
+abbrev bfie 𝒆
+abbrev bfif 𝒇
+abbrev bfig 𝒈
+abbrev bfih 𝒉
+abbrev bfii 𝒊
+abbrev bfij 𝒋
+abbrev bfik 𝒌
+abbrev bfil 𝒍
+abbrev bfim 𝒎
+abbrev bfin 𝒏
+abbrev bfio 𝒐
+abbrev bfip 𝒑
+abbrev bfiq 𝒒
+abbrev bfir 𝒓
+abbrev bfis 𝒔
+abbrev bfit 𝒕
+abbrev bfiu 𝒖
+abbrev bfiv 𝒗
+abbrev bfiw 𝒘
+abbrev bfix 𝒙
+abbrev bfiy 𝒚
+abbrev bfiz 𝒛
+abbrev bsA 𝗔
+abbrev bsB 𝗕
+abbrev bsC 𝗖
+abbrev bsD 𝗗
+abbrev bsE 𝗘
+abbrev bsF 𝗙
+abbrev bsG 𝗚
+abbrev bsH 𝗛
+abbrev bsI 𝗜
+abbrev bsJ 𝗝
+abbrev bsK 𝗞
+abbrev bsL 𝗟
+abbrev bsM 𝗠
+abbrev bsN 𝗡
+abbrev bsO 𝗢
+abbrev bsP 𝗣
+abbrev bsQ 𝗤
+abbrev bsR 𝗥
+abbrev bsS 𝗦
+abbrev bsT 𝗧
+abbrev bsU 𝗨
+abbrev bsV 𝗩
+abbrev bsW 𝗪
+abbrev bsX 𝗫
+abbrev bsY 𝗬
+abbrev bsZ 𝗭
+abbrev bsa 𝗮
+abbrev bsb 𝗯
+abbrev bsc 𝗰
+abbrev bsd 𝗱
+abbrev bse 𝗲
+abbrev bsf 𝗳
+abbrev bsg 𝗴
+abbrev bsh 𝗵
+abbrev bsi 𝗶
+abbrev bsj 𝗷
+abbrev bsk 𝗸
+abbrev bsl 𝗹
+abbrev bsm 𝗺
+abbrev bsn 𝗻
+abbrev bso 𝗼
+abbrev bsp 𝗽
+abbrev bsq 𝗾
+abbrev bsr 𝗿
+abbrev bss 𝘀
+abbrev bst 𝘁
+abbrev bsu 𝘂
+abbrev bsv 𝘃
+abbrev bsw 𝘄
+abbrev bsx 𝘅
+abbrev bsy 𝘆
+abbrev bsz 𝘇
+abbrev bs1 𝟬
+abbrev bs2 𝟭
+abbrev bs3 𝟮
+abbrev bs4 𝟯
+abbrev bs5 𝟰
+abbrev bs6 𝟱
+abbrev bs7 𝟲
+abbrev bs8 𝟳
+abbrev bs9 𝟴
+abbrev bs10 𝟵
+abbrev bsiA 𝘼
+abbrev bsiB 𝘽
+abbrev bsiC 𝘾
+abbrev bsiD 𝘿
+abbrev bsiE 𝙀
+abbrev bsiF 𝙁
+abbrev bsiG 𝙂
+abbrev bsiH 𝙃
+abbrev bsiI 𝙄
+abbrev bsiJ 𝙅
+abbrev bsiK 𝙆
+abbrev bsiL 𝙇
+abbrev bsiM 𝙈
+abbrev bsiN 𝙉
+abbrev bsiO 𝙊
+abbrev bsiP 𝙋
+abbrev bsiQ 𝙌
+abbrev bsiR 𝙍
+abbrev bsiS 𝙎
+abbrev bsiT 𝙏
+abbrev bsiU 𝙐
+abbrev bsiV 𝙑
+abbrev bsiW 𝙒
+abbrev bsiX 𝙓
+abbrev bsiY 𝙔
+abbrev bsiZ 𝙕
+abbrev bsia 𝙖
+abbrev bsib 𝙗
+abbrev bsic 𝙘
+abbrev bsid 𝙙
+abbrev bsie 𝙚
+abbrev bsif 𝙛
+abbrev bsig 𝙜
+abbrev bsih 𝙝
+abbrev bsii 𝙞
+abbrev bsij 𝙟
+abbrev bsik 𝙠
+abbrev bsil 𝙡
+abbrev bsim 𝙢
+abbrev bsin 𝙣
+abbrev bsio 𝙤
+abbrev bsip 𝙥
+abbrev bsiq 𝙦
+abbrev bsir 𝙧
+abbrev bsis 𝙨
+abbrev bsit 𝙩
+abbrev bsiu 𝙪
+abbrev bsiv 𝙫
+abbrev bsiw 𝙬
+abbrev bsix 𝙭
+abbrev bsiy 𝙮
+abbrev bsiz 𝙯
+abbrev bbA 𝔸
+abbrev bbB 𝔹
+abbrev bbC ℂ
+abbrev bbD 𝔻
+abbrev bbE 𝔼
+abbrev bbF 𝔽
+abbrev bbG 𝔾
+abbrev bbH ℍ
+abbrev bbI 𝕀
+abbrev bbJ 𝕁
+abbrev bbK 𝕂
+abbrev bbL 𝕃
+abbrev bbM 𝕄
+abbrev bbN ℕ
+abbrev bbO 𝕆
+abbrev bbP ℙ
+abbrev bbQ ℚ
+abbrev bbR ℝ
+abbrev bbS 𝕊
+abbrev bbT 𝕋
+abbrev bbU 𝕌
+abbrev bbV 𝕍
+abbrev bbW 𝕎
+abbrev bbX 𝕏
+abbrev bbY 𝕐
+abbrev bbZ ℤ
+abbrev bba 𝕒
+abbrev bbb 𝕓
+abbrev bbc 𝕔
+abbrev bbd 𝕕
+abbrev bbe 𝕖
+abbrev bbf 𝕗
+abbrev bbg 𝕘
+abbrev bbh 𝕙
+abbrev bbi 𝕚
+abbrev bbj 𝕛
+abbrev bbk 𝕜
+abbrev bbl 𝕝
+abbrev bbm 𝕞
+abbrev bbn 𝕟
+abbrev bbo 𝕠
+abbrev bbp 𝕡
+abbrev bbq 𝕢
+abbrev bbr 𝕣
+abbrev bbs 𝕤
+abbrev bbt 𝕥
+abbrev bbu 𝕦
+abbrev bbv 𝕧
+abbrev bbw 𝕨
+abbrev bbx 𝕩
+abbrev bby 𝕪
+abbrev bbz 𝕫
+abbrev bb1 𝟘
+abbrev bb2 𝟙
+abbrev bb3 𝟚
+abbrev bb4 𝟛
+abbrev bb5 𝟜
+abbrev bb6 𝟝
+abbrev bb7 𝟞
+abbrev bb8 𝟟
+abbrev bb9 𝟠
+abbrev bb10 𝟡
+abbrev bbiD ⅅ
+abbrev bbid ⅆ
+abbrev bbie ⅇ
+abbrev bbii ⅈ
+abbrev bbij ⅉ
+abbrev bbGam ℾ
+abbrev bbPi ℿ
+abbrev bbSig ⅀
+abbrev bbgam ℽ
+abbrev bbpi ℼ
+abbrev frakA 𝔄
+abbrev frakB 𝔅
+abbrev frakC ℭ
+abbrev frakD 𝔇
+abbrev frakE 𝔈
+abbrev frakF 𝔉
+abbrev frakG 𝔊
+abbrev frakH ℌ
+abbrev frakI ℑ
+abbrev frakJ 𝔍
+abbrev frakK 𝔎
+abbrev frakL 𝔏
+abbrev frakM 𝔐
+abbrev frakN 𝔑
+abbrev frakO 𝔒
+abbrev frakP 𝔓
+abbrev frakQ 𝔔
+abbrev frakR ℜ
+abbrev frakS 𝔖
+abbrev frakT 𝔗
+abbrev frakU 𝔘
+abbrev frakV 𝔙
+abbrev frakW 𝔚
+abbrev frakX 𝔛
+abbrev frakY 𝔜
+abbrev frakZ ℨ
+abbrev fraka 𝔞
+abbrev frakb 𝔟
+abbrev frakc 𝔠
+abbrev frakd 𝔡
+abbrev frake 𝔢
+abbrev frakf 𝔣
+abbrev frakg 𝔤
+abbrev frakh 𝔥
+abbrev fraki 𝔦
+abbrev frakj 𝔧
+abbrev frakk 𝔨
+abbrev frakl 𝔩
+abbrev frakm 𝔪
+abbrev frakn 𝔫
+abbrev frako 𝔬
+abbrev frakp 𝔭
+abbrev frakq 𝔮
+abbrev frakr 𝔯
+abbrev fraks 𝔰
+abbrev frakt 𝔱
+abbrev fraku 𝔲
+abbrev frakv 𝔳
+abbrev frakw 𝔴
+abbrev frakx 𝔵
+abbrev fraky 𝔶
+abbrev frakz 𝔷
+abbrev bfrakA 𝕬
+abbrev bfrakB 𝕭
+abbrev bfrakC 𝕮
+abbrev bfrakD 𝕯
+abbrev bfrakE 𝕰
+abbrev bfrakF 𝕱
+abbrev bfrakG 𝕲
+abbrev bfrakH 𝕳
+abbrev bfrakI 𝕴
+abbrev bfrakJ 𝕵
+abbrev bfrakK 𝕶
+abbrev bfrakL 𝕷
+abbrev bfrakM 𝕸
+abbrev bfrakN 𝕹
+abbrev bfrakO 𝕺
+abbrev bfrakP 𝕻
+abbrev bfrakQ 𝕼
+abbrev bfrakR 𝕽
+abbrev bfrakS 𝕾
+abbrev bfrakT 𝕿
+abbrev bfrakU 𝖀
+abbrev bfrakV 𝖁
+abbrev bfrakW 𝖂
+abbrev bfrakX 𝖃
+abbrev bfrakY 𝖄
+abbrev bfrakZ 𝖅
+abbrev bfraka 𝖆
+abbrev bfrakb 𝖇
+abbrev bfrakc 𝖈
+abbrev bfrakd 𝖉
+abbrev bfrake 𝖊
+abbrev bfrakf 𝖋
+abbrev bfrakg 𝖌
+abbrev bfrakh 𝖍
+abbrev bfraki 𝖎
+abbrev bfrakj 𝖏
+abbrev bfrakk 𝖐
+abbrev bfrakl 𝖑
+abbrev bfrakm 𝖒
+abbrev bfrakn 𝖓
+abbrev bfrako 𝖔
+abbrev bfrakp 𝖕
+abbrev bfrakq 𝖖
+abbrev bfrakr 𝖗
+abbrev bfraks 𝖘
+abbrev bfrakt 𝖙
+abbrev bfraku 𝖚
+abbrev bfrakv 𝖛
+abbrev bfrakw 𝖜
+abbrev bfrakx 𝖝
+abbrev bfraky 𝖞
+abbrev bfrakz 𝖟
+abbrev ^0 ⁰
+abbrev ^1 ¹
+abbrev ^2 ²
+abbrev ^3 ³
+abbrev ^4 ⁴
+abbrev ^5 ⁵
+abbrev ^6 ⁶
+abbrev ^7 ⁷
+abbrev ^8 ⁸
+abbrev ^9 ⁹
+abbrev ^+ ⁺
+abbrev ^- ⁻
+abbrev ^= ⁼
+abbrev ^( ⁽
+abbrev ^) ⁾
+abbrev ^A ᴬ
+abbrev ^B ᴮ
+abbrev ^D ᴰ
+abbrev ^E ᴱ
+abbrev ^G ᴳ
+abbrev ^H ᴴ
+abbrev ^I ᴵ
+abbrev ^J ᴶ
+abbrev ^K ᴷ
+abbrev ^L ᴸ
+abbrev ^M ᴹ
+abbrev ^N ᴺ
+abbrev ^O ᴼ
+abbrev ^P ᴾ
+abbrev ^R ᴿ
+abbrev ^T ᵀ
+abbrev ^U ᵁ
+abbrev ^V ⱽ
+abbrev ^W ᵂ
+abbrev ^a ᵃ
+abbrev ^b ᵇ
+abbrev ^c ᶜ
+abbrev ^d ᵈ
+abbrev ^e ᵉ
+abbrev ^f ᶠ
+abbrev ^g ᵍ
+abbrev ^h ʰ
+abbrev ^i ⁱ
+abbrev ^j ʲ
+abbrev ^k ᵏ
+abbrev ^l ˡ
+abbrev ^m ᵐ
+abbrev ^n ⁿ
+abbrev ^o ᵒ
+abbrev ^p ᵖ
+abbrev ^r ʳ
+abbrev ^s ˢ
+abbrev ^t ᵗ
+abbrev ^u ᵘ
+abbrev ^v ᵛ
+abbrev ^w ʷ
+abbrev ^x ˣ
+abbrev ^y ʸ
+abbrev ^z ᶻ
+abbrev _1 ₀
+abbrev _2 ₁
+abbrev _3 ₂
+abbrev _4 ₃
+abbrev _5 ₄
+abbrev _6 ₅
+abbrev _7 ₆
+abbrev _8 ₇
+abbrev _9 ₈
+abbrev _10 ₉
+abbrev _+ ₊
+abbrev _- ₋
+abbrev _= ₌
+abbrev _( ₍
+abbrev _) ₎
+abbrev _a ₐ
+abbrev _e ₑ
+abbrev _h ₕ
+abbrev _i ᵢ
+abbrev _j ⱼ
+abbrev _k ₖ
+abbrev _l ₗ
+abbrev _m ₘ
+abbrev _n ₙ
+abbrev _o ₒ
+abbrev _p ₚ
+abbrev _r ᵣ
+abbrev _s ₛ
+abbrev _t ₜ
+abbrev _u ᵤ
+abbrev _v ᵥ
+abbrev _x ₓ
+abbrev blank ⠀
+abbrev Alpha Α
+abbrev Beta Β
+abbrev Gamma Γ
+abbrev Delta Δ
+abbrev Epsilon Ε
+abbrev Zeta Ζ
+abbrev Eta Η
+abbrev Theta Θ
+abbrev Iota Ι
+abbrev Kappa Κ
+abbrev Lambda Λ
+abbrev Mu Μ
+abbrev Nu Ν
+abbrev Xi Ξ
+abbrev Omicron Ο
+abbrev Pi Π
+abbrev Rho Ρ
+abbrev Sigma Σ
+abbrev Tau Τ
+abbrev Upsilon Υ
+abbrev Phi Φ
+abbrev Chi Χ
+abbrev Psi Ψ
+abbrev Omega Ω
+abbrev alpha α
+abbrev beta β
+abbrev curbeta ϐ
+abbrev gamma γ
+abbrev delta δ
+abbrev epsilon ε
+abbrev lunepsilon ϵ
+abbrev zeta ζ
+abbrev eta η
+abbrev theta ϑ
+abbrev vtheta θ
+abbrev iota ι
+abbrev kappa κ
+abbrev curkappa ϰ
+abbrev lambda λ
+abbrev mu μ
+abbrev nu ν
+abbrev xi ξ
+abbrev omicron ο
+abbrev pi π
+abbrev curpi ϖ
+abbrev rho ρ
+abbrev currho ϱ
+abbrev sigma σ
+abbrev finsigma ς
+abbrev tau τ
+abbrev upsilon υ
+abbrev phi φ
+abbrev clophi ϕ
+abbrev chi χ
+abbrev psi ψ
+abbrev omega ω
+abbrev eur €
+abbrev gbp £
+abbrev usd $
+abbrev yen ¥
+abbrev brl R$
+abbrev spc ␣
+abbrev nbsp  
+abbrev return ⏎
+abbrev lqua ⌜
+abbrev rqua ⌝
+abbrev langle ⟨
+abbrev rangle ⟩
+abbrev lceil ⌈
+abbrev rceil ⌉
+abbrev lfloor ⌊
+abbrev rfloor ⌋
+abbrev lbag ⟅
+abbrev rbag ⟆
+abbrev lsem ⟦
+abbrev rsem ⟧
+abbrev lSet ⦃
+abbrev rSet ⦄
+abbrev lPar ⦅
+abbrev rPar ⦆
+abbrev lban ⦇
+abbrev rban ⦈
+abbrev lAngle ⦉
+abbrev rAngle ⦊
+abbrev lnorm ‖
+abbrev rnorm ‖
+abbrev halmos ∎
+abbrev qed ∎
+abbrev leq ≤
+abbrev geq ≥
+abbrev neq ≠
+abbrev nlt ≮
+abbrev ngt ≯
+abbrev nleq ≰
+abbrev ngeq ≱
+abbrev div ∣
+abbrev ndiv ∤
+abbrev forall ∀
+abbrev exists ∃
+abbrev nexists ∄
+abbrev implies ⇒
+abbrev implied ⇐
+abbrev iff ⇔
+abbrev timplies ⟹
+abbrev timplied ⟸
+abbrev tiff ⟺
+abbrev vimplies ⇓
+abbrev vimplied ⇑
+abbrev viff ⇕
+abbrev rlarr ⇄
+abbrev lrarr ⇆
+abbrev tofrom ⇄
+abbrev fromto ⇆
+abbrev udarr ⇅
+abbrev uuarr ⇈
+abbrev ddarr ⇊
+abbrev llarr ⇇
+abbrev rrarr ⇉
+abbrev uarr ↑
+abbrev darr ↓
+abbrev larr ←
+abbrev rarr →
+abbrev nimplied ⇍
+abbrev nimplies ⇏
+abbrev niff ⇎
+abbrev inteq ≡
+abbrev intneq ≢
+abbrev defeq ≝
+abbrev doteq ≐
+abbrev askeq ≟
+abbrev asteq ⩮
+abbrev stareq ≛
+abbrev defiff ⇐≝⇒
+abbrev intiff ⇚⇛
+abbrev intimplies ⇛
+abbrev vintimplied ⤊
+abbrev vintimplies ⤋
+abbrev intimplied ⇚
+abbrev ledfrom ↜
+abbrev leadsto ↝
+abbrev rleads ↝
+abbrev lleads ↜
+abbrev eqto ⥱
+abbrev isoto ⥲
+abbrev Funto ⥤
+abbrev therefore ∴
+abbrev because ∵
+abbrev vdots ⋮
+abbrev hdots ⋯
+abbrev cdots ⋯
+abbrev dotsb ⋯
+abbrev ldots …
+abbrev dotsc …
+abbrev pm ±
+abbrev mp ∓
+abbrev infty ∞
+abbrev pinfty +∞
+abbrev minfty -∞
+abbrev pminfty ±∞
+abbrev mpinfty ∓∞
+abbrev surd √
+abbrev integ ∫
+abbrev iinteg ∬
+abbrev iiinteg ∭
+abbrev ointeg ∮
+abbrev nabla ∇
+abbrev partial ∂
+abbrev ast ∗
+abbrev star ⋆
+abbrev bullet ∙
+abbrev cdot ·
+abbrev ntimes ·
+abbrev cross ×
+abbrev times ×
+abbrev circ ∘
+abbrev oplus ⊕
+abbrev ominus ⊖
+abbrev otimes ⊗
+abbrev tensor ⊗
+abbrev ocross ⊗
+abbrev odiv ⊘
+abbrev odot ⊙
+abbrev dotminus ∸
+abbrev dotplus ⨢
+abbrev monus ∸
+abbrev dottimes ⨰
+abbrev uplus ⊎
+abbrev Uplus ⨄
+abbrev dhole –
+abbrev hole _
+abbrev emptyset Ø
+abbrev empty Ø
+abbrev bools 𝔹
+abbrev nats ℕ
+abbrev ints ℤ
+abbrev rats ℚ
+abbrev reals ℝ
+abbrev complex ℂ
+abbrev in ∈
+abbrev notin ∉
+abbrev nin ∉
+abbrev ni ∋
+abbrev notni ∌
+abbrev nni ∌
+abbrev Inter ⋂
+abbrev Union ⋃
+abbrev inter ∩
+abbrev union ∪
+abbrev disjunion ⊎
+abbrev Disjunion ⨄
+abbrev dunion ⊎
+abbrev Dunion ⨄
+abbrev symdiff ∆
+abbrev sdiff ∆
+abbrev setminus ∖
+abbrev minus ∖
+abbrev subset ⊆
+abbrev supset ⊇
+abbrev psubset ⊊
+abbrev psupset ⊋
+abbrev hsubset ⊂
+abbrev hsupset ⊃
+abbrev nsubset ⊈
+abbrev nsupset ⊉
+abbrev subsetneq ⊊
+abbrev supsetneq ⊋
+abbrev sqleq ⊑
+abbrev sqgeq ⊒
+abbrev sqlt ⊏
+abbrev sqgt ⊐
+abbrev sqlneq ⋤
+abbrev sqgneq ⋥
+abbrev sqnleq ⋢
+abbrev sqngeq ⋣
+abbrev semleq ⊑
+abbrev semgeq ⊒
+abbrev semlneq ⋤
+abbrev semgneq ⋥
+abbrev nsemleq ⋢
+abbrev nsemgeq ⋣
+abbrev domleq ⊑
+abbrev domgeq ⊒
+abbrev domlneq ⋤
+abbrev domgneq ⋥
+abbrev pset ℘
+abbrev aleph ℵ
+abbrev beth ℶ
+abbrev gimel ℷ
+abbrev comp ∘
+abbrev to →
+abbrev from ←
+abbrev nto ↛
+abbrev nfrom ↚
+abbrev parto ⇀
+abbrev mapsto ↦
+abbrev mapsfrom ↤
+abbrev tmapsto ⟼
+abbrev tmapsfrom ⟻
+abbrev mapsup ↥
+abbrev mapsdown ↧
+abbrev parfrom ↼
+abbrev rest ↾
+abbrev surto ↠
+abbrev surfrom ↞
+abbrev injto ↣
+abbrev injfrom ↢
+abbrev embto ↪
+abbrev embfrom ↩
+abbrev bijto ⤖
+abbrev relto ⇾
+abbrev relfrom ⇽
+abbrev dual ∂
+abbrev ndetfrom ⇜
+abbrev ndetto ⇝
+abbrev dfrom ⇠
+abbrev dto ⇢
+abbrev equiv ≅
+abbrev nequiv ≇
+abbrev iso ≅
+abbrev niso ≇
+abbrev rcomp ⋄
+abbrev cong ≡
+abbrev ncong ≢
+abbrev normal ⊴
+abbrev pnormal ⊲
+abbrev sim ~
+abbrev nsim ≁
+abbrev approx ≈
+abbrev napprox ≉
+abbrev Prod ∏
+abbrev Coprod ∐
+abbrev coprod ⨿
+abbrev Sum ∑
+abbrev op ᵒᵖ
+abbrev concat ⧺
+abbrev inv ⁻¹
+abbrev lnot ¬
+abbrev lforall ∀
+abbrev lexists ∃
+abbrev limplies →
+abbrev limplied ←
+abbrev liff ↔
+abbrev land ∧
+abbrev lor ∨
+abbrev Land ⋀
+abbrev Lor ⋁
+abbrev sequent ⊢
+abbrev proves ⊢
+abbrev nproves ⊬
+abbrev models ⊨
+abbrev nmodels ⊭
+abbrev forces ⊩
+abbrev nforces ⊮
+abbrev linnot ⊥
+abbrev linto ⊸
+abbrev linwith &
+abbrev linpar ⅋
+abbrev himplies ⥰
+abbrev horse ⥰
+abbrev top ⊤
+abbrev bottom ⊥
+abbrev Meet ⋀
+abbrev Join ⋁
+abbrev meet ∧
+abbrev join ∨
+abbrev incompar ≸
+abbrev incompat ‖
+abbrev wbelow ≪
+abbrev wabove ≫
+abbrev domlt ⊏
+abbrev domgt ⊐
+abbrev domleq ⊑
+abbrev domgeq ⊒
+abbrev glb ⊓
+abbrev lub ⊔
+abbrev Glb ⨅
+abbrev Lub ⨆
+abbrev spades ♠
+abbrev hearts ♡
+abbrev diamonds ♢
+abbrev clubs ♣
+abbrev magic ⛤
+abbrev rturnstile ⊢
+abbrev lturnstile ⊣
+abbrev sqleftarrow ⇜
+abbrev sqrightarrow ⇝
+abbrev sqbotharrow ↭
+abbrev nwarrow ↖
+abbrev nearrow ↗
+abbrev swarrow ↙
+abbrev searrow ↘
+abbrev duparrow ⇡
+abbrev drightarrow ⇢
+abbrev ddownarrow ⇣
+abbrev dleftarrow ⇠
+abbrev up ↑
+abbrev down ↓
+abbrev left ←
+abbrev right →
+abbrev Ell ℒ
+abbrev ell ℓ
+abbrev bang !
+abbrev gnab ¡
+abbrev bbang ‼
+abbrev ibang ‽
+abbrev ignab ⸘
+abbrev abang ⁈
+abbrev bask ⁉
+abbrev frown ⌢
+abbrev smile ⌣
+abbrev utri △
+abbrev dtri ▽
+abbrev ltri ◁
+abbrev rtri ▷
+abbrev utris ▵
+abbrev dtris ▿
+abbrev ltris ◃
+abbrev rtris ▹
+abbrev ubtri ▲
+abbrev dbtri ▼
+abbrev lbtri ◄
+abbrev rbtri ►
+abbrev ubtris ▴
+abbrev dbtris ▾
+abbrev lbtris ◂
+abbrev rbtris ▸
+abbrev CAT 𝐂𝐚𝐭
+abbrev SET 𝐒𝐞𝐭
+abbrev PSET 𝐏𝐒𝐞𝐭
+abbrev PTDSET 𝐏𝐭𝐝𝐒𝐞𝐭
+abbrev FINSET 𝐅𝐢𝐧𝐒𝐞𝐭
+abbrev FINORD 𝐅𝐢𝐧𝐎𝐫𝐝
+abbrev ORD 𝐎𝐫𝐝
+abbrev PROSET 𝐏𝐫𝐨𝐬𝐞𝐭
+abbrev POSET 𝐏𝐨𝐬𝐞𝐭
+abbrev SGROUP 𝐒𝐞𝐦𝐢𝐠𝐫𝐨𝐮𝐩
+abbrev SGRP 𝐒𝐞𝐦𝐢𝐠𝐫𝐩
+abbrev MON 𝐌𝐨𝐧
+abbrev MONOID 𝐌𝐨𝐧𝐨𝐢𝐝
+abbrev GROUP 𝐆𝐫𝐨𝐮𝐩
+abbrev GRP 𝐆𝐫𝐩
+abbrev ABEL 𝐀𝐛𝐞𝐥
+abbrev RING 𝐑𝐢𝐧𝐠
+abbrev RNG 𝐑𝐧𝐠
+abbrev RIG 𝐑𝐢𝐠
+abbrev MOD 𝐌𝐨𝐝
+abbrev MAT 𝐌𝐚𝐭𝐫𝐢𝐱
+abbrev LAT 𝐋𝐚𝐭𝐭𝐢𝐜𝐞
+abbrev HALG 𝐇𝐞𝐲𝐭𝐢𝐧𝐠
+abbrev BALG 𝐁𝐨𝐨𝐥𝐞𝐚𝐧
+abbrev HA 𝐇𝐀
+abbrev BA 𝐁𝐀
+abbrev MODEL 𝐌𝐨𝐝𝐞𝐥
+abbrev psubs ⊊
+abbrev psups ⊋
+abbrev hsubs ⊂
+abbrev hsups ⊃
+abbrev nsubs ⊈
+abbrev nsups ⊉
+abbrev subsne ⊊
+abbrev supsne ⊋
+abbrev fa ∀
+abbrev ex ∃
+abbrev nex ∄
+abbrev imps ⇒
+abbrev impd ⇐
+abbrev iff ⇔
+abbrev timps ⟹
+abbrev timpd ⟸
+abbrev tiff ⟺
+abbrev vimps ⇓
+abbrev vimpd ⇑
+abbrev nimpd ⇍
+abbrev nimps ⇏
+abbrev rmaps ↦
+abbrev lmaps ↤
+abbrev Rmaps ⟼
+abbrev Lmaps ⟻
+abbrev there ∴
+abbrev cause ∵
+abbrev dplus ⨢
+abbrev dtimes ⨰
