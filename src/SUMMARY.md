@@ -1,5 +1,8 @@
+- [SUMMARY.md](./SUMMARY.md)
 
-# curr-sem
+- [pln.md](./pln.md)
+- [redes.md](./redes.md)
+- [tt.md](./tt.md)
 
 # prev-sem
 
@@ -18,4 +21,3 @@
 - [prob.md](./prev-sem/prob.md)
 - [so.md](./prev-sem/so.md)
 	- [so-u1.md](./prev-sem/so-u1.md)
-- [SUMMARY.md](./SUMMARY.md)

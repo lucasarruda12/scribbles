@@ -1,6 +1,9 @@
 [book]
 authors = ["lucasarruda12"]
-language = "en"
+language = "pt-br"
 multilingual = false
 src = "src"
 title = "notes"
+
+[output.html]
+mathjax-support = true
