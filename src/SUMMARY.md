@@ -3,6 +3,7 @@
 - [pln.md](./pln.md)
 - [redes.md](./redes.md)
 - [tt.md](./tt.md)
+- [dihc.md](./dihc.md)
 
 # prev-sem
 
