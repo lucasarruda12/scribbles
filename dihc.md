@@ -72,4 +72,3 @@ Para Nielsen (1993), a usabilidade é um conjunto de fatores:
 - Eficiência (efficiency)
 - Segurança no uso (safety)
 - Satisfação do usuário (satisfaction)
-

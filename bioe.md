@@ -61,10 +61,10 @@ Vai depender de três fatores:
 
 ### Número de classes - Fórmula de Sturges
 
-Estimativa do número de classes: `C = 1 + log2 N`, onde C é o número de classes e N é o número de dados.
+Estimativa do número de classes: $$C = 1 + \log_2 N$$ onde C é o número de classes e N é o número de dados.
 
-- Ou: `C = 1 + 3,222 * log N`
-- Ou (de forma muito mais grosseira): `√N`
+- Ou: $$C = 1 + 3,222 \times \ln N$$
+- Ou (de forma muito mais grosseira): $$\sqrt{N}$$
 
 ## Distribuição de Frequência: Gráficos
 
