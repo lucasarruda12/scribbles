@@ -1,5 +1,10 @@
-# Introdução
+# PROCESSAMENTO DE LINGUAGEM NATURAL
+---
 
-- Só uma coisa que eu achei legal e queria anotar: A linguagem que a gente usa no dia-a-dia, nos jornais, é muito mais complexa do que um sistema de regras formais pode determinar.
+# Conceitos Básicos de linguística e PLN
 
-- Por muito tempo o Processamento de Linguagem Natural precisou se basear em regras.
+> A linguagem que a gente usa no dia-a-dia, nos jornais, é muito mais complexa do que um sistema de regras formais pode determinar.
+
+> Por muito tempo o Processamento de Linguagem Natural precisou se basear em regras.
+
+# Corpora (TreeBanks)
