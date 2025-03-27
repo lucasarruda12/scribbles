@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bioe.md",
+                "file": "ml.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "bioe"
+              "title": "ml"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "bioe.md",
+            "file": "ml.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -155,16 +155,23 @@
   },
   "active": "9d695e82121cea07",
   "lastOpenFiles": [
+    "pln/pos-tagging.md",
+    "pln/notes.md",
+    "pln",
+    "README.md",
+    "ml.md",
+    "tt.md",
+    "redes.md",
+    "bioe.md",
+    "dihc.md",
+    "sbio.md",
+    "pln.md",
+    "2024.2/bpp.md",
     "bioe.md~",
     "4913",
     "prev-sem/fun-u1.md",
     "prev-sem/fun.md",
-    "redes.md",
     "SUMMARY.md",
-    "pln.md",
-    "ml.md",
-    "iaq.md",
-    "tt.md",
-    "bioe.md"
+    "iaq.md"
   ]
 }
