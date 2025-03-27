@@ -15,7 +15,8 @@
               "state": {
                 "file": "ml.md",
                 "mode": "preview",
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "ml"
