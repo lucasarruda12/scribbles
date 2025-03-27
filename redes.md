@@ -67,3 +67,27 @@ Os primeiros passos da disciplina de redes de computadores e da internet podem s
 - 1990 - A Rede Nacional de Pesquisa (RNP) é uma iniciativa do Ministério da Ciência e Tecnologia (MCT).
     - Implantar uma moderna infra-estrutura de serviços de internet, com abrangência nacional.
     - Até abril de 1995, a atuação da RNP se restringia a áreas de interesse da comunidade de educação e pesquisa do país.
+
+# Como a internet funciona
+
+4 Problemas fundamentais:
+
+- 1. Nomeacao e enderecamento: localizando o destino
+- 2. Roteamento: encontrando um caminho para o destino.
+- 3. Encaminhamento: enviando dados para o destino.
+- 4. Confiabilidade: lidando com falhas, perdas, etc...
+
+> Cada um e motivado por uma necessidade clara e as solucoes nem sempre sao diretas.
+
+## Nomeacao e enderecamento
+
+- Endereco de rede: onde o host esta localizado.
+    - Requer um endereco para o host de destino
+
+- Nome do host (hostname)
+    - Quando mudamos um host fisicamente, o endereco pode mudar, mas o nome nao muda.
+    - O trabalho de resolver o nome para o endereco e feito pelo Domain Name System (DNS)
+
+## Roteamento
+
+Dado um endereco de destino, uma tabela de roteamento determina qual link de saida o pacote sera enviado (tudo isso e calculado atraves de protocolos de roteamento).
