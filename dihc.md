@@ -68,7 +68,60 @@ Para Nielsen (1993), a usabilidade é um conjunto de fatores:
 
 - **Facilidade de aprendizado (learnability)**: Se refere ao tempo e esfoço necessários para que o usuário aprenda a utilizar um sistema com determinado nível de competência e desempenho.
 
-- Facilidade de recordação (memorability)
-- Eficiência (efficiency)
-- Segurança no uso (safety)
-- Satisfação do usuário (satisfaction)
+- **Facilidade de recordação (memorability)**:
+- **Eficiência (efficiency)**:
+- **Segurança no uso (safety)**: Se refere ao grau de proteção de um sistema sobre condições desfavoráveis ou perigosas.
+
+    > Solicitar confirmação, guardar temporariamente arquivos não salvos e (...) são todos exemplos de formas de zelar pela segurança no uso.
+
+- **Satisfação do usuário (satisfaction)**: Está relacionado ao efeito do uso do sistema sobre as emoções e os sentimentos do usuário.
+
+> Flexibilidade: Oferecer ao usuário diferentes maneiras de fazer a mesma coisa. é muito comum em interfaces.
+
+### Experiência do usuário
+
+Em particular fora do ambiente de trabalho, envolve aspectos subjetivos como sentimentos, estado de espírito, emoções e sensações decorrentes da interação.
+
+- Aspectos positivos e negativos: Satisfação, prazer, diversão, entreterimentos, interesse, atração, motivação, estética, criatividade, povocação, surpresa, desafio, cansaço, frustração e ofensa.
+
+> É comum generalizar. Tratar todos os aspectos gerais da qualidade de uso como experiência do usuário. O professor criticou bastante essa visão, ele defendeu que se colocarmos toda a qualidade de uso dentro do guarda-chuva da experiência do usuário, perdemos por menores exclusivos de cada um dos outros aspectos. Ele prefere manter esse aspecto relacionado apenas à emoçào.
+
+### Comunicabilidade
+
+Comunicabilidade se refere à capacidade da interface comunicar, de forma eficiente e eficaz, a lógica do sistema.
+
+#### Engenharia semiótica 
+
+Investiga processos de comunicação em dois níveis distintos:
+
+- a comunicação direta usuário-sistema, e
+- a metecomunicação do designer para o usuário mediada pelo sistema, através da sua interface.
+
+
+#### O que deve ser comunicado?
+
+A interface deve comunicar ao usuário a lógica do design.
+
+- A quem se destina o sistema,
+- para quê ele serve,
+- qual a vantagem de utilizá-lo,
+- como ele funciona e 
+- quais são os princípios gerais de interação com o sistema.
+
+#### Por que comunicar isso?
+
+Quando os usuários compreendem as estratégias de uso aequadas a cada situação, eles podem mais facilmente tirarame melhor proveito do sistema de forma criativa, eficiente e produtiva
+
+### Acessibilidade
+
+Possibilidade  e condição de alcance, percepção e entendimento para a utilização, em igualdade de oportunidades, com segurança e autonomia, do meio físico, de transporte, da informação e da comunicação, inclusive dos sistemas de tecnologia de informação e comunicação, bem com de outros serviços e instalações.
+
+- **Pessoa com deficiência**: São aquelas que têm impedimentos de natureza física, mental, intelectual ou sensorial, os quais, em interação com diversas barreiras, podem obstruir sua paticipação plena e efetiva na sociedade com as demais pessoas.
+
+#### Capacidades humanas na inteaçãp
+
+darante a interaçsso, o usuário emprega:
+
+- Sua habilidade motora para agir sobre os dispositivs de entrada,
+- seus sentidos e capacidade de percepção para identificar as respostas do sistema emitidas pelos dispositivos de saída, e
+- sua capacidade cognitiva, de interpretação e de raciocínio para compreender as respostas do sistema e planejar os próximos passos da interação.

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ml.md",
+                "file": "dihc.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ml"
+              "title": "dihc"
             }
           }
         ]
@@ -156,15 +156,16 @@
   },
   "active": "9d695e82121cea07",
   "lastOpenFiles": [
+    "tt.md",
+    "dihc.md",
     "pln/pos-tagging.md",
     "pln/notes.md",
+    "bioe.md",
+    "iaq.md",
+    "ml.md",
     "pln",
     "README.md",
-    "ml.md",
-    "tt.md",
     "redes.md",
-    "bioe.md",
-    "dihc.md",
     "sbio.md",
     "pln.md",
     "2024.2/bpp.md",
@@ -172,7 +173,6 @@
     "4913",
     "prev-sem/fun-u1.md",
     "prev-sem/fun.md",
-    "SUMMARY.md",
-    "iaq.md"
+    "SUMMARY.md"
   ]
 }
