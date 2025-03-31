@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "iaq.md",
+                "file": "pln/notes.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "iaq"
+              "title": "notes"
             }
           }
         ]
@@ -157,11 +157,13 @@
   "active": "9d695e82121cea07",
   "lastOpenFiles": [
     "pln/pos-tagging.md",
+    "pln/notes.md",
+    "pln/lemmatization.md",
+    "pln/sentence-segmentation.md",
+    "iaq.md",
     "bioe.md",
     "dihc.md",
     "tt.md",
-    "pln/notes.md",
-    "iaq.md",
     "ml.md",
     "pln",
     "README.md",
