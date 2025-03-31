@@ -61,7 +61,7 @@ Vai depender de três fatores:
 
 ### Número de classes - Fórmula de Sturges
 
-Estimativa do número de classes: $$C = 1 + \log_2 N$$ onde C é o número de classes e N é o número de dados.
+Estimativa do número de classes: $$C = 1 + \log_2 N$$,onde C é o número de classes e N é o número de dados.
 
 - Ou: $$C = 1 + 3,222 \times \ln N$$
 - Ou (de forma muito mais grosseira): $$\sqrt{N}$$
@@ -73,3 +73,65 @@ Dão uma visão mais imediata de como se distribuem os indivíduos nos diferente
 - Histograma: Consiste de uma classe de sucessão de retângulos, cuja base é o interval de classe, e a altura, a frequência em cada classe. 
 
 > Histograma é o tipo de gráfico mais utilizado para variáveis contínuas.
+
+# Medidas de tendência central
+
+Quando o desejo é representar, por meio de um valor único, determinado conjunto de informações que variam, parece razoável escolher um valor central.
+
+## Média aritmética
+
+Representa o valor provável de uma variável. Também chamada de "valor esperado" ou "esperança".
+
+> Costuma ser representada pela letra identificadora de variável $x$ acrescida de um traço na parte superior $\stackrel - x$
+
+> Quando é calculada na população, é indicada pela letra grega $\mu$
+
+### Média aritmética para dados agrupados
+
+Para dados em agrupamentos simples, calcula-se a média do seguinte modo:
+
+$$
+\stackrel{-}{x} = \frac {\sum x_i f_i}{\sum f_i}
+$$
+
+
+### Propriedades da média aritmética simples
+
+A soma algébrica dos desvios de um conjunto X com n números em relação à média aritmética, $\stackrel - x$ é sempre igual a zero.
+
+$$
+\sum (x_i - \stackrel - x _i) = 0
+$$
+
+## Média ponderada
+
+Em alguns casos, um dos dados possui particular importância, de modo que o pesquisador deseja evidenciar este fato ressaltando seu efeito.
+
+- Neste caso, é possível adotar um peso diferente para esse dado em relação aos outros.
+
+$$
+\stackrel{-}{x_p} = \frac {\sum x_i p_i}{\sum p_i}
+$$
+
+> Muito parecido com a média aritmética para dados agrupados (eu inclusive copiei e colei as fórmulas).
+> A questão é que a frequência é concreta, a informação de quantas pessoas responderam assim vem diretamente dos meus dados coletados, enquanto os pesos são abstratos e decididos a partir de um determinado conceito.
+
+## Mediana
+
+É o valor de x, em uma série ordenada de dados, que divide a série em dois subgrupos de igual tamanho.
+
+> Em outras palavras, é um valor tal que tenha igual quantidade de valores maiores e menos que ele.
+
+> em um conjunto ordenado de dados de cardinalidade ímpar: $i_{mediana} = \frac {n + 1} {2}$
+
+- Num conjunto par de dados, a medianaserá a média dos dois valores centrais.
+
+## Moda
+
+A moda de um conjunto de números é aquele número que ocorre com mais frequência.
+
+- Conjuntos de valores que não se reperem são amodais.
+
+- Conjuntos com duas modas são chamados bimodais.
+
+> O resto é multimodal.

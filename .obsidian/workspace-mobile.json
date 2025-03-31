@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dihc.md",
+                "file": "bioe.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dihc"
+              "title": "bioe"
             }
           }
         ]
@@ -99,7 +99,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ml.md",
+            "file": "bioe.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -156,8 +156,8 @@
   },
   "active": "9d695e82121cea07",
   "lastOpenFiles": [
-    "tt.md",
     "dihc.md",
+    "tt.md",
     "pln/pos-tagging.md",
     "pln/notes.md",
     "bioe.md",
