@@ -8,3 +8,19 @@
 - **Sequence Labeling**: Tasks in which we assign, to each word x1 in an input word sequence, a lable y1, so that the sequence Y has the same length as the input sequence X.
 
 ## English Word Classes
+
+|   | Tag | Description | Example |
+| - | --- | ----------- | ------- |
+| Open Class | ADJ | ----------- | ------- |
+| Open Class | ADV | ----------- | ------- |
+| Open Class | NOUN | ----------- | ------- |
+| Open Class | VERB | ----------- | ------- |
+| Open Class | INTJ | ----------- | ------- |
+|-  | PROPN | ----------- | ------- |
+
+
+### Open and Closed classes 
+
+- Closed classes, like propositions, have a relatively fixed membership.
+
+- Open classes, on the other hand, are constantly changing with new additions. Nouns and verbs are exemples of open classes.

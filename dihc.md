@@ -14,7 +14,6 @@
 
 > Projetar uma interface é criar uma linguagem de comunicação.
 
-
 ## Características de usuários
 
 que influenciam o uso de sistemas

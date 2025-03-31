@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bioe.md",
+                "file": "iaq.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "bioe"
+              "title": "iaq"
             }
           }
         ]
@@ -156,11 +156,11 @@
   },
   "active": "9d695e82121cea07",
   "lastOpenFiles": [
+    "pln/pos-tagging.md",
+    "bioe.md",
     "dihc.md",
     "tt.md",
-    "pln/pos-tagging.md",
     "pln/notes.md",
-    "bioe.md",
     "iaq.md",
     "ml.md",
     "pln",
