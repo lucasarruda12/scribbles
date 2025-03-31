@@ -77,17 +77,65 @@ Os primeiros passos da disciplina de redes de computadores e da internet podem s
 - 3. Encaminhamento: enviando dados para o destino.
 - 4. Confiabilidade: lidando com falhas, perdas, etc...
 
-> Cada um e motivado por uma necessidade clara e as solucoes nem sempre sao diretas.
+> Cada um é motivado por uma necessidade clara e as soluções nem sempre são diretas.
 
-## Nomeacao e enderecamento
+## Nomeação e enderecamento
+
+> No mundo real, a gente só consegue enviar uma carta para um destinatário se a gente tem uma especificação a respeito daquele endereço. Nas redes de computadores isso não é diferente.
 
 - Endereco de rede: onde o host esta localizado.
     - Requer um endereco para o host de destino
 
 - Nome do host (hostname)
-    - Quando mudamos um host fisicamente, o endereco pode mudar, mas o nome nao muda.
+> Precisamos de nomes, principalmente, porque tem ser humano envolvido nesse processo. Ninguém quer acessar 8.8.8.8, todo mundo gosta do www.google.com (não queremos nos preocupar com onde aquela máquina está fisicamente).
+    - Quando mudamos um host fisicamente, o endereco pode mudar, mas o nome não muda.
     - O trabalho de resolver o nome para o endereco e feito pelo Domain Name System (DNS)
 
 ## Roteamento
 
 Dado um endereco de destino, uma tabela de roteamento determina qual link de saida o pacote sera enviado (tudo isso e calculado atraves de protocolos de roteamento).
+
+> Esse roteador não é aquele roteador (o que provê wifi pra sua casa). Esses aqui são equipamentos robustos que têm o propósito específico de gerenciar todos os pacotes que trafegam entre redes distintas (apesar do aparelho da sua casa ter algumas funções de roteador).
+
+- Quando um paacote chega no roteador: uma tabela de roteamento determina para qual link de saí o pacote será enviado. Isso é calculado através dos protocolos de roteamento.
+
+## Encaminhamento
+
+> Tudo isso aqui é relativo a roteadores:
+
+- Enfileiramento: Quando um pacote chega, ele é armazenado em filas de entrada. Cada fila de entrada é dividida em múltiplas filas virtuais de saída.
+    - Uma saída virtual para cada link de saída.
+    - Encontra o link no qual o pacote será encaminhado.
+    - Armazena o pacote na fila virtual de saída correspondente.
+
+- Encaminhamento: Quando um link de saída está disponível, o roteador pega um pacote da fila virtual de saída correspondente e encaminha o pacote.
+
+> Pacotes devem conter: um destinatário, um remetente e **dados**!
+
+> Tudo isso que é feito a nível de roteador gera um atraso na comunicação :(
+
+## Confiabilidade
+
+> Como entregar papcotes de maneira confiável
+
+Pacotes podem ser perdidos ao longo do caminho. 
+
+> Overflow de buffers em roteadores, roteadores podem travar enuanto contém pacotes em buffer e links podem adulterar pacotes.
+
+Como garantir, então, a entrega de pacotes de maneira íntegra em uma rede não confiável?
+
+> Quem é responsável por isso? A rede? O host? Como seria implementado?
+
+## No dispositivo final
+
+Pilha de rede no dispositivo final:
+
+- Quando um processo quer acessar a rede, abre um socet, que é associado a umaporta.
+- Socket: Mecanismo do SO que conecta processos à pilha de rede.
+- Porta: Número que identifica aquele socket em particular. Esse número é utilizado para direcionar pactoes que chegam no host.
+
+# Métricas de desempenho
+
+- Largura de banda: Número de bits enviados por unidade de tempo (por segundo, por exemplo). Vai depender do hardware, das condições de tráfego da rede...
+
+- Latência: Tempo para uma mensagem se mover em um link.
