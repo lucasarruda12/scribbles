@@ -1,0 +1,9 @@
+-- (hw 4.5) Demonstre a unicidade de produtos, coprodutos, terminais, iniciais.
+
+-- Unicidade de produtos 
+-- A, B objetos de ℂ
+-- (∀P, P')[P produto dos A, B & P' produto dos A, B ⇒ P ≅ P']
+
+Sejam P, P' objetos em uma categoria ℂ
+Suponha P, P' produtos dos A, B
+Pela [(P prod).2 (P' prod).1], temos h₁

@@ -128,3 +128,23 @@ darante a interaçsso, o usuário emprega:
 ## Design
 
 Design é um processo iterativo que envolve análise da situção atual, síntese de uma intervenção e a avaliação da nova situação
+
+### Problema de design de IHC
+
+É uma compreensão de 
+
+- 1. Elementos na stuaç~ão atualenvolvidos com o so de sistemas computacionais
+- 2. Opotunidades de melhoriarelacionadas com  processamento de informações
+
+- A definição final inclui:
+    - Usuários,
+    - Objetivos, tarefas ou atividades,
+    - Domínio, arquitetura da informação,
+    - Contextos de uso,
+    - Outras pessoas eartefatos envolvidos.
+
+### Solução de design de IHC
+
+É uma proposta de interação e de interface para um sistema computacional com potencial de contribuir com a melhoria da situação atual.
+
+- Com definiçã ao de um problema de design considerado, que tende a ser um subconjunto do identificado na análise e eventualmente é acrescido de novos elementos necessários na intervenção.

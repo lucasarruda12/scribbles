@@ -135,3 +135,68 @@ A moda de um conjunto de números é aquele número que ocorre com mais frequên
 - Conjuntos com duas modas são chamados bimodais.
 
 > O resto é multimodal.
+
+# Medidas de dispersão
+
+> O entendimento da variabilidade dos dados é crucial em estudos clínicos, dignósticos, e na pesquisa biomédica.
+
+## Desvio
+
+Podemos cacular o desvio de cada dado em relação à média
+
+$$
+\text{desvio} = \text{dado} - \text{média}
+$$
+
+> Desvios pequenos significam dados aglomerados em torno da mdia
+
+> Desvios grandes significam dados dispersos em torno da média
+
+### Variância
+
+- Usa-se o símbolo de σ² para a variância caculada com os dados de uma população
+
+$$
+σ² = \frac{\sum (x_i - \stackrel -x) ^2}{n}
+$$
+
+- usa-se s² para a variância calculada com os dados de uma amostra
+
+$$
+s² = \frac{\sum (x_i - \stackrel -x) ^2}{n - 1}
+$$
+
+#### Por que n - 1?
+
+Termo de correção de Bessel, que corrige o viés na estimativa da variância de uma amostra.
+
+- Na população n é o número total de elementos
+- Na amostra temos um subconjunto da população, e a média amostral tende a subestimar a variabilidade real da população, porque ela é baseada apenas em parte dos dados.
+    - Para compensar isso, usamos $n - 1$ como divisor, o que faz com que a variância amostral seja ligeiramente maior e mais precisa como estimativa da variância populacional.
+
+### Desvio padrão
+
+- O desvio padrão é a raiz quadrada da variância
+
+> Mede bem a dispersão dos dados e permite, por conta disso, interpretação de interesse.
+
+### Coeficiente de variação
+
+coeficiente de variação é a razão entre o desvio padrão e a média.
+
+$$
+CV = \frac S {\stackrel -x} × 100
+$$
+
+> O resultado do cálculo de variação é multplicado por 100, para ser apresentado em porcentagem.
+
+## Amplitude
+
+Diferença entre os valores extremos. Quanto maior a ampllitude, maior a variação.
+
+$$
+\text{Amplitude } (A) = \text{Máximo} - \text{Mínimo}
+$$
+
+> Muito sensível aos valores discrepantes
+
