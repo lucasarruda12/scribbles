@@ -4,5 +4,6 @@
   "livePreview": false,
   "showIndentGuide": false,
   "showUnsupportedFiles": true,
-  "mobilePullAction": ""
+  "mobilePullAction": "",
+  "promptDelete": false
 }

@@ -47,3 +47,13 @@ See [Stemming](pln/stemming.md).
 # Part-of-Speech Tagging
 
 See [Part-of-Speech Tagging](pln/pos-tagging.md)
+
+# Language model
+
+> É distinguição de probabilidades de sentenças de ma língua.
+
+> Probabilidade de prever a próxima palavra dado um prefixo.
+
+> Qual a probablilidade P da sentença _Ivo viu a uva_ em português? e de _A uva Ivo viu_?
+
+See [Language Model](pln/language-model.md)
