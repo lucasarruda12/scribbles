@@ -124,3 +124,7 @@ darante a interaçsso, o usuário emprega:
 - Sua habilidade motora para agir sobre os dispositivs de entrada,
 - seus sentidos e capacidade de percepção para identificar as respostas do sistema emitidas pelos dispositivos de saída, e
 - sua capacidade cognitiva, de interpretação e de raciocínio para compreender as respostas do sistema e planejar os próximos passos da interação.
+
+## Design
+
+Design é um processo iterativo que envolve análise da situção atual, síntese de uma intervenção e a avaliação da nova situação
