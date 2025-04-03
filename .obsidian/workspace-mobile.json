@@ -8,18 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d695e82121cea07",
+            "id": "a503d1836efbe2e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pln/notes.md",
+                "file": "ml.md",
                 "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "ml"
             }
           }
         ]
@@ -99,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "pln/evaluating-language-models.md",
+            "file": "ml.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -154,17 +153,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d695e82121cea07",
+  "active": "a503d1836efbe2e8",
   "lastOpenFiles": [
+    "tt/notes.md",
+    "pln/notes.md",
     "pln/evaluating-language-models.md",
     "Untitled",
     "pln/n-gram.md",
     "bioe/notes.md",
-    "pln/notes.md",
     "bioe.md",
     "bioe",
     "tt/cat_prod_uni.proof",
-    "tt/notes.md",
     "tt",
     "pln/pos-tagging.md",
     "pln/lemmatization.md",
