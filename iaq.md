@@ -84,3 +84,23 @@ Baseada em 3 fatos/teoremas:
     - 2 bis de informacao lasica podemser  transmitidos sando apenasum qubit
 - Qubts não podem ser clonados
 - Outra coisa
+
+# Qubits
+
+## Representation of ℂ numbers
+
+- z = a + bi
+- Cartesian representation z=(a,b)
+- polar representation z = (|z|, φ)
+    - is unique only if 0 ≤ φ ≤ 2π
+    - |z| = $\root{a² + b^2$
+    - φ = ...
+
+> Complex numbers and Euler's formula
+
+## Global phases and density of probability
+
+Global phases have unitary form and do not change the physical state:
+
+- They multiply all base states by the same value.
+- Only vector's direction are observable.
