@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d695e82121cea07",
+            "id": "a503d1836efbe2e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bioe.md",
+                "file": "ml.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "bioe"
+              "title": "ml"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "bioe.md",
+            "file": "ml.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -153,18 +153,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d695e82121cea07",
+  "active": "a503d1836efbe2e8",
   "lastOpenFiles": [
+    "tt/notes.md",
+    "pln/notes.md",
+    "pln/evaluating-language-models.md",
+    "Untitled",
+    "pln/n-gram.md",
+    "bioe/notes.md",
+    "bioe.md",
+    "bioe",
+    "tt/cat_prod_uni.proof",
+    "tt",
+    "pln/pos-tagging.md",
+    "pln/lemmatization.md",
+    "pln/sentence-segmentation.md",
+    "iaq.md",
+    "dihc.md",
+    "tt.md",
+    "ml.md",
+    "pln",
+    "README.md",
+    "redes.md",
+    "sbio.md",
+    "pln.md",
+    "2024.2/bpp.md",
     "bioe.md~",
     "4913",
     "prev-sem/fun-u1.md",
     "prev-sem/fun.md",
-    "redes.md",
-    "SUMMARY.md",
-    "pln.md",
-    "ml.md",
-    "iaq.md",
-    "tt.md",
-    "bioe.md"
+    "SUMMARY.md"
   ]
 }
