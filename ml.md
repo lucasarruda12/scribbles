@@ -41,9 +41,9 @@ Existem três categorias principais de aprendizado nao superviionado:
 - Transformação
 - Redução
 
-## Perdi uma aula aqui sobre limpeza de dados
+# Perdi a aula aqui sobre limpeza de dados
 
-## Trasformação de dados
+# Trasformação de dados
 
 É necessáro obter os dados em uma forma apropriada para mineração. Pode vir em vários tipos:
 
@@ -64,7 +64,7 @@ $$
 
 - As variáveis podem ser normalizadas segundo a amplitude ou segundo a distribuição.
 
-### Transformação de numérico para Ordinal
+## Transformação de numérico para Ordinal
 
 > Sempre vai existir aqui alguma perda de informação
 
@@ -78,10 +78,9 @@ Um exemplo:
 | 36 ~ 37,5      | Normal             |
 | 36 ou menos    | Hipotermia         |
 
-### Transformação de ordinal para Numérico
+## Transformação de ordinal para Numérico
 
 Atributos ordinais podem ser convertidos em números preservando  ordem natural.
-
 
 | Valor original | Valor  Numérico    |
 | -------------- | ------------------ |
@@ -91,43 +90,28 @@ Atributos ordinais podem ser convertidos em números preservando  ordem natural.
 | Normal         | 0.4                |
 | Hipotermia     | 0.2                |
 
-### Transformaçao de nominal para numérico
+## Transformaçao de nominal para numérico
 
 Algumas técnicas de AM manipulam melhor valores numéricos. Sendo assim, os valores de atrbutos nominais precisam ser transformados em valores numéricos. 
 
 - Existem estratégias diferentes para atributos com valores binério, ordinal e nominal multi-valorado.
 
-#### Atributos nominais multi-valorados
+### Atributos nominais multi-valorados
 
 Atributos nominais multi-valorados são aqueles formados por m número pequeno de possíveis valores. Sendo assim, para cada valor possível _v_ do atributo , cria-se um atributo binário $R_{vn}$ Que será 1 se a $\text{attr} = v_n$, 0 caso contrário
 
-## Redução de dados
+# Redução de dados
 
-## Visualização de dados
+Redução de dados refere-se às técnnicas e métodos utilizados para reduzir o volume, tamanho e complexiade dos dados, preservando ao mesmo tempo suas informações significativas.
 
-- Compreensão: Visualização de dados ajuda a entender rapidamente informações complexas e a identificar padrões e tendências.
+- Envolve extrair os recursos ou padrões mais relevantes dos dados, eliminar redundâncias e compactar os dados para torná-los mais gerenciáveis e eficientes para processamento e análise.
 
-- Comunicaçãoa: Visualizações efetivas
+## Amostragem
 
-> Não deu tempo de anotar, mas eu tbm n acho q seja importante.
+Técnica baseada na estatística que tenta aumentar as chances de que as amotras extraídas da base de dados orgiinal possam ser informativas e representativa.
 
-### Como criar visualizações efeitvas
+- Amostragem simples ( com ou sem reposição), Amostragem estratificada
 
-- 1. Defina o objetivo: Identifique o  objetvo da visualização e adapte-a à audiência.
+### Amostragem incremental
 
-- 2. Escolha o tipo de gráfco adeuqado:  Selecione o tipo de visalização de dados apropriado para as informações e objetivo
-
-- 3. Limite o número de Elementos Visuais: 
-
-- 4. Use Cores adequadas
-
-### Tipos de gráfico
-
-- Análise quantitativa: Utilizdo para avaliar variáveis quantitativas.
-    - Gráfico de dispersão, gráfico de radar, Histograma, gráfico de linhas, ...
-
-- Análise qualitativa: Utilizado para avaliar variáves qualitativas
-    - Núvem de palavras, Gráfico de Pizza, ...
-
-- Ambos:
-    - Gráfico de barras, mapa de calor, Boxplot, gráfico de violino, ...
+Permite a redução do número de instâncias baseada em amostragem Simples ou Estratificada.
