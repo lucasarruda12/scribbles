@@ -139,3 +139,74 @@ Pilha de rede no dispositivo final:
 - Largura de banda: Número de bits enviados por unidade de tempo (por segundo, por exemplo). Vai depender do hardware, das condições de tráfego da rede...
 
 - Latência: Tempo para uma mensagem se mover em um link.
+
+# Topologia de redes
+
+Topologias de rede definem a estrutura da rede. Podendo ser subdividida em lógica e física
+
+- Topolgia lógica: Define como os meios físicos são acessados pelos hosts paa o envio de dados
+- Topologia Física: Layout efetivo dos fios ou meio físicos, que influenciaráem diversos apectos considerados críticos, como flexibilidade, velocidade e segurança.
+    - São estruturas físicas de redes comuns: Barramento, estrela, anel e malha
+
+## Fluxo de dados
+
+- Simplex: Os dados seguem em um único sentido (tv, rádio);
+- Half-Duplex: Os dados seguem em um único sentido de cada vesz (rádio de polícia, Walkie Talkie);
+- Full-Duplex: Os dados seguem em ambos os sentidos simultaneamente (telefone).
+
+## Critérios de classificação
+
+Quando classificamos por tecnologia de transmissão, existem doi tipos de tecnologias de transmissão utilizadas atualmente:
+
+- Ponto-a-Ponto: A rede consiste em um conjunto de conexões entre pares de máquinas individuais;
+    - A rede fornece um link dedicado entre dois dispositivos (receptor e trnsmissor) através de elementos de conexão como fios, links via satélite ou microondas.
+
+- Multiponto: Um ponto central envia informações para vários pontos, utilizando um mesmo meio de forma que mais de dois dispositivos compartilhem um único link.
+    - Aqui, a capacidade do canal é compartilhada, seja de forma espacial ou temporal.
+
+## Topologia de barramento (BUS)
+
+Todos os computadores são ligados em um mesmo barramento físico de dados, por tanto, é inerentemente multiponto. Aqui, apenas uma máquina pode "escrever" no barrameto num dado momento
+
+> Quando um computador estiver transmitindo um sinal, toda a rede fica ocupada e, se outro computador tentar enviar outro sinal ao mesmo tempoo, ocorre uma colisão e é preciso reiniciar a transmissão.
+
+- Vantagens principais são economia (pois uso um único cabo) e facilidade de expansão.
+
+- Desvantagens incluem: lentidão em casos de tráfego pesado, dificuldade em isolar problemas e suscetibilidade a falhas (falhas no cabo paralizam a rede inteira).
+
+## Topologia estrela
+
+Utiliza cabos de par trançado e um concentrador como ponto central de rede para criar uma conexão ponto a ponto. O concentrador se encarrega de transmitir todos os dados para todas as estações.
+
+- Vantagens principais são a adição de novos computadores simplificada, o gerenciamento centralizado e a robustez (falha de um computador não afeta o restante da rede)
+
+- A grande desvantagem é a criação de um ponto central de falha. Qualquer problema no concentrador paralisa toda a rede.
+
+## Topologia em Anel (RING)
+
+Sinais ou mensagens circulam dentro de um anal, passando sequencialmente (pnto-a-ponto) de ligação em ligação até chegar ao destinatário através de cabo coaxiai (ou de fibra óptica) fechado sobre si mesmo, ao qual se ligam os vários computadores da rede.
+
+- Vantagens incluem a alta velocidade em redes pequenas e a expansão facilitada da rede.
+
+- Desvantagens incluem a necessidade de hardware específico (transceivers), a dependencia da rede do estado atual de todos os computadores e a dificuldade de identificar pontos de avaria.
+
+## Topologia em malha
+
+O papel fundamental cabe, nesse caso, aos dispositivos de interligação - por exemplo, os routers - que se encarregam do encaminhamentos das mensagens através dos vários nós da malha contituída. É formada uma conexão ponto a onto, assim, existem diversos caminhos para se chegar ao mesmo destino.
+
+- Vantagens incluem principalmente a enorme quantidade de caminhos possíveis entre cada ponto de comunicação.
+
+- A desvantagem principal é a complexidade elevada e a dificuldade de adicionar novos nós à rede.
+
+## Critérios de classificação das redes
+
+Por escala ou por distribuição geográfica:
+
+- PAN (Personal Area Network): Redes de alcance muito curto (até 10m), que comportam dispositivos pessoais como teclados, mouses, fones de ouvido... São exemplos de redes PAN o bluetooth e o ZigBee
+
+- LAN (Local Area Network): Redes de área local são geralmente redes privadas e tem tamanho restrito (permite que o tempo de transmissào seja razoavelmente conhecido com antecedência.
+    - Ethernet, Wi-FI
+
+- MAN (Metropolitan Area Network): Rede de acesso para interconexão de LANs sobre uma área metropolitana e que vai cobrir uma área geográfica de ordem de dezenas a poucas centenas de quilômetros.
+
+- WAN (Wide Area Network): Interconecta redes menores a nível de estado, país, e até continente. 
