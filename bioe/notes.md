@@ -200,3 +200,64 @@ $$
 
 > Muito sensível aos valores discrepantes
 
+# Introdução à Probabilidade
+
+A probabilidade pode ser entendida como uma medida de incerteza em relação ao evento.
+
+## Mensuração da probabilidade
+
+Duas maneiras de avaliar:
+
+- probbilidade à priori: Pela observação e conhecimento comlpetodos fatores que influenciam o fato  ou evento. Trabalha com a definição de todos os fatores que de algum forma poderiam afetar o resultado.
+
+- Probabilidade à posteriori: Pela observação do comportamento passado do evento e das circustânciass nas quais ocorreu. Trabalha com as frequências relativas.
+
+## Evento
+
+Qualquer subconjunto do espaço amostral. Geralmente indicado por A, B, C, ..., Z.
+
+- Eventos mutuamente exclusivos: não tem elementos em comum.
+- Eventos independentes: Dois eventos são independentes se a ocorrência de um deles não tem efeito sobre a ocorrência do outro.
+
+
+## Notação de conjuntos
+
+- união $A\cup B$ 
+- Interseção $A \cap B$
+
+## Cálculo de probabilidade
+
+Se forem possiveis n resultados mutuamente exclusivos e igualmente prováveis, se m desses resultados forem favoráveis, a probabilidade de resulado favorável é:
+
+$$
+P(A) = \frac{\text{possibilidades favoráveis}}{\text{resultados possíveis}}
+$$
+$$
+P(A) = \frac m n
+$$
+
+- A soma das probabilidades de todos os eventos possíveis é obrigatóriamente 1.
+- A probabilidade varia entre 0 e 1.
+
+- Evento certo: tem a probabilidade 1
+- Evento impossível: tem a probabilidade 0
+
+## Regrinhas, macetes, pipipi popopo
+
+- Para A, B mutuamente exclusivos:
+$$
+P(A \cup B) = P(A) + P(B)
+$$
+
+$$
+P(A \cap B) = P(A) \times P(B)
+$$
+
+- Para A, B não muutuamente exclusivos:
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+$$
+
+$$
+P(A \cap B) = P(A) \times P(B|A)
+$$
