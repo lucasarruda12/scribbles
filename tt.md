@@ -45,4 +45,4 @@ w : A × B
 |   | `⟨a, b⟩.r = b`   |
 | η | `⟨w.l, w.r⟩ = w` |
 
-
+# Eu parei de anotar aqui. Vale mais apena prestar atenção na aula. Conferir o tsouanas.org se precisar de anotações
