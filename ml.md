@@ -115,3 +115,24 @@ Técnica baseada na estatística que tenta aumentar as chances de que as amotras
 ### Amostragem incremental
 
 Permite a redução do número de instâncias baseada em amostragem Simples ou Estratificada.
+
+## Redução de dimensionalidade
+
+> Problemática: Cenários do mundo real x téccnina de arendizadoo de máquina. Alguns exemplos são Reconhecimento de Imagens e Bioinformática.
+
+Reduzir dimensionalidade siginifica eliminar atributos ou criar novos atributos derivados desses. Pode ser feito de forma manual ou automática
+
+- redução por extração: Obter novas variáveis `partir dos atributos iniciais. Geralmente são combinações lineares das variáveis iniciaiis.
+    - É limitado por ser um modelo  linear.
+
+- Redução por seleção:
+
+### Seleção de características não-supervisionada (filtro) 
+
+- Usar uma medida de similaridade e/ou correlação para detectar atributos redundantes.
+- Ordenar os artibutos por ordem da medida definida.
+- Escolher os N atributos.
+
+#### Correlação de Pearson
+
+- Coeficiente de correlação de Pearson (r) mede o grau de correlação linear entre duas variáveis qantitativas. (Tem uma fórmula aqui que não deu tempo de escrever :(.)
