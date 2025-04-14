@@ -116,3 +116,9 @@ Global phases have unitary form and do not change the physical state:
 > Hilbert Space
 
 > Possible states for a quantum physical system originating from two physical systems
+
+- Evolution [Postulate 2]: The evolution of a closed quantum system is described by a unitary transformation. that is, the state |psi> of the system at time t1 is related to the state |psi'> at a time t2 by a unitary operator U which depends only oon the times t1 and t2.
+
+$$
+|\psi'\rangle = U |\psi\rangle
+$$
