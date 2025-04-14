@@ -104,3 +104,15 @@ Global phases have unitary form and do not change the physical state:
 
 - They multiply all base states by the same value.
 - Only vector's direction are observable.
+
+# Teoria Quântica Básica
+
+> Números complexos!!!
+> Operações sobre matrizes complexas! Transposta, conjugada e conjugado transposto.
+
+- State space [Postulate 1]: Associated to any isolated physcal system is a complex vector space with inner product (that is, a Hilbert Space) known as the state space of the system. The system is completely described by 𝑠 state vector, which is a unit vector in the system's state space.
+
+> Complex Vector Space
+> Hilbert Space
+
+> Possible states for a quantum physical system originating from two physical systems
