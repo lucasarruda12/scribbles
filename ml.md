@@ -136,3 +136,58 @@ Reduzir dimensionalidade siginifica eliminar atributos ou criar novos atributos 
 #### Correlação de Pearson
 
 - Coeficiente de correlação de Pearson (r) mede o grau de correlação linear entre duas variáveis qantitativas. (Tem uma fórmula aqui que não deu tempo de escrever :(.)
+
+### Seleção de Caracteríticas supervisionada - Árvore de decisão
+    > Seleção de Atributos: Wrapper
+
+### Extração de características não supervisionada - Principal Component Analysis (PCA)
+
+> Redução de dimensões: Extração
+
+- Análise de componentes principal: é provavlemente o método multivariado mais usado e conhecido de redução de dados e foi proposta inicialmente em 1901 por Karl Pearson (e generalizada apenas em 1963 por Loève).
+
+- Para tal, um novo conjunto de variáveis menr do que o conjunto original e que mantém a maioria da informação da amostra é calculado.
+
+#### Ideia Principal
+
+Numa base de daos, em geral, suas variáveis são correlacionadas e possuem redundância. O objetivo aqui é criar variáveis que sejam não-correlacionadas e guardem a maior parte da informação dos padrões
+
+- Em geral, esta perda de informações é mais que compensada pela representação mais consida e precisa dos dados.
+
+#### Implementação
+
+A análise de redundâncias é feita pela análise da matriz de covariância destes dados.
+
+- A PCA expressa os dados em um sistema de eixos diferentes, onde cada eixo representa uma componente principal.
+- Em função do novo sistema de eixos ser ortogonal, as variáveis são não-correlacionadas.
+- Os novos eixos são produzidos por combinações lineares dos eixos originais e são selecionados segundo sua variância (quantidade de informação).
+
+- Sobre o número de componentes principais e variáveis dos padrões:
+    - # de componentes = # de variáveis originais
+    - Maior parte da informação concentra-se em poucos componentes
+    - Obtém-se boa representação em baixa dimensão
+    - Não há perda de informação. Os dados originais podem ser reconstruídos.
+
+#### Matemática e estatística
+
+> Variância e covariância
+> Matriz de covariância
+> Autovetores e Autovalores
+
+#### Algoritmo
+
+- Calcula-se a média e normaliza-se todo o conjunto de dados
+- Calcula-se a maatriz de covariância
+- Calculam-se os aiutovetores e os autovalores da matriz de covariância
+- Escolhem-se os K autovetores com maior quantidade de informação associada
+    - Os autovalores associados expressam a quantidade de informação
+- Monta-se a matriz de projeção P baseado nos autovetores selecionados previamente
+- Projeta-se a imagem normalizada obtida na etapa 1 pela matriz de projeção produzida na etapa 5
+
+### Extração de características supervisionada - Linear Discriminant Analisys (LDA)
+
+Técnicas de extração de caracterísitcas que consiste em buscar por um espaço de menor dimensionalidade, tais que esses representem o espaço anterior e não causem prejuízo a discriminação entre os padrões.
+
+- LDA não é robusto a distribuição multimodal intraclasse
+
+- objetivos específicos: Minimizar a dispersão intraclasse e maximizar a dispersão entre classes.
