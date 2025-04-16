@@ -25,6 +25,7 @@
 - Aggregation
 - [faltou um]
 
+---
 # (09/04) Análise evolutiva do estabelecimento do sistema imunológico
 
 - Tragetória academica
@@ -61,3 +62,28 @@
     - Os verteprados representam ambe um marco ela sua complexidado tecidual, caractereiada pel presençade epitélio especializados, mas também por mecanismos de reonvação ceuluar epitelial.
         - A maioria dos tipos de câncer se originam na estrutura do epitélio. 
         - O grande surgimento...
+
+---
+# (16/04) Extended Reality
+
+- Milgrams Reality-Virtulity Continuum: Real environment -> Augmented Reality -> Augmented Virtualitity -> Virtual Environment
+    - O nome de tudo isso é Extended Reality
+
+- Virtual Reality Traingle: Imersion, Interaction & Imagination
+
+> VR System Architeture
+
+## Relatório
+
+- Tragetória acadêmica:
+    - Grad? Ciencia da computação pela UFRN (tcc: Haardcopter Game)
+    - Mestrado: Mestre em sisemas e comptação - Linhas inteligencia computacional e computação gráfica pela UFRN
+    - Doutorado: Perdi
+
+- Tema abordado: Extended Reality
+
+- Um objetivo que o palestrante almeja: 
+
+- Materiais e métodos utilizados pelo palestrante para atingir o objetivo:
+
+- Principais Conclusões:

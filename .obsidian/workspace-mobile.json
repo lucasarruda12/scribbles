@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bioe/notes.md",
+                "file": "sbio.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "sbio"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "bioe/notes.md",
+            "file": "sbio.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -155,13 +155,14 @@
   },
   "active": "a503d1836efbe2e8",
   "lastOpenFiles": [
+    "tt.md",
+    "bioe/notes.md",
     "ml.md",
     "tt/notes.md",
     "pln/notes.md",
     "pln/evaluating-language-models.md",
     "Untitled",
     "pln/n-gram.md",
-    "bioe/notes.md",
     "bioe.md",
     "bioe",
     "tt/cat_prod_uni.proof",
@@ -171,7 +172,6 @@
     "pln/sentence-segmentation.md",
     "iaq.md",
     "dihc.md",
-    "tt.md",
     "pln",
     "README.md",
     "redes.md",
