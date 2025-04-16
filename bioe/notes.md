@@ -261,3 +261,47 @@ $$
 $$
 P(A \cap B) = P(A) \times P(B|A)
 $$
+
+# Assimetria
+
+A probabilidade de A condicionada a B é dada por:
+
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+## Medidas de assimetria
+
+Entende-se por (ver no slide depois)
+
+- Distribuição contínua simétrica: Neste caso, o plano de simetria corresponde Pas trÇes medidas de tendência central, que são coincidentes quando a distribuição é simétrica
+
+- Distribuições contínuas assimétricas (positiva ou negativa)
+
+## Coeficientes de assimetria
+
+Os coeficientes de assimetria são úteis para comparar o grau de assimetria entre diferentes conjuntos de dados o qaunto o qcomportamento observado se afasta de uma distribuição simétrica.
+
+### Coeficiente de Pearson
+
+O coeficiente de Assimetria de Pearson, P,, baseia-se na posição relativa das medidas de tendência central de acordo com o tipo de assimetria dos dadso. Ele é definido como:
+
+> Não sei porque, mas eu perdi uma briga aqui com o LaTeX do obsidian. Até o fim dessa subsection, x se refere à mediana dos dados (deveria ser um x com ~ em cima)
+$$
+p = \frac{\stackrel -x - \stackrel ~x} \sigma
+$$
+
+- Distribuição simétria: $\stackrel -x - \stackrel ~x$ e, portanto, P = 0
+- Distribuição à esquerda: $\stackrel -x < \stackrel ~x$ e, portanto, P < 0
+- Distribuição à diretita: $\stackrel -x > \stackrel ~x$ e, portanto, P > 0
+- Quanto maior a assimetria: maior o valor de |P|
+
+### Coeficiente Quartílico
+
+Divide uma distribuição em quatro partes, cada uma contendo 25% dos dados.
+
+$$
+Q = \frac{(Q_3 - Q_2) - (Q_2 - Q_1)}{Q_3 - Q_1}
+$$
+
+- Quando a distribuição é simétrica, Q = 0

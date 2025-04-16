@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dbb2361b843a4326",
+        "id": "d55a0fce39bd52ce",
         "type": "tabs",
         "children": [
           {
-            "id": "ea6ff613c5885137",
+            "id": "1cda2b303a134797",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4fcb6c0c0372ef12",
@@ -161,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea6ff613c5885137",
+  "active": "1cda2b303a134797",
   "lastOpenFiles": [
+    "bioe/notes.md",
     "pln/2-n-gram/exercises/jurafsky.3.1.md"
   ]
 }
