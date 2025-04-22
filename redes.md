@@ -210,3 +210,44 @@ Por escala ou por distribuição geográfica:
 - MAN (Metropolitan Area Network): Rede de acesso para interconexão de LANs sobre uma área metropolitana e que vai cobrir uma área geográfica de ordem de dezenas a poucas centenas de quilômetros.
 
 - WAN (Wide Area Network): Interconecta redes menores a nível de estado, país, e até continente. 
+
+# Camada de Aplicação
+
+É a camada responsável pelas funcionalidades de rede (comunicação) das aplicações do usuário e de alguns protocolos auxiliares de so geral, por isso, acaba sendo a camada mais próxima do usuário. É desacoplada do núcleo da rede, o que estimula o desenvolvimento de novas soluções e promove flexibilidade.
+
+> No modelo TCP/IP, a camada de aplicação engloba as funcionalidades das camadas de sessão, apresentação e aplicação do modelo OSI.
+
+## Camada de Aplicação no modelo OSI
+
+É responsável pela comunicação em rede entre programas em execução (processos) em diferentes hosts. É ela que envia e recebe os dados entre os processos e faz a interação com o usuário (pessoa ou sistema)
+
+## Camada de apresentação no modelo OSI
+
+Apresenta os dados em um formato independente da arquitetura dos sistemas participantes da comunicação e realiza a manutenção semântica das informações transmitidas.
+
+## Camada de sessão no modelo OSI
+
+Estabelece a comunicação entre processos em máquinas diferentes, cria e mantém os diálogos entre as aplicações de origem e destino e controla as sessões de comunicação (mantém em atividade, pausa ou reinicia e finaliza a comunicação)
+
+## O que é definido na camada de aplicação
+
+- Os tipos das mensagens de requisição e resposta
+- A sintaxe das mensagens, determinando os campos usados nas mensagens e como são organizados
+- A semântica (significado) das informações contidas nos campos do protocolo
+- As regras para definir como e quando as aplicações enviam e respondem as mensagens
+
+## Arquiteturas de comunicação e aplicacções
+
+- Cliente-Servidor: Os clientes iniciam a comunicação com o servidor, não se comunicam diretamente um com o outro e podem montar uma conexão intermitente. Enquanto isso, o servidor responde às requisições dos clientes, mantém o Host e os serviços sempre ativos e o endereço IP permanente (ou resolvido através de DNS).
+
+- Peer-to-Peer: Comunicação direta entre pares de hosts (peers), os pares alternam entre si as funções de servidor e de cliente. A conexão é intermitente, resiliente e escalável.
+
+- Arquitetura híbrida: Provê o gerencimanto e controle centralizados presentes no modelo servidor com a escalabilidade e tolerância à falhas da arquitetura peer-to-peer.
+
+## Comunicação entre processos
+
+Duas aplicações em hosts distintos se comunicam através do envio de mensagens na rede. No entanto, um host pode executar diversos processos que utilizam a rede simultaneamente.
+
+- Atrvés da API de rede do sistema operacional, as aplicações solicitam a criação de sockets de comunicação para permitir o envio e recepção de dados. Cada socket está vinculado a um único processo, fazendo com que a comunicação destinada a ele seja encaminhada sem equívoco à aplicação correspondente.
+
+- Os sockets são definidos a partir do endereço IP do host e de um número de porta de um dos protocolos da camada de transporte (TCP ou UDP)
