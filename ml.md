@@ -191,3 +191,11 @@ Técnicas de extração de caracterísitcas que consiste em buscar por um espaç
 - LDA não é robusto a distribuição multimodal intraclasse
 
 - objetivos específicos: Minimizar a dispersão intraclasse e maximizar a dispersão entre classes.
+
+# Extração de características: HOG e CNN
+
+Outros métodos de extraçao de características, incluem: Local Binary Pattern (LBP); Gray Level Co-occurence (GLCM); Histograms of Oiented Gradients (HOG);
+
+- HOG: Quanto maior o número de pixels numa célula, maior o número da matriz.
+
+> Essa aula foi muito "Prática" (ou seja, o professor não explicou como funciona. Só mostrou como fazer aperte-tal-botão-que-tal-coisa-acontece style).
