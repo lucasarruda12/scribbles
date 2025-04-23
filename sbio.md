@@ -87,3 +87,42 @@
 - Materiais e métodos utilizados pelo palestrante para atingir o objetivo:
 
 - Principais Conclusões:
+
+--- 
+# (23/04) Os saguis formam frases? Explorando a estrutura das sequências de vocalização de saguis com aprendizado de máquina
+
+- Aluno: Angelo Gustavo S M M de Sales
+- Orientador: Daniel Y. Takahashi
+
+## Relatório
+
+- Tragetória acadêmica:
+    - Graduação: BTI 2020~2023, primeiro cntato na matéras de tópicos especiais em bioinfo 
+    - Mestrado: Terceiro periodo do mestrado
+        - Parte do laboratório etôgenesis
+    - Doutorado: 
+
+- Tema abordado: Saguis, aprendizado de máquina, biologia comportamental.
+
+- Um objetivo que o palestrante almeja: Compreender a estrutura das squencias de vocalizacoes de saguis e Dessenvolver modelos de linguagem para prever vocalizações de saguis
+
+- Materiais e métodos utilizados pelo palestrante para atingir o objetivo: 
+    - GravaçÕes de vocalizações de 5 pares de gêmeos,até 60 dias de nascidos (60 dias de nascido pq é o período que o bixo mais aprende)
+    - Utilizou o tweetNet para transcrever vocalização de saguis, gerando 3 informações: tempo de início, tempo de fim e rótulo (qual vocalização é aquela)
+    - Encontrou 5 tipos de sílabas: Trill, Phee, Twitter, Mix, Cry.
+    - Gerou várias sequencias de 10 sílabas a partir de todas as transcrições e dividiu as frequencias por faixa etária: 0 a 15, 16 a 30, 31 a 45, 46 a 60 dias de nascido.
+    - 10 modelos de Markov, que utilizavam n sílabas para prever a n+1.
+
+    - **Chat bot de sagui?**
+    - Predição de sílaba, geração de gandes quantidades de dados e adição de características para predição de sílabas.
+    - Markov de ordem 3 (por ter tido melhor desempenho no anterior)
+    - RNN
+    - LSTM
+    - Transformers (TS)
+    
+- Principais Conclusões:
+    - Modelos de markov de ordem 1 a 5foram os que tiveram melhor resultado: isso siginifica que em alguns casos tem dependencia da 5 vocalização com a primeira
+    - A faixa etária mais nova foi a  que os modelos tiveram o pior desempenho, indicando que ainda está ocorrendo um processo de aprendizagem.
+    - O melhor desempenho foi nas faixas etárias mais velhas
+    - QUando o sagui começa com uma sílaba, ele tende a voltar pra ela.
+    - **Mais sobre chatbot de sagui**: Predição de sílaba, modelo de markov de ordem 3 já foi suficientemente bom para a geração dass sílabas.
