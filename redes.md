@@ -251,3 +251,116 @@ Duas aplicações em hosts distintos se comunicam através do envio de mensagens
 - Atrvés da API de rede do sistema operacional, as aplicações solicitam a criação de sockets de comunicação para permitir o envio e recepção de dados. Cada socket está vinculado a um único processo, fazendo com que a comunicação destinada a ele seja encaminhada sem equívoco à aplicação correspondente.
 
 - Os sockets são definidos a partir do endereço IP do host e de um número de porta de um dos protocolos da camada de transporte (TCP ou UDP)
+
+# Camada de transporte
+
+Responsavel por permitir que as aplicações utilizem os serviços da camada de rede. É a primeira camada onde ocorre a comunicação fim-a-fim.
+
+- Utiliza portas para permitir a multiplexação dos dados, permitindo que múltiplas aplicações utilizem a rede simultaneamente.
+
+## Faixa de numeração de portas
+
+As portas de camada de transporte no modelo TCP/IP possuem 16 bits e são organizadas em faixas de numeração, definidas na RFC 6335.
+
+- 0-1023: Portas de sistema
+- 1024-49151: Portas de usuário
+- 49152-65535: Portas dinâmicas
+
+## Sockets
+
+implementam a multiplexação, permitindo comunicação simultanea de diversas aplicações.
+
+- Socket de cliente: Ip do cliente + Porta dinâmica.
+
+- Socket do servidor: Ip do servidor + Porta do sistema ou de usuário. e Realiza operações de bind e listen no socket.
+
+## Orientação à conexão
+
+Serviço orientado à Conexão:
+- Provê a entrega confiável da informação;
+- É estabelecido um acordo prévio entre as partes, definindo os parâmetros da comunicação;
+- Mecanismos de controle de fluxo, confirmação de recebimentoe reenvio estão presentes;
+
+Serviço não-orientado à conexão:
+- Provê a entrega não confiável da informação;
+- A informação é enviada sem acordo prévio;
+- Sem garantia de entrega (best-effort);
+
+## Protocolos
+
+Na arquitetura internet original (IP/ RFC 791 - Set/1981), duas alternativas de protoclo para a camada de transporte:
+
+- UDP (RFC 769 - Ago/1980) - Não orientado à conexão
+- TCP (RFC 793 - Set/1981) - Orientado à conexão
+
+- Atualmente, outras alternativas destinadas a arquiteturas específicas:
+    - SCTP - Stream Control Transmission Protocol: combina características do UDP e do TCP.
+    - RTP/RTCP (Real Time Protocol) Para ambientes de comunicação multimídia.
+
+### Protocolo UDP
+
+Criado nos anos 80 pela RFC 768, é um protocolo de transporte não orientado à conexão e não confiável. Ou seja, não implementa mecanismo de recuperação de erros: Não utiliza mensagens de reconhecimento (ACK) e não é capaz de ordenar as mensagens que chegam ao host de destino
+
+- Por isso, mensagens podem ser perdidas, duplicadas, chegar fora de ordem ou chegar mais rápido que a máquina destino seja capaz de utilizar.
+
+- Vantagens: É muito simples
+
+#### Cabeçalho
+
+- Portas: identificm os processos de origin e de desitno.
+- Tamanho da mensagem total do pacote UDP em bytes.
+- Cecksum (opcional): Permite a checagem (destino) do segmento UDP recebido. O cálculo é realizado a traǘes de um pseudo-cabeçalho.
+
+# Protocolo TCP
+
+Criado em setembro de 1981, pela RFC 793. Ele visa ser um protocolo orientado à conexão, com entrega confiável de dados. Ou seja, implementa mmecanismos de recuperação de erros (mensagens fora de sequência, duplcadas, perdidas, corrompidas) através de mensagens de reconhecimento (ACK). Além disso, implementa mecanismo de controle de fluxo das mensagens trocadas.
+
+- Sendo assim, as mensagens são entregues à aplicação na ordem em que foram transimitas, sem perdas, sem duplicidasdes e na velicodade que a máquina de destino seja capaz de processar.
+
+## Cabeçalho
+
+- Portas: identificam os processos de origem e de destino
+- Número de sequência: Posição do primeiro octeto (dados) dentro do fluxo
+- Número de confirmação (ACK): Número de sequência do próximo octeto esperado, reconhecendo todos os de valor inferior.
+- Tamanho do cabeçalho: em palavras de 32 bits
+- Tamanho da jela: Quantidade de octetos que o emissor está apto a receber antes de enviar um ACK ("janela deslizante")
+- Bits de código (flags): indicam operações do protocolo TCP
+    - SYN: Estabelecimento de conexão (sincronização de n. de seuqência)
+    - ACK: Reconhecimento positivo dos n-1 octetos ("n. de confirmação")
+    - FIN: Sinaliza o término ordenado de conexão
+    - RST: Sinaliza operação de reset (Término abrupto da conexão)
+    - PSH: Entrega imediata dos dados em buffer para a camada superior
+    - URG: existência de dados urgentes, indicados pelo "Ponteiro Urgente"
+- Checksum: Usado para verificar a integridade do segmento TCP recebido (Cabeçalho + dados) - obrigatório
+- Ponteiro urgente: indica a posição, dentro do campo de dados, dos dados urgentes (bit code "URG")
+- Opções (opcional): Apresenta informações de negociação de capacicades entre origem e destino.
+
+## Estabelecimento de conexões
+
+No TCP é necessário estabelecer uma conexão entre o cliente e o servidor antes do envio dos dados da aplicação, por meio de um 3-way handshake.
+
+- 1. Host A envia uma mensagem com a flag SYN ativa para indicar ao host B a intenção de etabelecimento de conexão
+- 2. Host B responde com ACK (confirmando o recebimento do pedido de conexão) e também sinailza um pedido de estabelecimento de conexão SYN no sentido inverso
+- 3. HOST A confirma o pedido de conexão do Host B
+
+## Enceramento ordenado de conexões
+
+## Controle de erro - "go-back-n"
+
+Cada octeto de dados é numerado (número de sequência), de acordo com sua posição dentro do fluxo. O campo "número de sequência" indica a posição do primeiro octeto da área de dados.
+
+- Cada segmento enviado deve ser confirmado (ACK) pelo receptor.
+- Segmentos são recebidos quando íntegros (checksum oc) i em ordem correta (pode usar buffer).
+- Cada segmento enviado deve ser confimado (ACK) pelo receptor. O code bit ACK=1 confirma o recebmento dos n-1 octetos definidor no campo "numero de confimação".
+- O transmissor inicia um temporizador de espera da confirmação para cada segmento enviado, reenviando em caso de time-out.
+
+## COntrole de fluxo - Janela Deslizante
+
+Para otimizar o envio de ACKs, o receptor imeplemtna um buffer, onde um número finito de segmentos  ("tamanho de janela") podem ser recebidos sem reconhecimento imediato;
+
+- O recptor atualiza o "tamanho de janela" a cada ACK enviado;
+- O transmissor utiliza os ACKs como clock para transmissão, de modo a não enviar mais segmentos que o receptor pode processar.
+
+- Ao atingir o "tamanho da janela" sem recebimento de ACKs, transmissor entrará em estado de espera, até o recebimento de ACKs ou time-oout dos temporizadores de retransmissão
+
+- Tamanho de janela=0 significa que o transmissor deve parar de enviar dados até uma nova notificação.
