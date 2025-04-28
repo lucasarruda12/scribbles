@@ -199,3 +199,25 @@ Outros métodos de extraçao de características, incluem: Local Binary Pattern 
 - HOG: Quanto maior o número de pixels numa célula, maior o número da matriz.
 
 > Essa aula foi muito "Prática" (ou seja, o professor não explicou como funciona. Só mostrou como fazer aperte-tal-botão-que-tal-coisa-acontece style).
+
+# Treinamento e Teste
+
+> Generalização: a habilidade de classificar padroões de teste que não foram utilizados durante o treinamento.
+
+## Validação cruzada
+
+É uma técnica para avaliiara capacidade de generalzação deum modelo, a partir deum cojnunto de dados. Sempre será empregada em um problema de predição.
+
+- A gente busca, então, estimar o quão acurado é este modelo na prática, ou seja, o seu desempenho para um novo conjunto de dados.
+- Particiona-se o conjunto de dados em subconjuntos mutuamente exclusids (usnado  holdout ou k-fold)
+
+-  holdout: consiste em dividir o conjunto alde dados em dois subconjuntos muuuuuuutuamente exclusivos, um para teste e um para treinamento.
+    - O conjunto de dados pode ser separado em quantidads iguais ou não. geralemente se tem 2/3 dos dados para trinamento e o 1/3 restante para teste.
+    - Esta abordagem é indiada para grande quantidade de dados. Quand um conjunto é pequeno, o erro calculado na predição pode sofrer muita variação.
+
+- K-fold: Consiste em dividir o conjnto total em dados k subconjuntos mutuamente exclusivos do mesmos tamanho.
+    - Um subconjunto é utilizado para teste e os k - 1 restantes são utilizados para estimação dos parâmetros e calcula-se a acurácia do modelo.
+
+# Classificação e Predição
+
+
