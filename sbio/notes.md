@@ -126,3 +126,11 @@
     - O melhor desempenho foi nas faixas etárias mais velhas
     - QUando o sagui começa com uma sílaba, ele tende a voltar pra ela.
     - **Mais sobre chatbot de sagui**: Predição de sílaba, modelo de markov de ordem 3 já foi suficientemente bom para a geração dass sílabas.
+
+# (29/04) Não peguei
+
+- Modelo de agentes
+
+## Relatório
+
+Não vou nem tentar
