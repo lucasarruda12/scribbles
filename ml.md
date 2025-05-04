@@ -220,4 +220,68 @@ Outros métodos de extraçao de características, incluem: Local Binary Pattern 
 
 # Classificação e Predição
 
+## Precision
 
+Tem com objetivo identificar quantas amostras foram classificadas positivamente, 
+
+## Recall
+
+Tem a mesma ideia do Precision, porem para as amotras falsas negativas.
+
+## F-measure
+
+- Tambem conhecida como f1 socre, eh definido como duas vezes a media harmonica entre Recall e Precision.
+
+# Algoritmos de Classificacao
+
+## k-NN
+
+> k Nearest Neighbor
+> É o algoritmo de aprendizado mais simples.
+
+- Baseado em instâncias, este algoritmo supõe que todos os padrões (instâncias) são pontos no espaço n-dimensional $R^n$.
+
+$$
+d_e(x, z) = \root {\sum (x_i - z_i)^2}
+$$
+
+- Os vizinhos mais próximos de um padrão são definidos em termos da distância euclidiana. Classifica-se um ponto x atribuindo a ele o rótulo mais frequente dentre as k amostras mais próximas (esquema de votação).
+
+- N'ao ha treinamento explicito, classificam-se os exemplos nunca vistos por meio de exemplos similares conhecidos.
+    - Os proprios padroes sao utilizados como base [ara a resposta do k-NN
+    - Metodo e denominado de lazy, pois necessitam manter os exemplos na memoria para classificar novos exemplos
+
+### Algoritmo de classificacao
+
+Dado um padrao (instancia) de consulta $x_q$ a ser classificado, sejam x1, ... xk as k insancia (padroes) do exemplos_de_treinamento que sao mais proximos de $x_q$. Entao, retorna-se a classe mais comum. <- LITERALMENTE O QUE ESTAVA ESCRITO NO SLIDE (WTF!!!!!) (DE ONDE ISSO EH UM ALGORITMO????)
+
+### Overview
+
+Metodos de aprendizagem baseados em instancias nao necessitam formar uma hipotese explicita da funcao alvo sobre o espaco das instancias
+
+- Elas formam uma aproximacao local d afuncao alvo para cada nova instance a classificar.
+
+- O k-NN e um algoritmo baseado em insntancias para aproximar funcoes alvo de valor real pi de valor discreto, assumindo que as instancias correspondem a pontos em um espaco d-dimensional.
+
+- Vantagens: Habilidade para modlar funcoes alvo complexas por uma colecao de aproximacoes locais menos complexas; A informacao presente nos exemplos de treinamento nunca e perdida.
+
+- Desvantagens: Tempo.
+
+## Arvores de Decisao
+
+- Um fluxograma com a estrutura de uma arvore. O No interno represta um teste sobre um atributo e cada ramo representa um resultado do teste. As folhas representam as classes.
+
+- A geracao da arvore consiste de duas fases:
+    - Construcao da arvore
+    - Poda
+
+### Algoritmo basico
+
+- A arvore e construida recursivamente no sentido top-down; os atributos sao nominais (se numeros, eles sao discretizados)
+    - Os atributos "testes" sao selecionados com base em heuristicas ou medidas estatisticas (ex. ganho de informacao)
+
+## Naive Bayes
+
+## Redes Neurais Artificiais (MLP)
+
+## Comite de Classificadores (Ensembles)

@@ -364,3 +364,125 @@ Para otimizar o envio de ACKs, o receptor imeplemtna um buffer, onde um número 
 - Ao atingir o "tamanho da janela" sem recebimento de ACKs, transmissor entrará em estado de espera, até o recebimento de ACKs ou time-oout dos temporizadores de retransmissão
 
 - Tamanho de janela=0 significa que o transmissor deve parar de enviar dados até uma nova notificação.
+
+# Camada de Redes
+
+O papel da camada de rede é transportar pacotes de um hospedeiro remetente a um hospedeiro destinatário
+
+- Três funções importantes:
+    - Determinação do caminho
+    - Comutação
+    - Estabelecimento da chamada
+
+## Repasse e roteamento
+
+- Repasse: Qaudno um pacote chega ao enlace de entrada de um roteados, este deve conduzi-lo até o enlace de saída apropriado
+
+- Roteamento: A camada de rede deve determinar a rota ou o caminho tomado pelos pacotes ao fluírem de um remetente a um destinatário. Os algoritmos que calculam esse caminho ão denominados algoritmos de roteamento.
+
+- Um roteador repassa um pacote examinando o valor de um campo no cabeçalho do pacote.
+
+- A tabela de repasse indica para qual das interfaces de enlace do roteador o pacote deve ser repassado
+
+- Dependendo do protocolo de camada de rede, o valor no cabeçalho do pacote pode ser o endereço de destino do pacote ou a indicação da conexão à qual pertence.
+
+## Redes de circuitos virtuais
+
+Um circuito virtual (CV) constiste em:
+
+- Um caminho (isto é, uma séroe de enlaces e roteadores) entre hospedeiros de origem e de destino,
+- números de CVs, um número para cada enlace ao longo do caminho e
+- registros na tabela de repasse em cada roteador ao longo do caminho
+
+- Protocolos de sinalização são utilizados para etabelecer, manter e encerrar CV (são usados em ATM, frame-reay, X.25, mas não na internet de hoje)
+
+## Rede de datagramas
+
+Em uma rede de datagramas, quando um sistema final quer enviar um pacote, ele marca o pacote com o endereço do sistema final de destino e então o envia para dentro da rede.
+
+- Os bits repassados pela camada de transporte são encapsuladas em unidades que podem ter tamanho variado, porém com tamanho máximo fixo (65.535 bytes).
+
+- Datagrama são transmitidos independentemente um dos outros.
+- Cada um pode seguir uma rota diferente até chegar no destino
+
+- Cada roteador determina o próximo roteador para qual será repassado o datagrama.
+- Os datagramas podem chegar desordenados no receptor.
+
+## O que há dentro de um roteador?
+
+Duas funções chave:
+- Usam algoritmos/protocolos de roteamento (RIP, OSPF, BGP)
+- Comutam datagramas do enlace de entrada para a saída.
+
+### ELementos de comutação
+
+É por meio do elemento de comutação que os pacotes são comutados de uma porta de entrada para uma porta de saída.
+
+- A comutação pode ser realizada de inúmeras maneiras: Comutação por memória; Comutação por um barramento; Comutação por uma rede de interconexão.
+
+- Linha de entrada escreve na memória e a linha de saida lê o conteúdo da palavra de memória
+
+- Em um barramento existe um protocolo para a transmissão de cada linha de entrada, como se fosse "um conjunto de estações conectadas em uma rede local através de um barramento"
+
+- Permite várias transmissões paralelas.
+
+### Onde ocorre a formação de fila?
+
+- Filas de pacotes podem se formar tanto nas portas de entrada quanto nas portas de saída. O local e a extesão da fila dependerão:
+    - Da carga de tráfego
+    - Da velocidade relativa do elemento de comutação e 
+    - Da taxa de linha
+
+## Protocolo da Internet (IP): Repasse e endereçamento
+
+### Fragmentação do datagrama IP
+
+- TIpos diferentes de enlaces tem MTu's (Max Transmission Unit) diferentes
+- Datagrama IP muito grante dividido dentro da rede
+- Um datagrama vira vários datagramas
+- "remontado" apenas no destino final
+
+### Enderaçamento IPV4
+
+- Um endereço IP está tecnicamente associado com uma interface
+- Cada endereço IP tem compriment de 32 bits
+- Portanto, há um total de 2^32 endereços IP possíveis, cerca de 4 bilhõees de endereços IP possíveis.
+- Esses endereços são escritos em notaçao decimal separada por pontos.
+
+### Obtenção de um endereço de hospedeiro: protoloco de configuração dinâmica de hospedeiros (DHCP)
+
+- O DHCP permite que um hospedeiro obtenha (seja alocado a) um endereço IP de maneira automática.
+- DHCO é em geral denominado um protocolo plug and play
+- O protocolo DHCP é um processo de quatro etapas:
+    - Descoberta do servidor DHCP
+    - Oferta dos servidores DHCP
+    - Solicitação DHCP
+    - DHCP ACK
+
+
+### Tradução de endereços na rede (NAT)
+
+### Protocolo de Mensagens de Controle da Internet (ICMP)
+
+- O ICMP é usado por hospedeiros e roteadores para comunicar informações de camada de rede em si
+- A utilização mais comum do ICMP é para comunicação de erros
+- Mensagens ICMP têm um campo de tipo e um campo de código
+- O conhecido programa ping envia uma mensagem ICMP do tipo 8 código 0 para o hospedeiro especificado.
+
+## IPV6
+
+- Motivação Inicial:
+    - Espaço de endereço de 32 bits será completamente alocado.
+    - 128 bits, isso garante que o mundo não ficará sem endereços IP
+
+- Motivação adicional
+    - FOrmato de cabeçalho ajuda a agilizar processamento e repasse
+    - Mudança para facilitar QoS
+
+## Algoritmos de roteamento
+
+- EM geral, um hospedeiro está ligado diretamente a um roteador, o roteador default para esse hospedeiros.
+
+- Denominamos roteador de origem o roteador default do hospedeiro de origem e roteador de destino o roteador defualt do hospedeiro de destino
+
+- O problema de rotear um pacote do hospedeiro de horigem até o hospedeiro de destino se reduz, claramente, ao problema de direcionar o pacote do roteador de origem ao de destino.
