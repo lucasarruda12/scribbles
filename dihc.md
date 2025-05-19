@@ -148,3 +148,9 @@ Design é um processo iterativo que envolve análise da situção atual, síntes
 É uma proposta de interação e de interface para um sistema computacional com potencial de contribuir com a melhoria da situação atual.
 
 - Com definiçã ao de um problema de design considerado, que tende a ser um subconjunto do identificado na análise e eventualmente é acrescido de novos elementos necessários na intervenção.
+
+# Motivacao do designer
+
+O objetivo principal da atividade de design e conceber intervenções positivas em determinada situação, e evitar seus efeitos negativos.
+
+- Grande parte das intervenções é realizada através da modificação ou inserção de artefatos e processos.

@@ -486,3 +486,17 @@ Duas funções chave:
 - Denominamos roteador de origem o roteador default do hospedeiro de origem e roteador de destino o roteador defualt do hospedeiro de destino
 
 - O problema de rotear um pacote do hospedeiro de horigem até o hospedeiro de destino se reduz, claramente, ao problema de direcionar o pacote do roteador de origem ao de destino.
+
+# Endereçamento IP
+
+## Endereçamento Hierárquico
+
+- Define uma coleção de switches/routers para ser uma "rede"
+- Usa endereços no formato rede.host
+- Roteadores sabem alcancar todas as redes do mndo.
+    - Algoritmos de roteamento anunciam a parte "rede" do endereço
+    - Tabelas de roteamento agora armazenam o next-hop para cada "rede"
+
+- Encaminhamento:
+    - Roteadores ignoram a parte "host" dos endereços
+    - Quando um pacote chega na rede correta: o pacote é encaminhado usando a parte "host" do endereço usando a camada 2 (enlace)
