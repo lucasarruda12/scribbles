@@ -500,3 +500,103 @@ Duas funções chave:
 - Encaminhamento:
     - Roteadores ignoram a parte "host" dos endereços
     - Quando um pacote chega na rede correta: o pacote é encaminhado usando a parte "host" do endereço usando a camada 2 (enlace)
+
+## Endereçamento hierárquico
+
+> Nos correios: País > Cidade, CEP > Logradouro > Número > Nome do destinatário
+
+## Endereços IP (V4)
+
+Número único de 32 bits associado a um dispositivo.
+
+> Geralmente utilizamos a notação decimal-ponto: Cada octeto representado pelo seu número decimal, e separados por ponto.
+
+## IANA
+
+A Internet Assigned Numbers Authority é a responsável por alocar o espaço de endereçamento do IP para qualquer entidade que tenha presença na internet.
+
+- A IANA delega essa responsabilidade para cinco RIRs (Regional Internet Registries), que por sua vez aloca espaço de endereçamento para diversas instituições/organizações/ISPs em suas regiões.
+
+### Mecanismo original de Endereçamento
+
+Baseado em classes pré definidas (classful), com partes fixas para a rede (/8, /16, /24). 
+
+- Foi substituído
+
+### CIDR
+
+Classless Inter-Domain Routing
+
+- Flexibilidade na divisão das partes de rede e host em um endereço
+
+- Prefixo é o endereço de rede
+
+- Sufixo é o endereço do host
+
+### Endereços reservados
+
+- Endereço de rede: prefixo de rede + 0 ... 0
+- Broadcast direto: prefixo de rede + 1 ... 1
+- Broadcast limitado 1 ... 1 + 1 ... 1
+- Rota default: 0 ... 0 + 0 ... 0
+- Loopback: 127 + X ... X
+
+## Subnetting
+
+> VLSM: Variable length subnet masks
+
+# Roteamento
+
+Na pilha TCP/IP, o roteamento ocorre na camada inter-redes (internet), equivalente à camada de rede do modelo OSI.
+
+- A comunicação é hop-by-hop
+
+## Entrega direta X Entrega indireta
+
+- No host de origem, o algoritmo de encaminhamento de datagramas verifica se a máquina de destino se encontra na mesma sub-rede IP.
+
+- Caso o host de destino esteja conectado à mesma rede, a entrega é direta.
+
+- Caso o host de destino esteja em outra rede, a entrega é indireta.
+
+- O processo se repete a cada nó por onde passa o datagrama
+
+- ENtrega direta: Quando o host de origem encapsula o datagrama em um quadro (camada 2) contendo o endereço MAC so host de destino final da transmissão
+
+- Entrega indireta: host de origem encapsula o datagrama em um quadro contendo o endereço MAC de um nó intermediário (roteador)
+
+- Em ambos os casos, o endereço IP de destino (camada 3) não é alterado
+
+## Roteamento de próximo salto
+
+- Um roteador R não conhece todo o trajeto até o destino, mas somente o endereço do próximo roteador no caminho (next-hop)
+
+- O próximo roteador R (next-hop) se encontra em uma das redes diretamente conectadas ao roteador que está encaminhando o datagrama.
+
+## Encaminhamento no Roteador
+
+- Ao receber um datagrama com IP de destino diferente do seu próprio, o roteador utilizará a função de encaminhamento da pilha TCP/IP
+
+- O direcionamento do tráfego é baseado nas informações contidas na tabela de rotas
+
+- Novamente, a entrega do datagrama IP pode ser direta ou indireta, a dependender se o host de destino se encontra em uma rede diretamente conectada ao roteador ou não.
+
+### Tabela de rotas
+
+- Usada nos roteadores para determinar a porta de saída e o próximo salto por onde devem ser encaminhados os datagramas processados.
+
+- Contem, tipicamente:
+    - Entrega direta: o endereço de rede/máscara das redes que estão diretamente conectadas à interface ativa.
+    - Entrega indireta: pares (N, R), onde N é o endereço de rede/máscara de uma rede destino não diretamente conectada ao roteador e R é o endereço IP do "Próximo" roteador.
+
+## Roteamento unicast
+
+O roteamento unicast na pilha TCP/IP define o functionamento da funçao de encaminhamento quando o destino é um único host
+
+- Rotas para redes diretamente conectadas: criadas automaticamente durante a atribuição de endereço IP e máscara a uma interface de rede. 
+
+- Rotas estáticas: introduzidas (e retiradas) manualmente no roteador pelo administrador da rede. Independem do estado da rede para permanecerem na tabela de rotas, e não reagem a mudanças de topologia.
+
+- Rotas dinâmicas: rotas aprendidas através de um protocolo de roteamento. São alteradas automaticamente, em compasso com mudanças da topologia da rede.
+
+- Rota default: O tráfego unicast com destino desconhecido pelo roteador é encaminhado através desta rota ("last resort route"). É a rota definida através do gateway padrão
